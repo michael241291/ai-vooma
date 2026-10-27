@@ -1,0 +1,48 @@
+{
+  "how_to_use": "Pick ideas so a batch follows the anti-repeat rules in README.md. Mark an idea used by setting used to the episode id. Add new ideas from each week's research. Never copy another channel's exact scenario; change the threat, setting and twist.",
+  "formats": {
+    "interactive_protect": {
+      "what": "Command text at second 0 ('Protect Nugget from …!'), danger approaching, finger target on screen, viewer's hand shields Nugget, funny twist ending.",
+      "ideas": [
+        {"idea": "Protect Nugget from the cucumber (cats' famous fear)", "twist": "Nugget hides behind the hand, then the cucumber turns out to be a pickle and Nugget eats it", "used": null},
+        {"idea": "Protect Nugget from the vacuum cleaner", "twist": "hand blocks it, vacuum sucks up the hand's ring instead; Nugget proudly 'saves' the ring", "used": null},
+        {"idea": "Protect Nugget from bath time (water drops)", "twist": "Nugget dry and smug, then a single drop lands on his nose", "used": null},
+        {"idea": "Protect Nugget's food from the dog's paw", "twist": "dog was only bringing Nugget a bonus treat", "used": null},
+        {"idea": "Protect Nugget from the laser dot", "twist": "hand blocks it, laser lands on the hand, Nugget attacks the hand", "used": null}
+      ]
+    },
+    "interactive_play": {
+      "what": "Finger is a toy or helper: 'Put your finger here to pet Nugget / give Nugget a high five / help Nugget reach the shelf'.",
+      "ideas": [
+        {"idea": "Put your finger here to pet Nugget", "twist": "Nugget purrs louder and louder until he floats", "used": null},
+        {"idea": "Hold your finger here so Nugget can climb to the cookie jar", "twist": "Nugget gets the cookie, gives the viewer half", "used": null},
+        {"idea": "Tap to wake Nugget up for breakfast", "twist": "he only wakes when the food bag rustles", "used": null}
+      ]
+    },
+    "relatable_owner": {
+      "what": "Everyday cat-owner moment, title speaks to owners. 11–24 s, upbeat music, no dialogue.",
+      "ideas": [
+        {"idea": "3 AM zoomies", "title_hint": "Why is it always exactly 3AM?", "used": null},
+        {"idea": "Knocking the cup off the table while staring at you", "title_hint": "He looked me in the eyes the whole time", "used": null},
+        {"idea": "Sitting on the laptop during a work call", "title_hint": "Every remote worker with a cat", "used": null},
+        {"idea": "Ignoring the expensive bed, loving the box it came in", "title_hint": "$80 bed vs free box", "used": null},
+        {"idea": "Screaming for food when the bowl is only half empty", "title_hint": "The bowl is NOT empty, Nugget", "used": null}
+      ]
+    },
+    "reaction": {
+      "what": "Nugget meets one thing and overreacts. Strong first-second visual, punch zoom, big one-word text.",
+      "ideas": [
+        {"idea": "Nugget bites a lemon", "used": "sour-cat-lemon"},
+        {"idea": "Nugget sees himself in the mirror for the first time", "used": null},
+        {"idea": "Nugget tastes chili (spicy fire breath)", "used": null}
+      ]
+    },
+    "mini_story": {
+      "what": "Silent 3-beat story with a clear setup, problem and payoff, ending on a loop back to the start.",
+      "ideas": [
+        {"idea": "Nugget tries to catch the fish in a TV nature show", "used": null},
+        {"idea": "Nugget vs the automatic door", "used": null}
+      ]
+    }
+  }
+}

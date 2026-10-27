@@ -1,0 +1,17 @@
+{
+  "rules": "Never reuse a situation/threat/twist. Any 7 videos: >=3 formats, no format >3 times, no same format twice in a row.",
+  "episodes": [
+    {
+      "id": "sour-cat-lemon",
+      "format": "reaction",
+      "situation": "Nugget bites a lemon slice",
+      "twist": "turns green and sour-faced, throws the lemon, then eyes the plate again ('AGAIN?')",
+      "duration_s": 10,
+      "title": null,
+      "status": "prototype, not published",
+      "made": "2026-10-27",
+      "published": null,
+      "results": null
+    }
+  ]
+}
