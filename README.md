@@ -24,4 +24,12 @@ Original design; never copy another channel's character or drawings.
 3. Two videos in a row never share the same format.
 4. Every video needs its own scene, props and ending, not just a different title.
 
+## Anti-monotony rules (the channel must not feel like one template)
+5. Two videos in a row never use the same background. One background at most 2 times in any 7 videos.
+6. Two videos in a row never open with the same music mood.
+7. Two videos in a row never share a title template (e.g. "Protect Nugget from the X!"). One template at most 2 times per 7 videos.
+8. Vary the hook: command text, owner-quote text, question, or no text with a strong visual. Vary length (10–20 s) and wall colors.
+9. Every weekly batch adds at least 1 new thing to the engine (background, prop, effect, side character or music mood) and uses it.
+10. Write `background`, `opening_mood` and `title_template` in log.json for every video, and check rules 5–7 against the last 7 before planning.
+
 Video URL pattern: `https://raw.githubusercontent.com/michael241291/ai-vooma/main/episodes/<id>/<file>.mp4`

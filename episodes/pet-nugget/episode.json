@@ -1,22 +1,14 @@
 {
  "id": "pet-nugget",
- "ver": 1,
+ "ver": 2,
  "duration": 14,
  "format": "interactive_play",
  "situation": "viewer pets Nugget with a finger; he purrs so hard he inflates and floats up like a balloon",
  "twist": "he deflates, drops, gets dizzy, then raises a paw: 'AGAIN?'",
- "title": "Put your finger here to pet Nugget \ud83d\udc46\ud83d\udc31",
- "description": "Pet Nugget! Just... not for too long. \ud83c\udf88\n\nNugget is an orange cat with exactly one brain cell. New Nugget video every day.\n\n#shorts #cat #cute #interactive #animation",
+ "title": "Put your finger here to pet Nugget 👆🐱",
+ "description": "Pet Nugget! Just... not for too long. 🎈\n\nNugget is an orange cat with exactly one brain cell. New Nugget video every day.\n\n#shorts #cat #cute #interactive #animation",
  "scene": {
-  "name": "living",
-  "tracks": {
-   "wall": [
-    [
-     0,
-     "#F8DDE2"
-    ]
-   ]
-  }
+  "name": "living_b"
  },
  "camera": {
   "zoom": [

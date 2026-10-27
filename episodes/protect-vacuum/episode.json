@@ -1,22 +1,14 @@
 {
  "id": "protect-vacuum",
- "ver": 1,
+ "ver": 2,
  "duration": 15.5,
  "format": "interactive_protect",
  "situation": "a loud vacuum cleaner charges at a napping Nugget; the viewer's hand blocks it and switches it off",
  "twist": "Nugget puts on sunglasses and rides the vacuum around the room: 'NEW RIDE UNLOCKED'",
- "title": "Protect Nugget from the vacuum! \ud83d\ude31\ud83e\uddf9",
- "description": "Hold your finger on the screen and stop the vacuum before it reaches Nugget! \ud83d\ude0e\n\nNugget is an orange cat with exactly one brain cell. New Nugget video every day.\n\n#shorts #cat #funny #interactive #animation",
+ "title": "Hold the vacuum back or Nugget is DONE 😱🧹",
+ "description": "Hold your finger on the screen and stop the vacuum before it reaches Nugget! 😎\n\nNugget is an orange cat with exactly one brain cell. New Nugget video every day.\n\n#shorts #cat #funny #interactive #animation",
  "scene": {
-  "name": "living",
-  "tracks": {
-   "wall": [
-    [
-     0,
-     "#DDEBD3"
-    ]
-   ]
-  }
+  "name": "hallway"
  },
  "camera": {
   "zoom": [
@@ -1224,13 +1216,13 @@
     "text": [
      [
       0,
-      "PROTECT NUGGET\nFROM THE VACUUM!"
+      "STOP THE VACUUM\nBEFORE IT GETS HIM!"
      ]
     ],
     "size": [
      [
       0,
-      98
+      90
      ]
     ],
     "pop": [

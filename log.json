@@ -13,7 +13,10 @@
    "planned_publish": "2026-10-29 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "kitchen",
+   "opening_mood": "tense",
+   "title_template": "Protect Nugget from the X!"
   },
   {
    "id": "3am-zoomies",
@@ -27,7 +30,10 @@
    "planned_publish": "2026-10-30 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "bedroom_night",
+   "opening_mood": "night",
+   "title_template": "owner question"
   },
   {
    "id": "pet-nugget",
@@ -35,13 +41,16 @@
    "situation": "viewer pets Nugget with a finger; he purrs so hard he inflates and floats up like a balloon",
    "twist": "he deflates, drops, gets dizzy, then raises a paw: 'AGAIN?'",
    "title": "Put your finger here to pet Nugget 👆🐱",
-   "file": "episodes/pet-nugget/pet-nugget-v1.mp4",
+   "file": "episodes/pet-nugget/pet-nugget-v2.mp4",
    "duration_s": 14,
    "made": "2026-10-27",
    "planned_publish": "2026-10-31 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "living_b",
+   "opening_mood": "cozy",
+   "title_template": "Put your finger here to X"
   },
   {
    "id": "sour-cat-lemon",
@@ -55,21 +64,27 @@
    "planned_publish": "2026-11-01 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "kitchen",
+   "opening_mood": "playful",
+   "title_template": "reaction one-liner"
   },
   {
    "id": "protect-vacuum",
    "format": "interactive_protect",
    "situation": "a loud vacuum cleaner charges at a napping Nugget; the viewer's hand blocks it and switches it off",
    "twist": "Nugget puts on sunglasses and rides the vacuum around the room: 'NEW RIDE UNLOCKED'",
-   "title": "Protect Nugget from the vacuum! 😱🧹",
-   "file": "episodes/protect-vacuum/protect-vacuum-v1.mp4",
+   "title": "Hold the vacuum back or Nugget is DONE 😱🧹",
+   "file": "episodes/protect-vacuum/protect-vacuum-v2.mp4",
    "duration_s": 15.5,
    "made": "2026-10-27",
    "planned_publish": "2026-11-02 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "hallway",
+   "opening_mood": "tense",
+   "title_template": "Hold the X back or Nugget is DONE"
   },
   {
    "id": "bed-vs-box",
@@ -77,13 +92,16 @@
    "situation": "owner bought Nugget an $80 fancy bed; he tries it and is unimpressed",
    "twist": "he spots the cardboard box it came in, falls in love and squeezes in: 'EVERY. SINGLE. TIME.'",
    "title": "$80 bed vs the box it came in 📦😂",
-   "file": "episodes/bed-vs-box/bed-vs-box-v1.mp4",
+   "file": "episodes/bed-vs-box/bed-vs-box-v2.mp4",
    "duration_s": 14,
    "made": "2026-10-27",
    "planned_publish": "2026-11-03 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "bedroom_day",
+   "opening_mood": "cozy",
+   "title_template": "$X vs Y"
   },
   {
    "id": "tv-fish",
@@ -97,7 +115,10 @@
    "planned_publish": "2026-11-04 07:00 WIB",
    "status": "made, waiting for user review",
    "buffer_post_id": null,
-   "results": null
+   "results": null,
+   "background": "living",
+   "opening_mood": "sneaky",
+   "title_template": "story one-liner"
   }
  ]
 }

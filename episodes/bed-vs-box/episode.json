@@ -1,22 +1,14 @@
 {
  "id": "bed-vs-box",
- "ver": 1,
+ "ver": 2,
  "duration": 14,
  "format": "relatable_owner",
  "situation": "owner bought Nugget an $80 fancy bed; he tries it and is unimpressed",
  "twist": "he spots the cardboard box it came in, falls in love and squeezes in: 'EVERY. SINGLE. TIME.'",
- "title": "$80 bed vs the box it came in \ud83d\udce6\ud83d\ude02",
- "description": "Why do we even buy cat beds? \ud83d\udce6\n\nNugget is an orange cat with exactly one brain cell. New Nugget video every day.\n\n#shorts #cat #catlife #funny #animation",
+ "title": "$80 bed vs the box it came in 📦😂",
+ "description": "Why do we even buy cat beds? 📦\n\nNugget is an orange cat with exactly one brain cell. New Nugget video every day.\n\n#shorts #cat #catlife #funny #animation",
  "scene": {
-  "name": "living",
-  "tracks": {
-   "wall": [
-    [
-     0,
-     "#E9DDF7"
-    ]
-   ]
-  }
+  "name": "bedroom_day"
  },
  "camera": {
   "zoom": [

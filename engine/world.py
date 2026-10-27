@@ -137,7 +137,121 @@ def bg_plain(ctx, t, p):
     ellipse(ctx, 540, 1460, 700, 90); ctx.set_source_rgba(0, 0, 0, 0.08); ctx.fill()
 
 
-BACKGROUNDS = dict(kitchen=bg_kitchen, living=bg_living, bedroom_night=bg_bedroom_night, plain=bg_plain)
+def _blinds_window(ctx, x, y, w, h, t):
+    ctx.save(); ctx.translate(x, y)
+    rrect(ctx, -w / 2, 0, w, h, 10); fill_stroke(ctx, hexc('#FFFFFF'), 12, hexc('#9AA7B8'))
+    sky = cairo.LinearGradient(0, 0, 0, h)
+    sky.add_color_stop_rgba(0, *hexc('#FFB88C')); sky.add_color_stop_rgba(1, *hexc('#FFE3B3'))  # late-afternoon sky
+    ctx.rectangle(-w / 2 + 16, 16, w - 32, h - 32); ctx.set_source(sky); ctx.fill()
+    ctx.arc(w * 0.2, h * 0.62, 50, 0, 2 * math.pi); ctx.set_source_rgba(*hexc('#FFF1C4')); ctx.fill()
+    ctx.set_source_rgba(*hexc('#EDE6DA', 0.95))
+    for i in range(int(h * 0.55 / 34)):
+        ctx.rectangle(-w / 2 + 16, 16 + i * 34, w - 32, 22); ctx.fill()
+    ctx.set_source_rgba(*hexc('#9AA7B8')); ctx.set_line_width(4)
+    ctx.move_to(w / 2 - 40, 16); ctx.line_to(w / 2 - 40, h * 0.62); ctx.stroke()
+    ctx.restore()
+
+
+def bg_living_b(ctx, t, p):
+    """Second living room: window with blinds on the right, bookshelf + floor lamp on the left, rectangular rug."""
+    wall = p.get('wall', '#CFE3D8')
+    ctx.rectangle(-600, -600, W + 1200, 1940); ctx.set_source_rgba(*hexc(wall)); ctx.fill()
+    ctx.set_source_rgba(1, 1, 1, 0.22)
+    for row in range(-6, 16):
+        for col in range(-6, 16):
+            x = col * 140 + (70 if row % 2 else 0); y = row * 120
+            ctx.save(); ctx.translate(x, y); ctx.rotate(math.pi / 4); ctx.rectangle(-9, -9, 18, 18); ctx.restore(); ctx.fill()
+    ctx.rectangle(-600, 1060, W + 1200, 270); ctx.set_source_rgba(*hexc('#FFFFFF', 0.35)); ctx.fill()
+    ctx.rectangle(-600, 1052, W + 1200, 14); ctx.set_source_rgba(*hexc('#FFFFFF', 0.8)); ctx.fill()
+    _blinds_window(ctx, 790, 230, 380, 480, t)
+    # bookshelf left
+    rrect(ctx, -60, 520, 330, 820, 10); fill_stroke(ctx, hexc('#A9744A'))
+    cols = ['#E86F5B', '#5A79C2', '#FFC94D', '#7FB77E', '#B08BE8', '#F49AC1']
+    for sh, y in enumerate((700, 880, 1060, 1240)):
+        ctx.rectangle(-40, y, 290, 16); fill_stroke(ctx, hexc('#8B5E3C'), 6)
+        x = -30
+        for k in range(6):
+            bw = 30 + (k * 7 + sh * 5) % 22; bh = 120 + (k * 13 + sh * 11) % 40
+            ctx.rectangle(x, y - bh, bw, bh); fill_stroke(ctx, hexc(cols[(k + sh) % 6]), 5); x += bw + 6
+            if x > 220: break
+    # floor lamp
+    ctx.rectangle(395, 780, 14, 550); fill_stroke(ctx, hexc('#3A3F4B'), 5)
+    ctx.move_to(340, 780); ctx.line_to(465, 780); ctx.line_to(440, 690); ctx.line_to(365, 690); ctx.close_path()
+    fill_stroke(ctx, hexc('#FFE8A8'), 7)
+    ellipse(ctx, 402, 1330, 60, 14); fill_stroke(ctx, hexc('#3A3F4B'), 5)
+    _floor_wood(ctx, 1330, '#C9925E', '#A87645', '#6E4526')
+    rrect(ctx, 120, 1470, 840, 210, 30); ctx.set_source_rgba(*hexc('#F2C14E', 0.85)); ctx.fill()
+    rrect(ctx, 160, 1500, 760, 150, 20); ctx.set_source_rgba(*hexc('#E5A93A', 0.6)); ctx.fill()
+
+
+def bg_bedroom_day(ctx, t, p):
+    wall = p.get('wall', '#FFF1C9')
+    ctx.rectangle(-600, -600, W + 1200, 1940); ctx.set_source_rgba(*hexc(wall)); ctx.fill()
+    ctx.set_source_rgba(*hexc('#F7B267', 0.35))
+    for x in range(-600, W + 600, 120):
+        ctx.rectangle(x, -600, 18, 1940); ctx.fill()
+    _window(ctx, 540, 230, 420, 470, curtains='#7FB7E8', t=t)
+    # wall shelf with plant + books
+    ctx.rectangle(80, 860, 300, 22); fill_stroke(ctx, hexc('#B9835A'), 7)
+    for i, c in enumerate(('#E86F5B', '#5A79C2', '#FFC94D')):
+        ctx.rectangle(110 + i * 44, 730, 36, 130); fill_stroke(ctx, hexc(c), 5)
+    ctx.move_to(270, 860); ctx.line_to(282, 790); ctx.line_to(348, 790); ctx.line_to(360, 860); ctx.close_path(); fill_stroke(ctx, hexc('#E9785A'), 6)
+    ctx.set_source_rgba(*hexc('#4FAE62'))
+    for ang in (-0.9, 0, 0.9):
+        ctx.save(); ctx.translate(315, 790); ctx.rotate(ang + 0.05 * math.sin(t * 2)); ctx.scale(1, 2.2)
+        ctx.arc(0, -20, 16, 0, 2 * math.pi); ctx.restore(); ctx.fill()
+    # string lights
+    ctx.set_source_rgba(*INK); ctx.set_line_width(4)
+    ctx.move_to(-20, 120); ctx.curve_to(300, 220, 780, 220, 1100, 120); ctx.stroke()
+    for i in range(10):
+        k = i / 9; x = lerp(0, 1080, k); y = 120 + 75 * math.sin(math.pi * k)
+        a = 0.6 + 0.4 * math.sin(t * 3 + i)
+        ctx.arc(x, y + 16, 12, 0, 2 * math.pi); ctx.set_source_rgba(*hexc(['#FFD43B', '#FF8FA3', '#7CF0FF'][i % 3], a)); ctx.fill()
+    # carpet floor
+    ctx.rectangle(-600, 1330, W + 1200, 1400); ctx.set_source_rgba(*hexc('#B7A3D9')); ctx.fill()
+    ctx.set_source_rgba(1, 1, 1, 0.12)
+    for i in range(80):
+        x = (i * 137) % (W + 200) - 100; y = 1340 + (i * 89) % 560
+        ctx.arc(x, y, 6, 0, 2 * math.pi); ctx.fill()
+    ctx.rectangle(-600, 1322, W + 1200, 14); ctx.set_source_rgba(*hexc('#FFFFFF')); ctx.fill()
+
+
+def bg_hallway(ctx, t, p):
+    wall = p.get('wall', '#F3D6C7')
+    ctx.rectangle(-600, -600, W + 1200, 1940); ctx.set_source_rgba(*hexc(wall)); ctx.fill()
+    ctx.rectangle(-600, 980, W + 1200, 350); ctx.set_source_rgba(*hexc('#E2B9A4')); ctx.fill()  # wainscot
+    ctx.rectangle(-600, 972, W + 1200, 16); ctx.set_source_rgba(*hexc('#FFFFFF')); ctx.fill()
+    for x in range(-560, W + 600, 200):
+        rrect(ctx, x, 1020, 160, 270, 8); ctx.set_source_rgba(1, 1, 1, 0.25); ctx.set_line_width(6); ctx.stroke()
+    # front door (right)
+    rrect(ctx, 720, 420, 360, 920, 12); fill_stroke(ctx, hexc('#2F6F8F'), 10)
+    rrect(ctx, 770, 480, 260, 200, 10); fill_stroke(ctx, hexc('#BFE6F2'), 7)
+    for y in (740, 960):
+        rrect(ctx, 770, y, 260, 180, 8); ctx.set_source_rgba(1, 1, 1, 0.18); ctx.set_line_width(6); ctx.stroke()
+    ctx.arc(1050, 900, 16, 0, 2 * math.pi); fill_stroke(ctx, hexc('#F2C14E'), 5)
+    # coat hooks + coat, mirror (left)
+    ctx.rectangle(60, 520, 360, 26); fill_stroke(ctx, hexc('#8B5E3C'), 6)
+    for x in (110, 230, 350):
+        ctx.arc(x, 560, 12, 0, 2 * math.pi); fill_stroke(ctx, hexc('#F2C14E'), 4)
+    ctx.move_to(200, 560); ctx.line_to(140, 640); ctx.line_to(120, 900); ctx.line_to(300, 900); ctx.line_to(280, 640); ctx.close_path()
+    fill_stroke(ctx, hexc('#E86F5B'), 8)
+    ctx.move_to(350, 560); ctx.curve_to(380, 640, 330, 700, 360, 800); ctx.set_line_width(26); ctx.set_source_rgba(*INK); ctx.stroke()
+    ctx.move_to(350, 560); ctx.curve_to(380, 640, 330, 700, 360, 800); ctx.set_line_width(16); ctx.set_source_rgba(*hexc('#FFC94D')); ctx.stroke()
+    # tiled floor + runner
+    top = 1330
+    ctx.rectangle(-600, top, W + 1200, 1400); ctx.set_source_rgba(*hexc('#EDE3D3')); ctx.fill()
+    ctx.set_source_rgba(*hexc('#D6C7B0')); ctx.set_line_width(4)
+    for r in range(0, 9):
+        ctx.move_to(-600, top + r * 80); ctx.line_to(W + 600, top + r * 80); ctx.stroke()
+    for c in range(-6, 14):
+        ctx.move_to(c * 140, top); ctx.line_to(c * 140 - 120, top + 700); ctx.stroke()
+    rrect(ctx, 60, 1440, 900, 230, 18); ctx.set_source_rgba(*hexc('#C0392B', 0.85)); ctx.fill()
+    rrect(ctx, 90, 1465, 840, 180, 12); ctx.set_source_rgba(1, 1, 1, 0.25); ctx.set_line_width(8); ctx.stroke()
+    ctx.rectangle(-600, top - 8, W + 1200, 14); ctx.set_source_rgba(*hexc('#B98F74')); ctx.fill()
+
+
+BACKGROUNDS = dict(kitchen=bg_kitchen, living=bg_living, living_b=bg_living_b, bedroom_night=bg_bedroom_night,
+                   bedroom_day=bg_bedroom_day, hallway=bg_hallway, plain=bg_plain)
 
 # ============================== PROPS ==============================
 LEMON = hexc('#FFD43B'); LEMON_RIND = hexc('#F2B705')

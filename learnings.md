@@ -3,6 +3,11 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-10-27 — anti-monotony pass (user request)
+- Week 1 first draft had the same living-room background 4 times, 3 days in a row, and two "Protect Nugget from the X!" titles. Formats alone are not enough variety; the viewer sees the room first.
+- Fix: 3 new backgrounds (living_b, bedroom_day, hallway); now 6 backgrounds in 7 videos, no background or opening mood twice in a row; vacuum title changed to "Hold the vacuum back or Nugget is DONE".
+- New standing rules 5–10 in README.md (background, mood, title template, hook, length, 1 new engine element per batch). log.json now records background, opening_mood, title_template.
+
 ## 2026-10-27 — first batch built (engine v1)
 - Built a reusable code engine (engine/) instead of one-off scripts: Nugget with 8 eye modes, 9 mouths, 3 poses; 4 scenes; 14 props; 15 effects; 6 procedural music moods; 13 file + 14 synth SFX. ~35 s to render a 14 s video.
 - Week 1 (planned 29 Oct – 4 Nov, 07:00 WIB): protect-cucumber (interactive_protect), 3am-zoomies (relatable), pet-nugget (interactive_play), sour-cat-lemon (reaction), protect-vacuum (interactive_protect), bed-vs-box (relatable), tv-fish (mini_story). 5 formats, max 2 per format.

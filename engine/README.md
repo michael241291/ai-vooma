@@ -27,7 +27,7 @@ and above y 1650 (the Shorts UI covers the bottom and right edge).
   "id": "slug", "ver": 1, "duration": 14,
   "format": "interactive_protect | interactive_play | relatable_owner | reaction | mini_story | <new>",
   "situation": "...", "twist": "...", "title": "YouTube title (≤60 chars, 1–2 emoji)", "description": "...",
-  "scene": {"name": "kitchen | living | bedroom_night | plain", "tracks": {"wall": [[0, "#hex"]], "lamp": [[0, 0]], "dark": [[0, 0.3]]}},
+  "scene": {"name": "kitchen | living | living_b | bedroom_night | bedroom_day | hallway | plain", "tracks": {"wall": [[0, "#hex"]], "lamp": [[0, 0]], "dark": [[0, 0.3]]}},
   "camera": {"zoom": [[t, z]], "fx": [[t, x]], "fy": [[t, y]], "px": [[t, pan_x]], "py": [[t, pan_y]], "shake": [[t, px]]},
   "actors": [ {"id": "...", "kind": "nugget | prop | fx", "type": "<prop/fx type>", "screen": false, "tracks": {...}} ],
   "audio": {"music": [{"mood": "...", "seed": 1, "gain": [[t, g, "step"?]]}], "sfx": [[t, "name", gain, {"dur", "loop", "start", "rate", "fade"}]]}
@@ -66,3 +66,10 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
 - Zooming near a frame edge pushes things off screen: pan with `px`.
 - Keep props big enough to read on a phone (cucumber ≥0.7, TV ≥1.0, box ≥1.1).
 - Always render `--frames` and look at sheet.png before the full render.
+
+## Backgrounds (keep adding — see anti-monotony rules in ../README.md)
+- kitchen: counter, cabinets, tiled floor. living: red curtains window, picture, blue sofa, oval rug.
+- living_b: bookshelf left, floor lamp, window with blinds right, yellow rectangular rug, diamond wallpaper.
+- bedroom_night: dark, nightstand + lamp right. bedroom_day: striped wall, string lights, wall shelf + plant, purple carpet.
+- hallway: blue front door right, coat hooks left, wainscot panels, tiled floor + red runner.
+- All take `wall` color. Cat floor line is y≈1330–1500. Ideas for next ones: bathroom, backyard/garden, car, office desk, vet waiting room, snowy porch.

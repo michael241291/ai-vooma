@@ -57,6 +57,9 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 ### 3. Rencana 7 video
 - Pilih dari ideas.json. Aturan anti-ulang: situasi/ancaman/twist tidak pernah dipakai lagi; ≥3 format per 7 video,
   maksimal 3 per format; dua video berurutan beda format.
+- Aturan anti-monoton (README.md no. 5–10, wajib dicek terhadap 7 video terakhir di log.json): dua video berurutan tidak
+  boleh sama latar, mood musik pembuka, atau pola judul; satu latar/pola judul maksimal 2x per 7 video; hook, durasi,
+  dan warna bervariasi; tiap batch minimal 1 hal baru di engine (latar/prop/efek/karakter sampingan/mood musik).
 - Setiap video: hook di detik 0 (teks + situasi langsung terlihat), satu kejadian lucu, twist di akhir, ending yang bisa di-loop.
   Durasi 12–18 detik.
 
