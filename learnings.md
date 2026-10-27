@@ -3,6 +3,11 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-10-27 — first batch built (engine v1)
+- Built a reusable code engine (engine/) instead of one-off scripts: Nugget with 8 eye modes, 9 mouths, 3 poses; 4 scenes; 14 props; 15 effects; 6 procedural music moods; 13 file + 14 synth SFX. ~35 s to render a 14 s video.
+- Week 1 (planned 29 Oct – 4 Nov, 07:00 WIB): protect-cucumber (interactive_protect), 3am-zoomies (relatable), pet-nugget (interactive_play), sour-cat-lemon (reaction), protect-vacuum (interactive_protect), bed-vs-box (relatable), tv-fish (mini_story). 5 formats, max 2 per format.
+- Production lessons: props must be big to read on a phone; never interpolate flip; a cat riding a prop needs a second Nugget actor drawn after it; zooming near an edge needs a px pan; ElevenLabs short SFX (purr, vacuum) come back ~1 s, so long ambiences are synthesized.
+
 ## 2026-10-27 — starting research
 - Channel state: 253 subs, 23 old Shorts (surreal AI scenes + animal facts), 0–8 views each, 0 likes, 0 comments. No fixed format or character, weak first-second hook, uploads stopped 19 Sep.
 - Simple 2D is enough: Hamoudi Animation (white blob cat) gets 1–6M views per interactive Short.

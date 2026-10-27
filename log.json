@@ -1,17 +1,103 @@
 {
-  "rules": "Never reuse a situation/threat/twist. Any 7 videos: >=3 formats, no format >3 times, no same format twice in a row.",
-  "episodes": [
-    {
-      "id": "sour-cat-lemon",
-      "format": "reaction",
-      "situation": "Nugget bites a lemon slice",
-      "twist": "turns green and sour-faced, throws the lemon, then eyes the plate again ('AGAIN?')",
-      "duration_s": 10,
-      "title": null,
-      "status": "prototype, not published",
-      "made": "2026-10-27",
-      "published": null,
-      "results": null
-    }
-  ]
+ "rules": "Never reuse a situation/threat/twist. Any 7 videos: >=3 formats, no format >3 times, no same format twice in a row.",
+ "episodes": [
+  {
+   "id": "protect-cucumber",
+   "format": "interactive_protect",
+   "situation": "a menacing cucumber creeps toward Nugget; the viewer's hand blocks it twice",
+   "twist": "Nugget sniffs it, bites it: it was a pickle; heart eyes, '10/10 would eat again'",
+   "title": "Protect Nugget from the cucumber! 🥒😱",
+   "file": "episodes/protect-cucumber/protect-cucumber-v1.mp4",
+   "duration_s": 14,
+   "made": "2026-10-27",
+   "planned_publish": "2026-10-29 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  },
+  {
+   "id": "3am-zoomies",
+   "format": "relatable_owner",
+   "situation": "3AM: the clock flips to 3:00 and Nugget goes full zoomies, knocks a mug off the nightstand while staring at the camera",
+   "twist": "owner turns the lamp on: Nugget is instantly 'asleep' in loaf pose; lights off, clock 3:01, ROUND 2",
+   "title": "Why is it ALWAYS exactly 3AM? 😭🐈",
+   "file": "episodes/3am-zoomies/3am-zoomies-v1.mp4",
+   "duration_s": 14,
+   "made": "2026-10-27",
+   "planned_publish": "2026-10-30 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  },
+  {
+   "id": "pet-nugget",
+   "format": "interactive_play",
+   "situation": "viewer pets Nugget with a finger; he purrs so hard he inflates and floats up like a balloon",
+   "twist": "he deflates, drops, gets dizzy, then raises a paw: 'AGAIN?'",
+   "title": "Put your finger here to pet Nugget 👆🐱",
+   "file": "episodes/pet-nugget/pet-nugget-v1.mp4",
+   "duration_s": 14,
+   "made": "2026-10-27",
+   "planned_publish": "2026-10-31 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  },
+  {
+   "id": "sour-cat-lemon",
+   "format": "reaction",
+   "situation": "Nugget bites a lemon slice",
+   "twist": "turns green and sour-faced, throws the lemon, eyes the plate again ('AGAIN?')",
+   "title": "Nugget tried a lemon for the first time 🍋😖",
+   "file": "episodes/sour-cat-lemon/sour-cat-lemon-v1.mp4",
+   "duration_s": 10,
+   "made": "2026-10-27",
+   "planned_publish": "2026-11-01 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  },
+  {
+   "id": "protect-vacuum",
+   "format": "interactive_protect",
+   "situation": "a loud vacuum cleaner charges at a napping Nugget; the viewer's hand blocks it and switches it off",
+   "twist": "Nugget puts on sunglasses and rides the vacuum around the room: 'NEW RIDE UNLOCKED'",
+   "title": "Protect Nugget from the vacuum! 😱🧹",
+   "file": "episodes/protect-vacuum/protect-vacuum-v1.mp4",
+   "duration_s": 15.5,
+   "made": "2026-10-27",
+   "planned_publish": "2026-11-02 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  },
+  {
+   "id": "bed-vs-box",
+   "format": "relatable_owner",
+   "situation": "owner bought Nugget an $80 fancy bed; he tries it and is unimpressed",
+   "twist": "he spots the cardboard box it came in, falls in love and squeezes in: 'EVERY. SINGLE. TIME.'",
+   "title": "$80 bed vs the box it came in 📦😂",
+   "file": "episodes/bed-vs-box/bed-vs-box-v1.mp4",
+   "duration_s": 14,
+   "made": "2026-10-27",
+   "planned_publish": "2026-11-03 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  },
+  {
+   "id": "tv-fish",
+   "format": "mini_story",
+   "situation": "Nugget stalks a fish swimming on a TV nature show and pounces at the screen",
+   "twist": "he smacks the glass, the TV cracks to NO SIGNAL, he searches behind the TV; the fish comes back and he gives the camera a deadpan look: 'he's been trying for 3 years'",
+   "title": "Nugget vs the fish on TV 📺🐟",
+   "file": "episodes/tv-fish/tv-fish-v1.mp4",
+   "duration_s": 15,
+   "made": "2026-10-27",
+   "planned_publish": "2026-11-04 07:00 WIB",
+   "status": "made, waiting for user review",
+   "buffer_post_id": null,
+   "results": null
+  }
+ ]
 }
