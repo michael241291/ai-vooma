@@ -21,14 +21,16 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Repo: michael241291/ai-vooma (publik). Video: https://raw.githubusercontent.com/michael241291/ai-vooma/main/episodes/<id>/<id>-v<ver>.mp4
 - Dokumen project: claude/aivooma-riset-format.md.
 
-## Batas Buffer (dibagi dengan @intinyaaje)
-- Maksimal 10 posting berstatus scheduled untuk seluruh org; draf tidak dihitung.
-- Pembagian: AIVOOMA maksimal **3** posting scheduled (3 hari ke depan); intinyaaje maksimal 4 (2 hari × YT+FB); 3 cadangan.
-- Jangan pernah mengubah/menghapus posting channel lain.
+## Batas Buffer (khusus AIVOOMA)
+- Rutinitas ini hanya mengurus channel AIVOOMA (6ae078d92f1f5ed648e86690). Selalu filter `channelIds` ke channel ini;
+  jangan membaca, menghitung, mengubah, atau menghapus posting channel lain di org.
+- AIVOOMA maksimal **3** posting scheduled (3 hari ke depan). Sisanya disimpan sebagai draf. Draf tidak dihitung Buffer.
+- Paket gratis membatasi jumlah posting scheduled per org. Kalau penjadwalan ditolak karena batas, biarkan sebagai draf,
+  jangan coba lagi hari itu, dan laporkan.
 
 ## BAGIAN 1 — Harian
-1. `list_posts` org, status scheduled + draft, semua channel.
-2. Hitung scheduled AIVOOMA (A) dan total scheduled org (T). Slot = min(3 − A, 10 − T).
+1. `list_posts` org dengan `channelIds` = [AIVOOMA], status scheduled + draft + error.
+2. Hitung scheduled AIVOOMA (A). Slot = 3 − A.
 3. Ambil draf AIVOOMA urut dueAt. Jadwalkan (`edit_post` mode customScheduled, dueAt 07:00+07:00) sebanyak slot,
    1 video per hari, hari kosong terdekat mulai besok. Kalau dueAt draf sudah lewat, geser ke hari kosong berikutnya.
 4. Posting AIVOOMA berstatus error: laporkan alasannya.
