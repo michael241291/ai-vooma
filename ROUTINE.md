@@ -6,7 +6,10 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 
 ## Keputusan user yang terkunci
 - Channel YouTube AIVOOMA, penonton luar negeri (AS). Bahasa video, judul, deskripsi: Inggris.
-- Karakter tetap: **Nugget**, kucing oranye 2D orisinal, polos, "one brain cell". Jangan meniru karakter channel lain.
+- Karakter utama saat ini: **Nugget**, kucing oranye 2D orisinal. TIDAK terkunci (permintaan user 27 Okt: "jangan terpaku
+  sama kucing nugget, harus update jika ada yang baru"). Ikuti aturan evolusi README.md no. 11–14: tiap batch minimal
+  2 dari 7 video eksperimen baru (format/karakter/gaya/tren baru dari riset terbaru); data yang menentukan porsi.
+  Semua desain orisinal, jangan meniru karakter channel lain.
 - Tanpa dialog/narasi. Musik orisinal + efek suara + teks pendek.
 - Video tidak boleh berulang (aturan inauthentic content YouTube). Aturan anti-ulang di README.md wajib.
 - Semua otomatis. Buffer paket gratis (tidak upgrade).
@@ -55,6 +58,8 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   sortingOrder views, dateFilter month. Kalau hasil kosong, ulangi tanpa sortingOrder.
 - Untuk 3–5 pemenang baru: aiVideoDescription true (murah) untuk membedah struktur per detik.
 - Catat pola baru ke learnings.md dan tambah ide baru ke ideas.json (ubah ancaman/latar/twist, jangan menyalin persis).
+- Riset juga di luar kucing: cari format/karakter/niche Shorts animasi yang sedang naik (bulan ini) dan belum dipakai channel.
+  Hasilnya jadi minimal 2 video eksperimen per batch (aturan README no. 11). Kalau perlu karakter/gaya baru, buat di engine.
 
 ### 3. Rencana 7 video
 - Pilih dari ideas.json. Aturan anti-ulang: situasi/ancaman/twist tidak pernah dipakai lagi; ≥3 format per 7 video,

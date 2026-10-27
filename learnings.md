@@ -3,6 +3,9 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-10-27 — not locked to Nugget (user request)
+- User: do not get stuck on Nugget; update whenever something new appears. Rules 11–14 in README: ≥2 of 7 videos per batch are experiments (new format/character/style/trend), data decides the share, shift gradually and report.
+
 ## 2026-10-27 — anti-monotony pass (user request)
 - Week 1 first draft had the same living-room background 4 times, 3 days in a row, and two "Protect Nugget from the X!" titles. Formats alone are not enough variety; the viewer sees the room first.
 - Fix: 3 new backgrounds (living_b, bedroom_day, hallway); now 6 backgrounds in 7 videos, no background or opening mood twice in a row; vacuum title changed to "Hold the vacuum back or Nugget is DONE".

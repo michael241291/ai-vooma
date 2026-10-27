@@ -1,5 +1,5 @@
 {
- "how_to_use": "Pick ideas so a batch follows the anti-repeat rules in README.md. Mark an idea used by setting used to the episode id. Add new ideas from each week's research. Never copy another channel's exact scenario; change the threat, setting and twist.",
+ "how_to_use": "Pick ideas so a batch follows the anti-repeat rules in README.md. Mark an idea used by setting used to the episode id. Add new ideas from each week's research. Never copy another channel's exact scenario; change the threat, setting and twist. Nugget is the current main character but not locked: every batch needs at least 2 experiments (new format, character, style or trend) from fresh research; see README rules 11-14.",
  "formats": {
   "interactive_protect": {
    "what": "Command text at second 0 ('Protect Nugget from …!'), danger approaching, finger target on screen, viewer's hand shields Nugget, funny twist ending.",
@@ -137,6 +137,23 @@
     },
     {
      "idea": "Nugget vs the automatic door",
+     "used": null
+    }
+   ]
+  },
+  "experiments": {
+   "what": "New things from the latest research: new characters (other animals, a rival, the owner), new formats, new art/scene styles, new trends. Promote what beats the channel median for 2 weeks.",
+   "ideas": [
+    {
+     "idea": "Introduce a second original character (e.g. a dramatic dog neighbour or a tiny chaotic hamster) in a Nugget video, then test a solo video",
+     "used": null
+    },
+    {
+     "idea": "Try a non-Nugget animal lead for one interactive video and compare views",
+     "used": null
+    },
+    {
+     "idea": "Check monthly what animated Shorts niches are rising (Apify, views + month filter) and add the best new format here",
      "used": null
     }
    ]
