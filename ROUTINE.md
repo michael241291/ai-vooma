@@ -40,6 +40,11 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 5. Kalau hari ini Minggu (WIB) **atau** draf AIVOOMA tersisa < 3: jalankan BAGIAN 2.
 6. Laporan singkat (SendUserMessage): yang dijadwalkan, antrean draf, error.
 
+## Cadangan kalau Apify kena batas bulanan ("Monthly usage hard limit exceeded")
+- Jangan berhenti. Evaluasi pakai Buffer `list_posts` includeMetrics (catatan: metrik Buffer bisa basi, lihat metricsUpdatedAt)
+  dan screenshot YouTube Studio dari user kalau ada. Riset tren pakai WebSearch/WebFetch (judul + views Shorts animasi bulan ini).
+- Laporkan ke user bahwa kuota Apify habis dan kapan reset.
+
 ## BAGIAN 2 — Mingguan (batch 7 video)
 ### Persiapan
 - add_repo michael241291/ai-vooma (access push), clone ke /home/claude/ai-vooma. Baca README.md, engine/README.md,

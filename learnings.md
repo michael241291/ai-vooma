@@ -3,6 +3,10 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-10-29 — first upload day
+- protect-cucumber went live 07:01 WIB. Buffer metrics were fetched only 3 min after posting (metricsUpdatedAt) so they showed 0; do not trust Buffer views until metricsUpdatedAt is >24 h after sentAt.
+- Apify hit its monthly usage hard limit on 29 Oct; YouTube pages/RSS are blocked to WebFetch and the shell. Fallback added to ROUTINE.md.
+
 ## 2026-10-27 — not locked to Nugget (user request)
 - User: do not get stuck on Nugget; update whenever something new appears. Rules 11–14 in README: ≥2 of 7 videos per batch are experiments (new format/character/style/trend), data decides the share, shift gradually and report.
 
