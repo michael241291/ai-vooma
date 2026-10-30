@@ -52,6 +52,8 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Pasang pycairo/numpy/pillow + font Luckiest Guy sesuai engine/README.md.
 
 ### 1. Evaluasi
+- Kalau metrik Buffer masih 0 untuk video yang sudah tayang ≥3 hari, minta user screenshot YouTube Studio di laporan (Apify sering kena batas bulanan).
+- Bandingkan eksperimen (log.json `experiment: true`, mis. Gravy si kalkun, format guess_choice) dengan median channel.
 - Buffer `list_posts` channel AIVOOMA dengan includeMetrics (views, likes, comments) untuk video yang sudah tayang.
 - Apify `streamers/youtube-scraper` startUrls https://www.youtube.com/@aivooma/shorts untuk angka terbaru.
 - Isi `results` di log.json. Bandingkan per format, jenis twist, durasi, mood musik. Format dengan median views
@@ -76,7 +78,8 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   Durasi 12–18 detik.
 
 ### 4. Produksi
-- Tulis episodes/<id>/episode.json (spesifikasi di engine/README.md). Boleh menambah prop/efek/latar baru di engine
+- Cara tercepat: tulis `episodes/<id>/make.py` memakai `engine/build.py` (lihat contoh batch 2, mis. episodes/hide-gravy/make.py),
+  jalankan untuk menghasilkan episode.json. Bisa juga menulis episode.json langsung (spesifikasi di engine/README.md). Boleh menambah prop/efek/latar baru di engine
   kalau cerita butuh, lalu catat di engine/README.md.
 - `--frames` dulu, LIHAT sheet.png: subjek terbaca, tidak terpotong, teks tidak menutupi aksi, urutan gambar benar.
 - Render penuh, cek durasi dan level audio (tidak ada bagian sunyi > 1 detik kecuali disengaja).

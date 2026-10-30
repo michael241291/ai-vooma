@@ -3,6 +3,14 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-10-31 — batch 2 (Nov 5–11), first experiments
+- Data: Buffer still shows 0 views for protect-cucumber and 3am-zoomies (metricsUpdatedAt 30 Oct 07:19, ~31 h and ~7 h after posting). Too early and possibly stale; no format decision possible yet. Apify monthly limit still hit (31 Oct), so no YouTube scrape. Next run: if Buffer still says 0 after 3+ days, ask the user for a YouTube Studio screenshot.
+- Trend research (web, Apify down): sources are thin marketing blogs. Usable signals: silent physical comedy travels across languages; strongest visual in the first 2–3 s; "POV:" titles and Halloween transformation/reveal edits peaked in October; November = Thanksgiving (Thu 26 Nov 2026) is the next US seasonal hook.
+- Experiments this batch (3 of 7): (1) NEW CHARACTER Gravy the anxious turkey, a seasonal Thanksgiving arc (gravy-disguise, hide-gravy); (2) NEW FORMAT guess_choice "Which one will Nugget pick? Comment 1, 2 or 3" with a 3-2-1 countdown, built to pull comments (pick-one). Judge them against the channel median after ≥7 days.
+- Engine: +2 backgrounds (backyard, bathroom), +11 props, +2 FX, hoedown mood, gobble/rustle synth SFX, mirror clipping, build.py so episodes are short Python scripts. Production went faster with build.py (one file per video, ~60 lines).
+- Production lessons: hand from the top needs origin y ≈ target − 250; anything at y < 340 hides under the title; a "dive into the pile" needs a front copy of the pile drawn after the cat and lowered so his feet don't show; a quiz needs items ≥1.5 scale and badges offset so they don't cover the items.
+- No ElevenLabs credits used this batch (all new sounds synthesized).
+
 ## 2026-10-29 — first upload day
 - protect-cucumber went live 07:01 WIB. Buffer metrics were fetched only 3 min after posting (metricsUpdatedAt) so they showed 0; do not trust Buffer views until metricsUpdatedAt is >24 h after sentAt.
 - Apify hit its monthly usage hard limit on 29 Oct; YouTube pages/RSS are blocked to WebFetch and the shell. Fallback added to ROUTINE.md.

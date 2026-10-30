@@ -26,9 +26,10 @@ from core import W, H, FPS, Track  # noqa: E402
 import nugget  # noqa: E402
 import world  # noqa: E402
 import sound  # noqa: E402
+import extra  # noqa: E402,F401  (registers batch-2 backgrounds/props/fx)
 
 
-SELF_ALPHA = {'text', 'hearts', 'sweat', 'zzz', 'burst', 'speed', 'dust', 'sparkle', 'waves', 'flash', 'sunburst', 'hand'}
+SELF_ALPHA = {'text', 'hearts', 'sweat', 'zzz', 'burst', 'speed', 'dust', 'sparkle', 'waves', 'flash', 'sunburst', 'hand', 'leaves'}
 
 
 class Episode:
@@ -65,6 +66,10 @@ class Episode:
         sh = p.get('shake', 0) or 0
         jx, jy = (sh * math.sin(t * 91 + zlib.crc32(a.get('id', '').encode()) % 7), sh * 0.7 * math.cos(t * 79)) if sh else (0, 0)
         group = alpha is not None and alpha < 0.999 and not (kind == 'fx' and a['type'] in SELF_ALPHA)
+        clip = a.get('clip')  # [cx, cy, rx, ry] ellipse in world/screen coords (e.g. inside a mirror)
+        if clip:
+            ctx.save(); ctx.translate(clip[0], clip[1]); ctx.scale(clip[2], clip[3]); ctx.arc(0, 0, 1, 0, 2 * math.pi)
+            ctx.restore(); ctx.save(); ctx.clip()
         if group:
             ctx.push_group()
         if kind == 'nugget':
@@ -83,6 +88,8 @@ class Episode:
             ctx.restore()
         if group:
             ctx.pop_group_to_source(); ctx.paint_with_alpha(alpha)
+        if clip:
+            ctx.restore()
 
     def frame(self, t):
         surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)

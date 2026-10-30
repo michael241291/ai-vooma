@@ -6,6 +6,7 @@ finished videos are served to Buffer from `raw.githubusercontent.com`.
 
 ## Characters (current, not locked)
 **Nugget** — an original chubby orange cartoon cat, naive and clumsy ("one brain cell" orange-cat energy).
+**Gravy** (added 2026-10-31, experiment) — an original round, anxious brown turkey who knows what November means; Thanksgiving arc with Nugget as his unreliable roommate.
 Nugget is the current main character, NOT a permanent rule. The channel follows what is new and working:
 new characters (other animals, side characters, a rival, an owner), new formats and new styles are added whenever
 research or channel data shows something new. All designs must be original; never copy another channel's character or drawings.

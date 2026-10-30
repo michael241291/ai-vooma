@@ -79,7 +79,7 @@
    "duration_s": 15.5,
    "made": "2026-10-27",
    "planned_publish": "2026-11-02 07:00 WIB",
-   "status": "buffer draft (daily routine schedules it)",
+   "status": "buffer scheduled",
    "buffer_post_id": "6ae0aa938fa8b2f716e1ad02",
    "results": null,
    "background": "hallway",
@@ -119,6 +119,155 @@
    "background": "living",
    "opening_mood": "sneaky",
    "title_template": "story one-liner"
+  },
+  {
+   "id": "leaf-pile",
+   "format": "interactive_protect",
+   "situation": "autumn leaves rain down on a freshly groomed Nugget; the viewer's palm shields him like an umbrella",
+   "twist": "he spots the giant leaf pile, runs and dives in on purpose; only his ears stick out: 'HE IS A LEAF NOW'",
+   "title": "Keep the leaves off Nugget! 🍂👆",
+   "file": "episodes/leaf-pile/leaf-pile-v1.mp4",
+   "duration_s": 13.5,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-05 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "backyard",
+   "opening_mood": "tense",
+   "title_template": "Keep the X off Nugget!",
+   "experiment": false,
+   "characters": [
+    "Nugget"
+   ]
+  },
+  {
+   "id": "half-full-bowl",
+   "format": "relatable_owner",
+   "situation": "Nugget screams 'EMERGENCY' at a bowl that is still half full, then faints dramatically",
+   "twist": "the owner just shakes the bowl so the food spreads out: 'A FEAST!' He eats 3 pieces, walks away, and screams again",
+   "title": "The bowl is NOT empty, Nugget 🙄🥣",
+   "file": "episodes/half-full-bowl/half-full-bowl-v1.mp4",
+   "duration_s": 13,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-06 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "kitchen",
+   "opening_mood": "playful",
+   "title_template": "The X is NOT Y, Nugget",
+   "experiment": false,
+   "characters": [
+    "Nugget"
+   ]
+  },
+  {
+   "id": "gravy-disguise",
+   "format": "new_character",
+   "situation": "NEW CHARACTER Gravy the turkey sees the calendar flip to November, panics, and comes back disguised as a cat (paper ears + marker whiskers) next to Nugget",
+   "twist": "the owner falls for it and pets him... until Thanksgiving: 'WHERE'S THE TURKEY?' and Nugget silently points at him: 'NUGGET IS A SNITCH'",
+   "title": "POV: you're a turkey and it's November 🦃😰",
+   "file": "episodes/gravy-disguise/gravy-disguise-v1.mp4",
+   "duration_s": 13.5,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-07 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "living_b",
+   "opening_mood": "sneaky",
+   "title_template": "POV: you're X and it's Y",
+   "experiment": true,
+   "characters": [
+    "Gravy",
+    "Nugget"
+   ]
+  },
+  {
+   "id": "mirror-nugget",
+   "format": "reaction",
+   "situation": "Nugget meets a mirror for the first time: raises a paw, tilts his head, hisses, and the reflection copies everything",
+   "twist": "the reflection stops copying, puts on sunglasses and smiles; Nugget bolts; the reflection waves: 'SEE YOU TONIGHT, NUGGET'",
+   "title": "Nugget's reflection did NOT copy him 😳🪞",
+   "file": "episodes/mirror-nugget/mirror-nugget-v1.mp4",
+   "duration_s": 13,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-08 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "bathroom",
+   "opening_mood": "cozy",
+   "title_template": "Nugget's X did NOT Y",
+   "experiment": false,
+   "characters": [
+    "Nugget"
+   ]
+  },
+  {
+   "id": "wake-up-tap",
+   "format": "interactive_play",
+   "situation": "the viewer taps a sleeping Nugget 3 times to wake him up; nothing, not even an ear",
+   "twist": "a treat bag rustles off-screen and he is wide awake in 0.1 s; the bag leaves and he is instantly asleep again",
+   "title": "Tap Nugget 3 times to wake him up 👆😴",
+   "file": "episodes/wake-up-tap/wake-up-tap-v1.mp4",
+   "duration_s": 13,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-09 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "bedroom_day",
+   "opening_mood": "night",
+   "title_template": "Tap Nugget N times to X",
+   "experiment": false,
+   "characters": [
+    "Nugget"
+   ]
+  },
+  {
+   "id": "pick-one",
+   "format": "guess_choice",
+   "situation": "NEW FORMAT guess-the-pick: three toys numbered 1-2-3 ($25 toy mouse, yarn ball, bottle cap), viewers vote in the comments, 3-2-1 countdown",
+   "twist": "Nugget rejects every option; when the viewer's finger points at the yarn he attacks the finger: 'HE PICKED... YOUR FINGER' / 'NOBODY SAID 4'",
+   "title": "Which toy will Nugget pick? Comment 1, 2 or 3 🤔",
+   "file": "episodes/pick-one/pick-one-v1.mp4",
+   "duration_s": 14,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-10 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "living",
+   "opening_mood": "playful",
+   "title_template": "Which X will Nugget pick? Comment 1, 2 or 3",
+   "experiment": true,
+   "characters": [
+    "Nugget"
+   ]
+  },
+  {
+   "id": "hide-gravy",
+   "format": "interactive_protect",
+   "situation": "a giant dinner fork hunts Gravy the turkey in the backyard; the viewer's palm hides him while the fork stabs left, right, then bonks the hand",
+   "twist": "the fork gives up; Gravy rolls out a pizza box: 'THANKSGIVING PLAN B: PIZZA', and Nugget sprints in for a slice",
+   "title": "Hide Gravy before Thanksgiving! 🦃🍕",
+   "file": "episodes/hide-gravy/hide-gravy-v1.mp4",
+   "duration_s": 14,
+   "made": "2026-10-31",
+   "planned_publish": "2026-11-11 07:00 WIB",
+   "status": "buffer draft (daily routine schedules it)",
+   "buffer_post_id": null,
+   "results": null,
+   "background": "backyard",
+   "opening_mood": "tense",
+   "title_template": "Hide X before Y!",
+   "experiment": true,
+   "characters": [
+    "Gravy",
+    "Nugget"
+   ]
   }
  ]
 }

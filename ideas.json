@@ -27,12 +27,13 @@
     {
      "idea": "Protect Nugget from the laser dot",
      "twist": "hand blocks it, laser lands on the hand, Nugget attacks the hand",
-     "used": null
+     "used": null,
+     "note": "twist (Nugget attacks the hand) already used in pick-one; needs a new twist"
     },
     {
      "idea": "Protect Nugget from the falling leaves (autumn)",
      "twist": "he jumps into the leaf pile and disappears",
-     "used": null
+     "used": "leaf-pile"
     },
     {
      "idea": "Protect Nugget's fish treat from the seagull",
@@ -62,7 +63,7 @@
     {
      "idea": "Tap to wake Nugget up for breakfast",
      "twist": "he only wakes when the food bag rustles",
-     "used": null
+     "used": "wake-up-tap"
     }
    ]
   },
@@ -93,7 +94,7 @@
     {
      "idea": "Screaming for food when the bowl is only half empty",
      "title_hint": "The bowl is NOT empty, Nugget",
-     "used": null
+     "used": "half-full-bowl"
     },
     {
      "idea": "Owner opens a can of tuna: Nugget teleports",
@@ -104,6 +105,12 @@
      "idea": "Nugget sits exactly on the one paper you need",
      "title_hint": "Of all the places in the house…",
      "used": null
+    },
+    {
+     "idea": "Cat ignores $40 toy, plays with the receipt",
+     "title_hint": "$40 toy vs the receipt",
+     "used": null,
+     "note": "too close to bed-vs-box; only later"
     }
    ]
   },
@@ -116,7 +123,7 @@
     },
     {
      "idea": "Nugget sees himself in the mirror for the first time",
-     "used": null
+     "used": "mirror-nugget"
     },
     {
      "idea": "Nugget tastes chili (spicy fire breath)",
@@ -138,6 +145,10 @@
     {
      "idea": "Nugget vs the automatic door",
      "used": null
+    },
+    {
+     "idea": "Nugget meets the first snow through the window",
+     "used": null
     }
    ]
   },
@@ -146,7 +157,7 @@
    "ideas": [
     {
      "idea": "Introduce a second original character (e.g. a dramatic dog neighbour or a tiny chaotic hamster) in a Nugget video, then test a solo video",
-     "used": null
+     "used": "gravy-disguise"
     },
     {
      "idea": "Try a non-Nugget animal lead for one interactive video and compare views",
@@ -154,6 +165,53 @@
     },
     {
      "idea": "Check monthly what animated Shorts niches are rising (Apify, views + month filter) and add the best new format here",
+     "used": null
+    },
+    {
+     "idea": "Gravy the turkey (2nd original character): Thanksgiving countdown arc through Nov 26",
+     "used": "gravy-disguise, hide-gravy",
+     "note": "experiment batch 2; keep if >= channel median"
+    }
+   ]
+  },
+  "guess_choice": {
+   "what": "NEW (batch 2): numbered options 1-2-3 at second 0, 'Comment 1, 2 or 3', 3-2-1 countdown, Nugget picks something nobody listed. Built for comments.",
+   "ideas": [
+    {
+     "idea": "Which toy will Nugget pick? (mouse / yarn / bottle cap)",
+     "used": "pick-one"
+    },
+    {
+     "idea": "Which box will Nugget sit in? (small / medium / huge) - he picks the shoe",
+     "used": null
+    },
+    {
+     "idea": "Which human will Nugget sit on? (the one who loves cats / neutral / allergic)",
+     "used": null
+    },
+    {
+     "idea": "Guess what Gravy orders for Thanksgiving (pizza / tacos / sushi)",
+     "used": null
+    }
+   ]
+  },
+  "new_character": {
+   "what": "NEW (batch 2): skits led by a second original character (Gravy the anxious turkey) with Nugget as side character.",
+   "ideas": [
+    {
+     "idea": "POV: you're a turkey and it's November (disguise as cat, Nugget snitches)",
+     "used": "gravy-disguise"
+    },
+    {
+     "idea": "Gravy tries yoga to lose weight so nobody wants him",
+     "used": null
+    },
+    {
+     "idea": "Gravy's countdown: 10 days left, he books a flight (paper plane)",
+     "used": null
+    },
+    {
+     "idea": "Gravy vs the oven timer (protect format)",
      "used": null
     }
    ]

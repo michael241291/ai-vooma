@@ -60,16 +60,35 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
 `purr.mp3`, `vacuum.mp3`, `run.mp3` are short: use `"loop": true` + `"dur"`, or the synth `*_long` versions.
 `scared.mp3` is 18 s: always pass `"start": 0.3, "dur": 1.2`.
 
+## Batch 2 additions (2026-10-31) — `extra.py`, `build.py`
+- **Gravy the turkey** (`kind: prop, type: turkey`), 2nd original character: anxious round turkey. Origin = feet, ~560 px tall at
+  scale 1 (head centre local (0,−440)). Params: `eye` normal|wide|happy|closed|heart|side, `look`, `mouth` closed|smile|open|scream,
+  `flap` 0..1 (wings up), `fan` (tail spread, 1 = normal), `walk` + `bob` (walk cycle), `sweat`, `blush`, `disguise` (paper cat ears,
+  headband, marker whiskers, pink nose). `flip` works like any prop.
+- Backgrounds: **backyard** (autumn tree, picket fence, grass with fallen leaves; tracks `sky1`, `sky2`), **bathroom** (mint tiles,
+  bathtub right, pink towel left, round window).
+- Props: leafpile(w, h, seed, jiggle, part back|front|all) · mirror(part glass|frame; glass centre (0,−500), rx 250 ry 400) ·
+  foodbag(label, color, shake) · calendar(month, day, color, circle, flip; origin = top hook) · toymouse(tag) · yarn · bottlecap ·
+  pizzabox(open 0..1, label) · fork(giant, origin = tip) · sign(label) · bowl2(hole 0..1 = bare middle, label).
+- FX: leaves(n, seed, wind; use `screen: true`) · badge(label, color: numbered 1/2/3 choice circle).
+- Actor `"clip": [cx, cy, rx, ry]` clips that actor to an ellipse (used for the reflection inside the mirror).
+- Music mood **hoedown** (152 bpm, walking bass, drums). Synth SFX **gobble** (turkey), **rustle** (treat bag, takes `dur`).
+- `build.py`: write episodes in Python (`episodes/<id>/make.py` → episode.json). Helpers `Ep.nugget/prop/fx/card/music/sfx`, `shown()`.
+- Hand from the TOP (`rot: π`): the palm bottom sits ≈250 px below the origin y; to cover something at y Y use origin y ≈ Y − 250.
+
 ## Pitfalls already hit
 - `scale` 0 is skipped automatically, but never interpolate `flip` through 0.
 - A cat that rides/sits on a prop must be drawn after it: duplicate the Nugget actor and swap with `show`.
 - Zooming near a frame edge pushes things off screen: pan with `px`.
 - Keep props big enough to read on a phone (cucumber ≥0.7, TV ≥1.0, box ≥1.1).
 - Always render `--frames` and look at sheet.png before the full render.
+- Never let a prop scale an axis to exactly 0 (cairo "invalid matrix"): guard flip/squash animations (calendar flip crashed once).
+- Wall decor near the top (y < 340) hides under the title text; hang calendars/signs at y ≥ 420.
+- `living` background had a stray full-width line at y 1180 (fixed 2026-10-31).
 
 ## Backgrounds (keep adding — see anti-monotony rules in ../README.md)
 - kitchen: counter, cabinets, tiled floor. living: red curtains window, picture, blue sofa, oval rug.
 - living_b: bookshelf left, floor lamp, window with blinds right, yellow rectangular rug, diamond wallpaper.
 - bedroom_night: dark, nightstand + lamp right. bedroom_day: striped wall, string lights, wall shelf + plant, purple carpet.
 - hallway: blue front door right, coat hooks left, wainscot panels, tiled floor + red runner.
-- All take `wall` color. Cat floor line is y≈1330–1500. Ideas for next ones: bathroom, backyard/garden, car, office desk, vet waiting room, snowy porch.
+- All take `wall` color. Cat floor line is y≈1330–1500. Added: backyard, bathroom. Ideas for next ones: car, office desk, vet waiting room, snowy porch, kitchen table at Thanksgiving.

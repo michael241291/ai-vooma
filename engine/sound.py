@@ -151,15 +151,39 @@ def syn_heartbeat():
     return out
 
 
+def syn_gobble():
+    """Turkey gobble: 6 fast throaty warbles with falling pitch (batch 2)."""
+    out = np.zeros(int(0.85 * SR))
+    for i in range(6):
+        d = 0.11; tt = np.arange(int(d * SR)) / SR
+        f = (420 - i * 25) * (1 + 0.25 * np.sin(2 * np.pi * 38 * tt))
+        ph = 2 * np.pi * np.cumsum(f) / SR
+        x = (np.sign(np.sin(ph)) * 0.5 + np.sin(ph) * 0.5 + 0.3 * np.sin(2 * ph))
+        x = lowpass(x * np.sin(np.pi * tt / d), 0.35)
+        place(out, x * 0.55, i * 0.12)
+    return fade(out, 0.005, 0.08)
+
+
+def syn_rustle(d=0.9):
+    """Crinkly treat-bag rustle: bursts of bright noise (batch 2)."""
+    n = int(d * SR); out = np.zeros(n)
+    for i in range(int(d * 14)):
+        k = int(rng.uniform(0.02, 0.06) * SR); st = rng.uniform(0, d - 0.06)
+        b = np.diff(noise(k), prepend=0) * np.exp(-np.linspace(0, 6, k))
+        place(out, b * rng.uniform(0.3, 0.7), st)
+    return fade(out, 0.01, 0.08)
+
+
 SYNTH = dict(pop=syn_pop, ding=syn_ding, thud=syn_thud, slide_up=lambda: syn_slide(True), slide_down=lambda: syn_slide(False),
              swoosh=syn_swoosh, purr_long=syn_purr, vacuum_long=syn_vacuum, static=syn_static, sparkle=syn_sparkle,
-             crunch=syn_crunch, tick=syn_tick, wobble=syn_wobble, heartbeat=syn_heartbeat)
+             crunch=syn_crunch, tick=syn_tick, wobble=syn_wobble, heartbeat=syn_heartbeat, gobble=syn_gobble,
+             rustle=syn_rustle)
 
 
 def get_sfx(name, opts):
     if name in SYNTH:
         fn = SYNTH[name]
-        x = fn(opts['dur']) if 'dur' in opts and name in ('purr_long', 'vacuum_long', 'static', 'swoosh', 'wobble') else fn()
+        x = fn(opts['dur']) if 'dur' in opts and name in ('purr_long', 'vacuum_long', 'static', 'swoosh', 'wobble', 'rustle') else fn()
     else:
         x = load(name)
     if 'start' in opts:
@@ -184,6 +208,7 @@ MOODS = {
     'sneaky': dict(bpm=100, key=50, scale=MINOR, prog=[[0, 3, 0, 4], [0, 0, 3, 4]], inst='pluck', drums=False, walking=True),
     'cozy': dict(bpm=84, key=65, scale=MAJOR, prog=[[0, 3, 4, 0], [0, 5, 3, 4]], inst='bell', drums=False),
     'night': dict(bpm=72, key=57, scale=MINOR, prog=[[0, 5, 3, 4], [0, 3, 5, 4]], inst='bell', drums=False, sparse=True),
+    'hoedown': dict(bpm=152, key=62, scale=MAJOR, prog=[[0, 0, 3, 4], [0, 3, 0, 4]], inst='pluck', drums=True, walking=True),
     'triumph': dict(bpm=140, key=55, scale=MAJOR, prog=[[0, 3, 4, 4], [0, 4, 5, 3]], inst='pluck', drums=True, arps=True),
 }
 

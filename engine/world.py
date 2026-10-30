@@ -97,7 +97,6 @@ def bg_living(ctx, t, p):
     rrect(ctx, -260, 980, 620, 300, 60); fill_stroke(ctx, hexc('#6E8FD8'), 9)
     rrect(ctx, -300, 1120, 700, 210, 50); fill_stroke(ctx, hexc('#5A79C2'), 9)
     rrect(ctx, 300, 1060, 120, 250, 50); fill_stroke(ctx, hexc('#6E8FD8'), 9)
-    ctx.rectangle(-600, 1180, W + 1200, 6)
     _floor_wood(ctx, 1330, '#D9A06A', '#B9814F', '#7A4E2F')
     ellipse(ctx, 540, 1560, 520, 120); ctx.set_source_rgba(*hexc('#E8C9E8', 0.9)); ctx.fill()
     ellipse(ctx, 540, 1560, 440, 90); ctx.set_source_rgba(*hexc('#D9A9D9', 0.7)); ctx.fill()
