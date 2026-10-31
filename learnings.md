@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-01 (Sun) — daily run, weekly batch skipped
+- Buffer metrics (metricsUpdatedAt 31 Oct 06:21 UTC): protect-cucumber 0 views after ~2.3 days, 3am-zoomies 4, pet-nugget 1; 0 likes/comments. Old pre-relaunch Shorts also 0–3. Too few views to compare formats; 0 views on a 2-day-old Short may mean YouTube is not distributing it at all (or Buffer metrics are stale). Need a YouTube Studio screenshot (views, "shown in feed", swipe-away rate) from the user before any format decision.
+- Apify still blocked ("Monthly usage hard limit exceeded") on 1 Nov 05:40 WIB; the reset is not on the 1st of the calendar month.
+- Batch 2 was built Sat 31 Oct (<24 h earlier), the queue runs to 11 Nov and none of its experiments (Gravy, guess_choice) has aired, so the Sunday batch was skipped: a batch now would be planned with zero new data and push the queue to 18 Nov. Rule added to ROUTINE.md: Sunday batch only if the last batch is ≥4 days old (the draft < 3 trigger always applies).
+- Buffer `edit_post` re-validates the whole post: send text, assets (video url), and full youtube metadata (title, categoryId...) together with mode/dueAt, or it fails with "YouTube posts require a video/title/category". Added to ROUTINE.md.
+
 ## 2026-10-31 — batch 2 (Nov 5–11), first experiments
 - Data: Buffer still shows 0 views for protect-cucumber and 3am-zoomies (metricsUpdatedAt 30 Oct 07:19, ~31 h and ~7 h after posting). Too early and possibly stale; no format decision possible yet. Apify monthly limit still hit (31 Oct), so no YouTube scrape. Next run: if Buffer still says 0 after 3+ days, ask the user for a YouTube Studio screenshot.
 - Trend research (web, Apify down): sources are thin marketing blogs. Usable signals: silent physical comedy travels across languages; strongest visual in the first 2–3 s; "POV:" titles and Halloween transformation/reveal edits peaked in October; November = Thanksgiving (Thu 26 Nov 2026) is the next US seasonal hook.

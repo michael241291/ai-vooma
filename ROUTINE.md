@@ -34,10 +34,15 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 ## BAGIAN 1 — Harian
 1. `list_posts` org dengan `channelIds` = [AIVOOMA], status scheduled + draft + error.
 2. Hitung scheduled AIVOOMA (A). Slot = 3 − A.
-3. Ambil draf AIVOOMA urut dueAt. Jadwalkan (`edit_post` mode customScheduled, dueAt 07:00+07:00) sebanyak slot,
+3. Ambil draf AIVOOMA urut dueAt. Jadwalkan (`edit_post` mode customScheduled, dueAt 07:00+07:00, saveToDraft false) sebanyak slot.
+   `edit_post` memvalidasi ulang seluruh posting: WAJIB kirim juga text, assets [{video:{url}}] dan metadata.youtube lengkap
+   (title, categoryId "23", privacy, madeForKids, isAiGenerated, notifySubscribers) dari `get_post`, kalau tidak ditolak.
+  
    1 video per hari, hari kosong terdekat mulai besok. Kalau dueAt draf sudah lewat, geser ke hari kosong berikutnya.
 4. Posting AIVOOMA berstatus error: laporkan alasannya.
-5. Kalau hari ini Minggu (WIB) **atau** draf AIVOOMA tersisa < 3: jalankan BAGIAN 2.
+5. Kalau draf AIVOOMA tersisa < 3: jalankan BAGIAN 2. Kalau hari ini Minggu (WIB): jalankan BAGIAN 2 hanya jika batch terakhir
+   (commit "Batch N" di git log) berumur ≥4 hari; kalau lebih baru, cukup evaluasi + catat di learnings.md (batch tanpa data baru
+   hanya memperpanjang antrean dan menunda keputusan berbasis data).
 6. Laporan singkat (SendUserMessage): yang dijadwalkan, antrean draf, error.
 
 ## Cadangan kalau Apify kena batas bulanan ("Monthly usage hard limit exceeded")
