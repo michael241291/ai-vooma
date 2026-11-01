@@ -3,6 +3,13 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-02 (Mon WIB) — daily run: first breakout
+- Buffer metrics (metricsUpdatedAt 1 Nov 05:24 UTC): sour-cat-lemon (reaction, 10 s) **1,201 views / 6 likes** only ~5 h after posting; pet-nugget (interactive_play, 14 s) **1,064 views / 9 likes** after ~29 h; protect-cucumber 12 and 3am-zoomies 13 views (0 likes). The channel is now being distributed: the last two Shorts got ~100x the first two.
+- Early pattern (n=4, weak): the two winners are the shortest/simplest single-gag videos with an immediate visual hook (cat + lemon, finger + cat). The two losers needed a premise to be read first (cucumber threat, 3AM text). Partly also timing: YouTube may have needed a few uploads before testing the channel. Do not over-weight yet; re-check after tv-fish, protect-vacuum, bed-vs-box.
+- Like rate ~0.5–0.9%, 0 comments: the comment-bait guess_choice experiment (pick-one, 10 Nov) is the test for comments.
+- Implication for batch 3: favour ≤12 s single-gag reaction/interactive_play ideas, keep the hook visible in frame 0 without needing to read text.
+- Scheduled tv-fish for 4 Nov. Queue: 3 scheduled (2–4 Nov), 7 drafts to 11 Nov. No batch today (Monday WIB, batch 2 is 2 days old).
+
 ## 2026-11-01 (Sun) — daily run, weekly batch skipped
 - Buffer metrics (metricsUpdatedAt 31 Oct 06:21 UTC): protect-cucumber 0 views after ~2.3 days, 3am-zoomies 4, pet-nugget 1; 0 likes/comments. Old pre-relaunch Shorts also 0–3. Too few views to compare formats; 0 views on a 2-day-old Short may mean YouTube is not distributing it at all (or Buffer metrics are stale). Need a YouTube Studio screenshot (views, "shown in feed", swipe-away rate) from the user before any format decision.
 - Apify still blocked ("Monthly usage hard limit exceeded") on 1 Nov 05:40 WIB; the reset is not on the 1st of the calendar month.
