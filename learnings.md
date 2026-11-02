@@ -3,6 +3,11 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-03 (Tue WIB) — daily run
+- Buffer metrics (metricsUpdatedAt 2 Nov 06:58 UTC): pet-nugget 1,369 views / 9 likes (+305 in ~26 h), sour-cat-lemon 1,208 / 6 (+7 only: the lemon spike was a one-day push that stalled), protect-vacuum 0 at ~7 h (too early), 3am-zoomies 14, protect-cucumber 12. Still 0 comments on every video.
+- Pattern update: pet-nugget (interactive_play, finger-on-screen) keeps growing while lemon stopped, so interactive_play has the better tail so far. Watch protect-vacuum (interactive_protect) and wake-up-tap/leaf-pile (interactive) before shifting share.
+- Scheduled leaf-pile for 5 Nov. Queue: bed-vs-box 3 Nov, tv-fish 4 Nov, leaf-pile 5 Nov scheduled; 6 drafts to 11 Nov. No batch (Tuesday, 6 drafts).
+
 ## 2026-11-02 (Mon WIB) — daily run: first breakout
 - Buffer metrics (metricsUpdatedAt 1 Nov 05:24 UTC): sour-cat-lemon (reaction, 10 s) **1,201 views / 6 likes** only ~5 h after posting; pet-nugget (interactive_play, 14 s) **1,064 views / 9 likes** after ~29 h; protect-cucumber 12 and 3am-zoomies 13 views (0 likes). The channel is now being distributed: the last two Shorts got ~100x the first two.
 - Early pattern (n=4, weak): the two winners are the shortest/simplest single-gag videos with an immediate visual hook (cat + lemon, finger + cat). The two losers needed a premise to be read first (cucumber threat, 3AM text). Partly also timing: YouTube may have needed a few uploads before testing the channel. Do not over-weight yet; re-check after tv-fish, protect-vacuum, bed-vs-box.
