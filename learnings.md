@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-04 (Wed WIB) — daily run
+- Buffer metrics (metricsUpdatedAt 3 Nov 04:32 UTC): pet-nugget 1,369 (flat vs yesterday's snapshot), sour-cat-lemon 1,210, **protect-vacuum 0 views after ~28 h**, bed-vs-box 0 at ~4.5 h (too early), 3am-zoomies 14, protect-cucumber 12. Still 0 comments.
+- Warning sign: both interactive_protect videos (cucumber, vacuum) got ~0 distribution, while the two single-gag videos broke out. If vacuum is still ~0 at the next snapshot, cut interactive_protect share in batch 3 (hide-gravy on 11 Nov is the last protect-style one queued). Possible causes: longer premise/text hook (15.5 s, threat must be read), or Buffer metrics lag. YouTube Studio screenshot would settle it.
+- Both breakouts have also stopped growing in the Buffer snapshot (possible metric lag). Watch tv-fish (4 Nov) and leaf-pile (5 Nov).
+- Scheduled half-full-bowl for 6 Nov. Queue: tv-fish 4, leaf-pile 5, half-full-bowl 6 Nov scheduled; 5 drafts to 11 Nov. No batch (Wednesday, 5 drafts).
+
 ## 2026-11-03 (Tue WIB) — daily run
 - Buffer metrics (metricsUpdatedAt 2 Nov 06:58 UTC): pet-nugget 1,369 views / 9 likes (+305 in ~26 h), sour-cat-lemon 1,208 / 6 (+7 only: the lemon spike was a one-day push that stalled), protect-vacuum 0 at ~7 h (too early), 3am-zoomies 14, protect-cucumber 12. Still 0 comments on every video.
 - Pattern update: pet-nugget (interactive_play, finger-on-screen) keeps growing while lemon stopped, so interactive_play has the better tail so far. Watch protect-vacuum (interactive_protect) and wake-up-tap/leaf-pile (interactive) before shifting share.
