@@ -3,6 +3,10 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-05 (Thu WIB) — daily run
+- Buffer metrics unchanged since the last snapshot (metricsUpdatedAt still 4 Nov 03:37 UTC): pet-nugget 1,370, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, protect-vacuum / bed-vs-box / tv-fish 0. Buffer metrics did not refresh in ~25 h, so no new signal; retention data still needs Windsor (AIVOOMA account) or a Studio screenshot.
+- Scheduled gravy-disguise (first Gravy experiment) for 7 Nov. Queue: leaf-pile 5, half-full-bowl 6, gravy-disguise 7 Nov scheduled; 4 drafts to 11 Nov (all pre-Creative-v2 template). No batch (Thursday, 4 drafts). Batch 3 is due Sun 8 Nov (batch 2 is 8 days old by then) and is the first one built under Creative v2 rules 15–20.
+
 ## 2026-11-04 — creative review with the user ("views 0 terus, terlalu monoton, kurang kreatif")
 - Views so far (Buffer, 4 Nov 03:37 UTC): pet-nugget 1,370 / 9 likes, sour-cat-lemon 1,211 / 6, 3am-zoomies 14, protect-cucumber 12, protect-vacuum 0 (~50 h), bed-vs-box 0 (~27 h), tv-fish 0 (~3 h). 0 comments on all.
 - Pattern: every Short gets either a small seed test (~1.2–1.4k, then stops) or almost nothing. None passed the seed test. Sources on the seed test (joyspace.ai, vidIQ) say the push depends on viewed-vs-swiped (≥70% viewed), average view % (>100% on short videos = replays), comments and shares.
