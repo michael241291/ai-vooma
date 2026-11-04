@@ -50,6 +50,12 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   dan screenshot YouTube Studio dari user kalau ada. Riset tren pakai WebSearch/WebFetch (judul + views Shorts animasi bulan ini).
 - Laporkan ke user bahwa kuota Apify habis dan kapan reset.
 
+## Data views yang benar
+- Buffer `views` = jumlah views (cepat terbarui), tanpa data viewed-vs-swiped/retensi. Kalau Windsor.ai punya akun YouTube
+  AIVOOMA (get_connectors youtube, cari channel_title AIVOOMA), pakai get_data fields video, video_title, views,
+  engaged_views, average_view_percentage, likes, shares, traffic_source. Analytics Windsor telat ±2 hari: video umur <48 jam
+  bisa tampil 0, pakai video_view_count. Akun Windsor youtube lain (Intinya Aje) JANGAN dibaca.
+
 ## BAGIAN 2 — Mingguan (batch 7 video)
 ### Persiapan
 - add_repo michael241291/ai-vooma (access push), clone ke /home/claude/ai-vooma. Baca README.md, engine/README.md,
@@ -86,6 +92,9 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Cara tercepat: tulis `episodes/<id>/make.py` memakai `engine/build.py` (lihat contoh batch 2, mis. episodes/hide-gravy/make.py),
   jalankan untuk menghasilkan episode.json. Bisa juga menulis episode.json langsung (spesifikasi di engine/README.md). Boleh menambah prop/efek/latar baru di engine
   kalau cerita butuh, lalu catat di engine/README.md.
+- Ikuti Creative v2 (README no. 15–20): frame 0 sudah puncak aksi, subjek besar, kamera bergerak/cut tiap 2–3 detik,
+  bukan template judul-atas + kucing diam di tengah, 7–12 detik + loop, ada alasan komentar. Render `--frames 0 0.5 1.5 ...`
+  dan tolak video yang frame 0–0.5 detiknya diam.
 - `--frames` dulu, LIHAT sheet.png: subjek terbaca, tidak terpotong, teks tidak menutupi aksi, urutan gambar benar.
 - Render penuh, cek durasi dan level audio (tidak ada bagian sunyi > 1 detik kecuali disengaja).
 - Efek suara baru hanya kalau benar-benar perlu (ElevenLabs sfx ±17 kredit/biji, generations_count 1); simpan ke assets/sfx

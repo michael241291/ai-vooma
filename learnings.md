@@ -3,6 +3,13 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-04 — creative review with the user ("views 0 terus, terlalu monoton, kurang kreatif")
+- Views so far (Buffer, 4 Nov 03:37 UTC): pet-nugget 1,370 / 9 likes, sour-cat-lemon 1,211 / 6, 3am-zoomies 14, protect-cucumber 12, protect-vacuum 0 (~50 h), bed-vs-box 0 (~27 h), tv-fish 0 (~3 h). 0 comments on all.
+- Pattern: every Short gets either a small seed test (~1.2–1.4k, then stops) or almost nothing. None passed the seed test. Sources on the seed test (joyspace.ai, vidIQ) say the push depends on viewed-vs-swiped (≥70% viewed), average view % (>100% on short videos = replays), comments and shares.
+- Visual audit of frames 0.3/1/2 s of all 7 videos: the same template every time (top title bar, small calm cat centered in a flat room, nothing happens for 1–2 s). The two pushed videos had a task or action in frame 0. This is the monotony the user sees. Batch 2 is slightly better (half-full-bowl opens mid-scream) but still the same layout.
+- Response: Creative v2 rules 15–20 in README (frame 0 = peak, big subject, camera moves every 2–3 s, rotate text layouts, 7–12 s loops, comment/share reason, ≥1 totally different visual format per batch, no "Nugget" at the start of titles).
+- Retention data missing: Windsor.ai youtube only has Intinya Aje connected; user asked to connect the AIVOOMA brand account.
+
 ## 2026-11-04 (Wed WIB) — daily run
 - Buffer metrics (metricsUpdatedAt 3 Nov 04:32 UTC): pet-nugget 1,369 (flat vs yesterday's snapshot), sour-cat-lemon 1,210, **protect-vacuum 0 views after ~28 h**, bed-vs-box 0 at ~4.5 h (too early), 3am-zoomies 14, protect-cucumber 12. Still 0 comments.
 - Warning sign: both interactive_protect videos (cucumber, vacuum) got ~0 distribution, while the two single-gag videos broke out. If vacuum is still ~0 at the next snapshot, cut interactive_protect share in batch 3 (hide-gravy on 11 Nov is the last protect-style one queued). Possible causes: longer premise/text hook (15.5 s, threat must be read), or Buffer metrics lag. YouTube Studio screenshot would settle it.

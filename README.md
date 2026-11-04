@@ -45,3 +45,20 @@ research or channel data shows something new. All designs must be original; neve
 10. Write `background`, `opening_mood` and `title_template` in log.json for every video, and check rules 5–7 against the last 7 before planning.
 
 Video URL pattern: `https://raw.githubusercontent.com/michael241291/ai-vooma/main/episodes/<id>/<file>.mp4`
+
+## Creative v2 (4 Nov 2026, after the first 7 videos) — the "template look" is banned
+Every video so far opened the same way: title bar at the top, a small calm cat sitting in the middle of a flat room,
+nothing moving for 1–2 s. The two videos that got pushed (pet-nugget 1.37k, lemon 1.21k) had something happening or
+something to DO in frame 0; the calm openers got 0–14 views. Rules:
+15. Frame 0 is the peak, not the setup: the character is already mid-scream / mid-jump / mid-crash, or the viewer's task is
+    already on screen. No calm sitting intro. Check kf at 0.0 s and 0.5 s: if nothing is moving, rewrite.
+16. Big subject: the main character or object fills ≥50% of the frame at 0 s (close-up), then the camera cuts or punches
+    at least every 2–3 s (zoom, pan, new angle). Never one static wide shot for the whole video.
+17. Break the layout template: the top title bar is optional, not default. Rotate text styles/positions (caption at the
+    bottom, speech bubble, giant one-word reaction, no text). Max 2 videos per 7 with the same text layout.
+18. Length 7–12 s and built to loop (last frame leads back into the first), so replays push average view % over 100%.
+19. Every video gives a reason to comment or share: a choice (1/2/3), "tag the friend who…", a rating, or a wrong-looking
+    ending. Titles describe what the viewer sees or does; do not lead with the name "Nugget" (new viewers don't know him).
+20. Each batch tries at least 1 completely different visual format, not just a new situation in a room: e.g.
+    spot-the-difference / find-the-odd-one puzzle, first-person POV, satisfying loop, transformation/glow-up reveal,
+    fake "cat translator" subtitles, split-screen expectation vs reality, a new art style or palette.
