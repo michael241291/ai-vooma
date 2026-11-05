@@ -3,6 +3,10 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-06 (Fri WIB) — daily run
+- Buffer metrics refreshed once (metricsUpdatedAt 5 Nov 04:01 UTC) but numbers barely moved: pet-nugget 1,371, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, protect-vacuum / bed-vs-box / tv-fish 0; leaf-pile 0 at ~4 h (too early). Third straight daily run with no usable signal; 3 of the last 4 Shorts are at 0, which points to distribution, not Buffer lag. Batch 3 (Sun 8 Nov) must lean hard on Creative v2 and the experiments.
+- Scheduled mirror-nugget for 8 Nov. Queue: half-full-bowl 6, gravy-disguise 7, mirror-nugget 8 Nov scheduled; 3 drafts (wake-up-tap 9, pick-one 10, hide-gravy 11 Nov). No batch (Friday, 3 drafts).
+
 ## 2026-11-05 (Thu WIB) — daily run
 - Buffer metrics unchanged since the last snapshot (metricsUpdatedAt still 4 Nov 03:37 UTC): pet-nugget 1,370, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, protect-vacuum / bed-vs-box / tv-fish 0. Buffer metrics did not refresh in ~25 h, so no new signal; retention data still needs Windsor (AIVOOMA account) or a Studio screenshot.
 - Scheduled gravy-disguise (first Gravy experiment) for 7 Nov. Queue: leaf-pile 5, half-full-bowl 6, gravy-disguise 7 Nov scheduled; 4 drafts to 11 Nov (all pre-Creative-v2 template). No batch (Thursday, 4 drafts). Batch 3 is due Sun 8 Nov (batch 2 is 8 days old by then) and is the first one built under Creative v2 rules 15–20.
