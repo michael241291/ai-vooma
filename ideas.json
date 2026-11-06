@@ -58,7 +58,7 @@
     {
      "idea": "Hold your finger here so Nugget can climb to the cookie jar",
      "twist": "Nugget gets the cookie, gives the viewer half",
-     "used": null
+     "used": "cookie-climb"
     },
     {
      "idea": "Tap to wake Nugget up for breakfast",
@@ -99,7 +99,7 @@
     {
      "idea": "Owner opens a can of tuna: Nugget teleports",
      "title_hint": "He was asleep 0.1 seconds ago",
-     "used": null
+     "used": "tuna-teleport"
     },
     {
      "idea": "Nugget sits exactly on the one paper you need",
@@ -132,6 +132,10 @@
     {
      "idea": "Nugget hears the treat bag from 3 rooms away",
      "used": null
+    },
+    {
+     "idea": "Whipped cream can sprays Nugget at the Thanksgiving table; he wants MORE",
+     "used": "whipped-cream"
     }
    ]
   },
@@ -204,7 +208,7 @@
     },
     {
      "idea": "Gravy tries yoga to lose weight so nobody wants him",
-     "used": null
+     "used": "gravy-yoga"
     },
     {
      "idea": "Gravy's countdown: 10 days left, he books a flight (paper plane)",
@@ -212,6 +216,57 @@
     },
     {
      "idea": "Gravy vs the oven timer (protect format)",
+     "used": null
+    }
+   ]
+  },
+  "puzzle_spot": {
+   "what": "Spot-the-difference: two stacked panels of the same scene (engine panels), 8-10 s countdown bar, red rings reveal, surprise extra difference. Task on screen at frame 0; comment = how many did you find.",
+   "ideas": [
+    {
+     "idea": "Kitchen: mug colour, calendar day, tongue; secret 4th = wagging tail",
+     "used": "spot-diff-kitchen"
+    },
+    {
+     "idea": "Gravy at the Thanksgiving table: 3 differences, 4th = Nugget hiding under the tablecloth",
+     "used": null
+    },
+    {
+     "idea": "Find the odd cat out: 12 identical Nuggets, one is a loaf of bread",
+     "used": null
+    }
+   ]
+  },
+  "translator": {
+   "what": "Fake \"CAT TRANSLATOR: ON\" badge; every meow/purr gets a bottom subtitle with a grey line of what was heard and the white translation. Loop ends on the first line.",
+   "ideas": [
+    {
+     "idea": "4AM: I HAVE NOT EATEN IN 400 YEARS next to a full bowl",
+     "used": "cat-translator"
+    },
+    {
+     "idea": "Vet visit: translator only outputs BETRAYAL in increasingly large fonts",
+     "used": null
+    },
+    {
+     "idea": "Gravy translator: every gobble = a Thanksgiving escape plan",
+     "used": null
+    }
+   ]
+  },
+  "split_screen": {
+   "what": "Expectation (top) vs reality (bottom) via engine panels, both playing at the same time; labels per panel; ends with \"which one is your cat?\".",
+   "ideas": [
+    {
+     "idea": "The jump onto a side table: gymnast vs bonk + overshoot + I MEANT TO DO THAT",
+     "used": "expect-jump"
+    },
+    {
+     "idea": "Expectation vs reality: the cat bed you bought",
+     "used": null
+    },
+    {
+     "idea": "Expectation vs reality: Gravy's Thanksgiving disguise",
      "used": null
     }
    ]

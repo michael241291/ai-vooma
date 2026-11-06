@@ -3,6 +3,15 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-07 (Sat WIB) — daily run + batch 3 (12–18 Nov), first full Creative v2 batch
+- Daily: wake-up-tap scheduled for 9 Nov. Queue: gravy-disguise 7, mirror-nugget 8, wake-up-tap 9 Nov scheduled; drafts pick-one 10, hide-gravy 11 + 7 new (12–18 Nov). Drafts had dropped to 2, so batch 3 ran on Saturday.
+- Data (Buffer, metricsUpdatedAt 6 Nov 03:21 UTC): pet-nugget 1,371, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, and **5 Shorts in a row at 0 views** (protect-vacuum ~4 d, bed-vs-box ~3 d, tv-fish ~2 d, leaf-pile ~1 d, half-full-bowl ~3 h). Buffer has been right before (it showed the lemon spike within 5 h), so this is most likely real: YouTube stopped giving the template-look Shorts even a seed test. Apify still blocked (Free plan $5 cycle used) — cannot cross-check; a Studio screenshot or the AIVOOMA Windsor connection is still the missing piece.
+- Research (web; Apify blocked): ViralMint W45 tracker — top breakouts are visual gags/fails/reactions, 38% of viral Shorts have no speech in the first 3 s, median 19 s. Anijam (vendor blog): song-timed animation memes where creators swap in their own character, POV skits. No Thanksgiving-specific trend found; US seasonal hook stays Thanksgiving (26 Nov). vidIQ: a Short that fails its seed audience freezes; re-uploading stuck Shorts can be flagged as spam (so never re-upload the 0-view ones).
+- Batch 3 response: every video follows Creative v2 (action or task in frame 0, close-ups, cuts every 1–3 s, 9.5–12.5 s, loopable ending, comment prompt) and 7 different formats. 4 experiments: puzzle_spot (spot-diff-kitchen), translator (cat-translator), split_screen (expect-jump), Gravy #3 (gravy-yoga). New engine: split-screen panels, dining background, 7 props, 6 FX incl. owner's hand.
+- Weakness to fix next batch: 3 of 7 still use top-centre cards as the main text layout (cookie-climb, tuna-teleport, gravy-yoga). Rule 17 says max 2.
+- Judge on ~25 Nov: if the Creative v2 videos also get 0 while the old ones stay at 0, the problem is the channel (distribution/trust), not the template — then test posting time (US evening is 07:00 WIB already) and ask the user for Studio "shown in feed" numbers.
+- No ElevenLabs credits used.
+
 ## 2026-11-06 (Fri WIB) — daily run
 - Buffer metrics refreshed once (metricsUpdatedAt 5 Nov 04:01 UTC) but numbers barely moved: pet-nugget 1,371, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, protect-vacuum / bed-vs-box / tv-fish 0; leaf-pile 0 at ~4 h (too early). Third straight daily run with no usable signal; 3 of the last 4 Shorts are at 0, which points to distribution, not Buffer lag. Batch 3 (Sun 8 Nov) must lean hard on Creative v2 and the experiments.
 - Scheduled mirror-nugget for 8 Nov. Queue: half-full-bowl 6, gravy-disguise 7, mirror-nugget 8 Nov scheduled; 3 drafts (wake-up-tap 9, pick-one 10, hide-gravy 11 Nov). No batch (Friday, 3 drafts).

@@ -27,9 +27,10 @@ import nugget  # noqa: E402
 import world  # noqa: E402
 import sound  # noqa: E402
 import extra  # noqa: E402,F401  (registers batch-2 backgrounds/props/fx)
+import extra3  # noqa: E402,F401  (batch 3: dining bg, panels helpers, new props/fx)
 
 
-SELF_ALPHA = {'text', 'hearts', 'sweat', 'zzz', 'burst', 'speed', 'dust', 'sparkle', 'waves', 'flash', 'sunburst', 'hand', 'leaves'}
+SELF_ALPHA = {'caption', 'text', 'hearts', 'sweat', 'zzz', 'burst', 'speed', 'dust', 'sparkle', 'waves', 'flash', 'sunburst', 'hand', 'leaves'}
 
 
 class Episode:
@@ -102,10 +103,33 @@ class Episode:
         ctx.translate(-self.cam['px'].at(t), -self.cam['py'].at(t))
         ctx.translate(fx, fy); ctx.scale(z, z); ctx.translate(-fx, -fy)
         sp = {k: tr.at(t) for k, tr in self.scene_tracks.items()}
-        world.BACKGROUNDS[self.scene['name']](ctx, t, sp)
-        for a in self.actors:
-            if not a.get('screen'):
-                self.draw_actor(ctx, a, t)
+        panels = self.d.get('panels')
+        if panels:
+            # split screen: each panel shows the world region around (ox, oy) scaled by s inside rect [x, y, w, h].
+            # actors with "panel": i (or a list) appear only in that panel; others appear in all panels.
+            ctx.restore(); ctx.save()
+            ctx.rectangle(0, 0, W, H); ctx.set_source_rgba(*panels[0].get('bg', (0.08, 0.08, 0.1, 1))); ctx.fill()
+            for i, pn in enumerate(panels):
+                x, y, w, h = pn['rect']; s = pn.get('s', 1.0)
+                ctx.save(); ctx.rectangle(x, y, w, h); ctx.clip()
+                ctx.translate(x, y); ctx.scale(s, s); ctx.translate(-pn.get('ox', 0), -pn.get('oy', 0))
+                ctx.translate(fx, fy); ctx.scale(z, z); ctx.translate(-fx, -fy)
+                psp = dict(sp); psp.update(pn.get('scene', {}))
+                world.BACKGROUNDS[pn.get('bgname', self.scene['name'])](ctx, t, psp)
+                for a in self.actors:
+                    if a.get('screen'):
+                        continue
+                    ap = a.get('panel')
+                    if ap is not None and i not in (ap if isinstance(ap, list) else [ap]):
+                        continue
+                    self.draw_actor(ctx, a, t)
+                ctx.restore()
+                ctx.rectangle(x, y, w, h); ctx.set_source_rgba(1, 1, 1, 1); ctx.set_line_width(12); ctx.stroke()
+        else:
+            world.BACKGROUNDS[self.scene['name']](ctx, t, sp)
+            for a in self.actors:
+                if not a.get('screen'):
+                    self.draw_actor(ctx, a, t)
         ctx.restore()
         dark = sp.get('dark', 0) or 0
         if dark > 0:

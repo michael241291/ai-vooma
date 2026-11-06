@@ -15,10 +15,8 @@
       "buffer_post_id": "6ae0aa90d477c7b713132418",
       "results": {
         "views": 12,
-        "likes": 0,
-        "comments": 0,
         "source": "Buffer metrics",
-        "metricsUpdatedAt": "2026-11-01T05:24Z"
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
       },
       "background": "kitchen",
       "opening_mood": "tense",
@@ -38,11 +36,9 @@
       "status": "published",
       "buffer_post_id": "6ae0aa9058fd3c2079ef3e3e",
       "results": {
-        "views": 13,
-        "likes": 0,
-        "comments": 0,
+        "views": 14,
         "source": "Buffer metrics",
-        "metricsUpdatedAt": "2026-11-01T05:24Z"
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
       },
       "background": "bedroom_night",
       "opening_mood": "night",
@@ -62,11 +58,9 @@
       "status": "published",
       "buffer_post_id": "6ae0aa91c8df6b6a0122ecf7",
       "results": {
-        "views": 1064,
-        "likes": 9,
-        "comments": 0,
+        "views": 1371,
         "source": "Buffer metrics",
-        "metricsUpdatedAt": "2026-11-01T05:24Z"
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
       },
       "background": "living_b",
       "opening_mood": "cozy",
@@ -86,11 +80,9 @@
       "status": "published",
       "buffer_post_id": "6ae0aa9255e456f4b3c7c254",
       "results": {
-        "views": 1201,
-        "likes": 6,
-        "comments": 0,
+        "views": 1211,
         "source": "Buffer metrics",
-        "metricsUpdatedAt": "2026-11-01T05:24Z"
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
       },
       "background": "kitchen",
       "opening_mood": "playful",
@@ -109,7 +101,11 @@
       "planned_publish": "2026-11-02 07:00 WIB",
       "status": "published",
       "buffer_post_id": "6ae0aa938fa8b2f716e1ad02",
-      "results": null,
+      "results": {
+        "views": 0,
+        "source": "Buffer metrics",
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
+      },
       "background": "hallway",
       "opening_mood": "tense",
       "title_template": "Hold the X back or Nugget is DONE"
@@ -124,9 +120,13 @@
       "duration_s": 14,
       "made": "2026-10-27",
       "planned_publish": "2026-11-03 07:00 WIB",
-      "status": "buffer scheduled",
+      "status": "published",
       "buffer_post_id": "6ae0aa936cd613c4832d4b8f",
-      "results": null,
+      "results": {
+        "views": 0,
+        "source": "Buffer metrics",
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
+      },
       "background": "bedroom_day",
       "opening_mood": "cozy",
       "title_template": "$X vs Y"
@@ -141,9 +141,13 @@
       "duration_s": 15,
       "made": "2026-10-27",
       "planned_publish": "2026-11-04 07:00 WIB",
-      "status": "buffer scheduled",
+      "status": "published",
       "buffer_post_id": "6ae0aa9455e456f4b3c7c364",
-      "results": null,
+      "results": {
+        "views": 0,
+        "source": "Buffer metrics",
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
+      },
       "background": "living",
       "opening_mood": "sneaky",
       "title_template": "story one-liner"
@@ -158,9 +162,13 @@
       "duration_s": 13.5,
       "made": "2026-10-31",
       "planned_publish": "2026-11-05 07:00 WIB",
-      "status": "buffer scheduled",
+      "status": "published",
       "buffer_post_id": "6ae52061ceb491e585c5992f",
-      "results": null,
+      "results": {
+        "views": 0,
+        "source": "Buffer metrics",
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
+      },
       "background": "backyard",
       "opening_mood": "tense",
       "title_template": "Keep the X off Nugget!",
@@ -179,9 +187,13 @@
       "duration_s": 13,
       "made": "2026-10-31",
       "planned_publish": "2026-11-06 07:00 WIB",
-      "status": "buffer draft (daily routine schedules it)",
+      "status": "published",
       "buffer_post_id": "6ae52062b84259308ba684af",
-      "results": null,
+      "results": {
+        "views": 0,
+        "source": "Buffer metrics",
+        "metricsUpdatedAt": "2026-11-06T03:21Z"
+      },
       "background": "kitchen",
       "opening_mood": "playful",
       "title_template": "The X is NOT Y, Nugget",
@@ -296,6 +308,139 @@
         "Gravy",
         "Nugget"
       ]
+    },
+    {
+      "id": "spot-diff-kitchen",
+      "format": "puzzle_spot",
+      "situation": "spot-the-difference: two stacked kitchen panels with Nugget, 8-second countdown, find 3 differences (mug colour, calendar day, tongue)",
+      "twist": "after the 3 red circles: 'THERE ARE 4' - the bottom Nugget's tail was wagging the whole time",
+      "title": "Only 2% find all 3 differences 👀🐱",
+      "file": "episodes/spot-diff-kitchen/spot-diff-kitchen-v1.mp4",
+      "duration_s": 12.5,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-12 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "kitchen",
+      "opening_mood": "sneaky",
+      "title_template": "Only N% find all X",
+      "text_layout": "split panels + timer bar",
+      "experiment": true,
+      "batch": 3,
+      "creative_v2": true
+    },
+    {
+      "id": "whipped-cream",
+      "format": "reaction",
+      "situation": "on the Thanksgiving table a whipped-cream can sprays Nugget in the face (frame 0); shock, then he tastes it",
+      "twist": "he paw-taps the can for MORE and ends up with a full cream helmet: 'WORTH IT'; he eats it down and gets sprayed again (loop)",
+      "title": "The whipped cream fought back 😳🥧",
+      "file": "episodes/whipped-cream/whipped-cream-v1.mp4",
+      "duration_s": 9.5,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-13 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "dining",
+      "opening_mood": "playful",
+      "title_template": "The X fought back",
+      "text_layout": "giant one-word reaction",
+      "experiment": false,
+      "batch": 3,
+      "creative_v2": true
+    },
+    {
+      "id": "cat-translator",
+      "format": "translator",
+      "situation": "4AM in the hallway with a 'CAT TRANSLATOR: ON' badge: every meow gets a bottom subtitle ('I HAVE NOT EATEN IN 400 YEARS', 'NOT THAT FOOD')",
+      "twist": "owner pets him: 'YOU MAY CONTINUE. FOR 3 SECONDS.' - chomp at second 4 - then he screams the starving line again next to a full bowl (loop)",
+      "title": "I turned on the cat translator at 4AM 😐",
+      "file": "episodes/cat-translator/cat-translator-v1.mp4",
+      "duration_s": 11,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-14 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "hallway",
+      "opening_mood": "night",
+      "title_template": "I turned on X at Y",
+      "text_layout": "bottom subtitles",
+      "experiment": true,
+      "batch": 3,
+      "creative_v2": true
+    },
+    {
+      "id": "cookie-climb",
+      "format": "interactive_play",
+      "situation": "Nugget keeps sliding down the kitchen counter trying to reach the cookie jar; the viewer's finger becomes his step stool",
+      "twist": "he gets a cookie, splits it 'half for you' and hands the viewer a single crumb while keeping the giant half; then asks for the finger AGAIN",
+      "title": "Hold your finger here so he can reach the cookies 👆🍪",
+      "file": "episodes/cookie-climb/cookie-climb-v1.mp4",
+      "duration_s": 11,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-15 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "kitchen",
+      "opening_mood": "cozy",
+      "title_template": "Hold your finger here so X",
+      "text_layout": "top cards + target",
+      "experiment": false,
+      "batch": 3,
+      "creative_v2": true
+    },
+    {
+      "id": "expect-jump",
+      "format": "split_screen",
+      "situation": "split screen EXPECTATION (top) vs REALITY (bottom): the same jump onto a side table; top lands like a gymnast with sunglasses",
+      "twist": "bottom bonks the table edge, slides down, then overshoots out of frame (crash), walks back and sits beside the table: 'I MEANT TO DO THAT'; top cat looks down at him",
+      "title": "Expectation vs reality: the cat jump 😭",
+      "file": "episodes/expect-jump/expect-jump-v1.mp4",
+      "duration_s": 9.5,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-16 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "living_b",
+      "opening_mood": "triumph",
+      "title_template": "Expectation vs reality: X",
+      "text_layout": "split panels + labels",
+      "experiment": true,
+      "batch": 3,
+      "creative_v2": true
+    },
+    {
+      "id": "tuna-teleport",
+      "format": "relatable_owner",
+      "situation": "owner pops a can (*CLICK*): Nugget, fast asleep on the sofa, teleports to the can in 0.1 s; a slow-mo replay shows his ridiculous sprint",
+      "twist": "the can is BEANS: he teleports straight back to the sofa, asleep; second *CLICK* (tuna) and he is back (loop)",
+      "title": "He was asleep 0.1 seconds ago 🐟⚡",
+      "file": "episodes/tuna-teleport/tuna-teleport-v1.mp4",
+      "duration_s": 10,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-17 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "living",
+      "opening_mood": "playful",
+      "title_template": "He was X 0.1 seconds ago",
+      "text_layout": "top cards + replay tag",
+      "experiment": false,
+      "batch": 3,
+      "creative_v2": true
+    },
+    {
+      "id": "gravy-yoga",
+      "format": "new_character",
+      "situation": "8 days before Thanksgiving Gravy the turkey does frantic yoga to get too skinny to eat ('OPERATION: TOO SKINNY'), weighs in at 24.9 lb",
+      "twist": "after the yoga montage the scale says 35.6 LB: the camera finds Nugget sitting on the back of the scale behind Gravy's tail, chewing, 'NUGGET IS NOT HELPING'",
+      "title": "POV: it's 8 days before Thanksgiving 🦃🧘",
+      "file": "episodes/gravy-yoga/gravy-yoga-v1.mp4",
+      "duration_s": 11,
+      "made": "2026-11-07",
+      "planned_publish": "2026-11-18 07:00 WIB",
+      "status": "buffer draft (daily routine schedules it)",
+      "background": "bedroom_day",
+      "opening_mood": "hoedown",
+      "title_template": "POV: it's X",
+      "text_layout": "top cards + bottom question",
+      "experiment": true,
+      "batch": 3,
+      "creative_v2": true
     }
   ]
 }

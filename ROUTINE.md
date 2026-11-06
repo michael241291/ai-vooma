@@ -49,6 +49,8 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Jangan berhenti. Evaluasi pakai Buffer `list_posts` includeMetrics (catatan: metrik Buffer bisa basi, lihat metricsUpdatedAt)
   dan screenshot YouTube Studio dari user kalau ada. Riset tren pakai WebSearch/WebFetch (judul + views Shorts animasi bulan ini).
 - Laporkan ke user bahwa kuota Apify habis dan kapan reset.
+- Apify Free plan = $5 per siklus bulanan (bukan tanggal 1). Jangan coba lebih dari 1x per run kalau sudah ditolak.
+- Jangan pernah upload ulang Short yang macet di 0 views (bisa dianggap spam); perbaiki di video berikutnya.
 
 ## Data views yang benar
 - Buffer `views` = jumlah views (cepat terbarui), tanpa data viewed-vs-swiped/retensi. Kalau Windsor.ai punya akun YouTube
@@ -95,6 +97,8 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Ikuti Creative v2 (README no. 15–20): frame 0 sudah puncak aksi, subjek besar, kamera bergerak/cut tiap 2–3 detik,
   bukan template judul-atas + kucing diam di tengah, 7–12 detik + loop, ada alasan komentar. Render `--frames 0 0.5 1.5 ...`
   dan tolak video yang frame 0–0.5 detiknya diam.
+- Kamera: `fx/fy` hanya titik pusat zoom (tidak menggeser). Untuk menggeser pandangan pakai `px/py`.
+- Split screen / spot-the-difference: pakai `panels` (engine/README.md batch 3).
 - `--frames` dulu, LIHAT sheet.png: subjek terbaca, tidak terpotong, teks tidak menutupi aksi, urutan gambar benar.
 - Render penuh, cek durasi dan level audio (tidak ada bagian sunyi > 1 detik kecuali disengaja).
 - Efek suara baru hanya kalau benar-benar perlu (ElevenLabs sfx ±17 kredit/biji, generations_count 1); simpan ke assets/sfx

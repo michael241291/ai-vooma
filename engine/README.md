@@ -92,3 +92,19 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
 - bedroom_night: dark, nightstand + lamp right. bedroom_day: striped wall, string lights, wall shelf + plant, purple carpet.
 - hallway: blue front door right, coat hooks left, wainscot panels, tiled floor + red runner.
 - All take `wall` color. Cat floor line is y≈1330–1500. Added: backyard, bathroom. Ideas for next ones: car, office desk, vet waiting room, snowy porch, kitchen table at Thanksgiving.
+
+## Batch 3 additions (2026-11-07) — `extra3.py`, panels
+- **Panels / split screen** (render.py): episode key `"panels": [{"rect": [x, y, w, h], "ox", "oy", "s", "scene": {param overrides}}]`
+  (build.py: `e.panels(dict(...), dict(...))`). Each panel shows the world region starting at (ox, oy) scaled by s inside the rect.
+  Actors with `"panel": i` (build: `panel=i`) draw only in that panel; others draw in all. Camera zoom still applies; shake/px/py do not.
+  Used for spot-the-difference (spot-diff-kitchen) and expectation vs reality (expect-jump). Good values: rects [40, 290|330, 1000, 610-660],
+  s = 1000/1080, oy ≈ 590-650 for a sitting cat on the floor.
+- Background **dining**: Thanksgiving dining room; the plaid tablecloth top IS the floor line (y 1330), characters sit on the table.
+- Props: whipcan(spray 0..1, jet; rot −π/2 = nozzle pointing left) · pie(cream) · cookiejar(lid 0..1, n, label) · cookie(half, crumb) ·
+  tunacan(open 0..1, label, color) · scale(reading text, glow) · yogamat(color).
+- FX: cream(amount, w, h, seed: merged fluffy blob, beard/helmet) · ring(draw 0..1, r, sy, label, color: "found it" circle) ·
+  caption(top, text, size: bottom subtitle box) · timerbar(left 0..1, label) · tag(text, color, w: pill label) ·
+  **ownerhand** (solid skin hand + sleeve = the OWNER's hand; `hand` stays the viewer's translucent hand).
+- build.py `card()` at t0 = 0 now starts full size (frame 0 used to show a tiny popping title).
+- Pitfall: camera `fx/fy` do NOT pan (they are the zoom pivot that stays put). To move the view use `px`/`py`.
+- Blobs/jets made of overlapping circles: draw all outlines first, then all fills, or they look like a pile of bubbles.

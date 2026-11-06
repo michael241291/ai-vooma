@@ -38,8 +38,9 @@ class Ep:
     def cam(self, **tr):
         self.d['camera'].update({k: _tr(v) for k, v in tr.items()})
 
-    def add(self, id, kind, type=None, screen=False, clip=None, **tr):
+    def add(self, id, kind, type=None, screen=False, clip=None, panel=None, **tr):
         a = dict(id=id, kind=kind, tracks={k: _tr(v) for k, v in tr.items()})
+        if panel is not None: a['panel'] = panel
         if type: a['type'] = type
         if screen: a['screen'] = True
         if clip: a['clip'] = clip
@@ -55,12 +56,16 @@ class Ep:
     def fx(self, id, type, screen=False, **tr):
         return self.add(id, 'fx', type, screen=screen, **tr)
 
+    def panels(self, *specs):
+        """Split screen: each spec dict(rect=[x,y,w,h], ox, oy, s, scene={param overrides})."""
+        self.d['panels'] = list(specs)
+
     def card(self, id, msg, t0, t1=None, size=100, fill='#FFFFFF', y=250, pulse=0, x=540, tilt=0.0):
         alpha = [[0, 0], [t0, 1, 'step']] if t0 > 0 else [[0, 1]]
         if t1 is not None:
             alpha.append([t1, 0, 'step'])
         return self.fx(id, 'text', screen=True, x=x, y=y, text=msg, size=size, fill=fill, pulse=pulse, tilt=tilt,
-                       pop=[[0, 0.2], [t0, 0.2], [t0 + 0.3, 1, 'back']], alpha=alpha)
+                       pop=([[0, 0.2], [t0, 0.2], [t0 + 0.3, 1, 'back']] if t0 > 0 else [[0, 1]]), alpha=alpha)
 
     def music(self, mood, seed, gain=None, volume=1.0):
         self.d['audio']['music'].append(dict(mood=mood, seed=seed, gain=gain or [[0, 1]], volume=volume))
