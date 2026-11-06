@@ -255,7 +255,7 @@
       "duration_s": 13,
       "made": "2026-10-31",
       "planned_publish": "2026-11-09 07:00 WIB",
-      "status": "buffer draft (daily routine schedules it)",
+      "status": "buffer scheduled",
       "buffer_post_id": "6ae52064b84259308ba68538",
       "results": null,
       "background": "bedroom_day",
@@ -326,7 +326,8 @@
       "text_layout": "split panels + timer bar",
       "experiment": true,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59fbd6bbae6fa1504c2f"
     },
     {
       "id": "whipped-cream",
@@ -345,7 +346,8 @@
       "text_layout": "giant one-word reaction",
       "experiment": false,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59fc9214322f68b7a160"
     },
     {
       "id": "cat-translator",
@@ -364,7 +366,8 @@
       "text_layout": "bottom subtitles",
       "experiment": true,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59fda7751de7c9b0fc92"
     },
     {
       "id": "cookie-climb",
@@ -383,7 +386,8 @@
       "text_layout": "top cards + target",
       "experiment": false,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59fdaf7e526d43e7dce2"
     },
     {
       "id": "expect-jump",
@@ -402,7 +406,8 @@
       "text_layout": "split panels + labels",
       "experiment": true,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59fed6bbae6fa1504c69"
     },
     {
       "id": "tuna-teleport",
@@ -421,7 +426,8 @@
       "text_layout": "top cards + replay tag",
       "experiment": false,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59fe9214322f68b7a232"
     },
     {
       "id": "gravy-yoga",
@@ -440,7 +446,8 @@
       "text_layout": "top cards + bottom question",
       "experiment": true,
       "batch": 3,
-      "creative_v2": true
+      "creative_v2": true,
+      "buffer_post_id": "6aee59ffd6bbae6fa1504c9e"
     }
   ]
 }
