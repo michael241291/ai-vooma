@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-08 (Sun WIB) — daily run, Sunday batch skipped (batch 3 is <1 day old, 9 drafts)
+- Scheduled pick-one (guess_choice experiment) for 10 Nov. Queue: mirror-nugget 8, wake-up-tap 9, pick-one 10 Nov scheduled; drafts hide-gravy 11 + batch 3 (12–18 Nov) = 8 drafts. No errors.
+- Buffer metrics (metricsUpdatedAt 7 Nov 00:51 UTC, no refresh in ~22 h): unchanged — pet-nugget 1,371, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, protect-vacuum / bed-vs-box / tv-fish / leaf-pile / half-full-bowl 0. gravy-disguise (first Gravy experiment) 0 but measured only ~48 min after posting, so no verdict yet.
+- **Apify cycle confirmed**: Free plan cycle runs 12th→11th of each month (current cycle 12 Oct – 11 Nov 23:59 UTC, $5.12 used). Apify works again from **12 Nov 07:00 WIB** — the first run after that should scrape @aivooma/shorts to cross-check Buffer's zeros, then a trend search. Read `https://api.apify.com/v2/users/me/limits` (MCP resource) instead of guessing the reset.
+- Windsor youtube still has only one account (66967, a brand-account address, previously identified as Intinya Aje) — not read. AIVOOMA retention data still needs the user to connect AIVOOMA in Windsor or send a Studio screenshot.
+
 ## 2026-11-07 (Sat WIB) — daily run + batch 3 (12–18 Nov), first full Creative v2 batch
 - Daily: wake-up-tap scheduled for 9 Nov. Queue: gravy-disguise 7, mirror-nugget 8, wake-up-tap 9 Nov scheduled; drafts pick-one 10, hide-gravy 11 + 7 new (12–18 Nov). Drafts had dropped to 2, so batch 3 ran on Saturday.
 - Data (Buffer, metricsUpdatedAt 6 Nov 03:21 UTC): pet-nugget 1,371, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, and **5 Shorts in a row at 0 views** (protect-vacuum ~4 d, bed-vs-box ~3 d, tv-fish ~2 d, leaf-pile ~1 d, half-full-bowl ~3 h). Buffer has been right before (it showed the lemon spike within 5 h), so this is most likely real: YouTube stopped giving the template-look Shorts even a seed test. Apify still blocked (Free plan $5 cycle used) — cannot cross-check; a Studio screenshot or the AIVOOMA Windsor connection is still the missing piece.

@@ -49,7 +49,7 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Jangan berhenti. Evaluasi pakai Buffer `list_posts` includeMetrics (catatan: metrik Buffer bisa basi, lihat metricsUpdatedAt)
   dan screenshot YouTube Studio dari user kalau ada. Riset tren pakai WebSearch/WebFetch (judul + views Shorts animasi bulan ini).
 - Laporkan ke user bahwa kuota Apify habis dan kapan reset.
-- Apify Free plan = $5 per siklus bulanan (bukan tanggal 1). Jangan coba lebih dari 1x per run kalau sudah ditolak.
+- Apify Free plan = $5 per siklus bulanan, siklus tanggal 12 → 11 (cek `https://api.apify.com/v2/users/me/limits` via ReadMcpResource server apify, field monthlyUsageCycle.endAt). Jangan coba lebih dari 1x per run kalau sudah ditolak.
 - Jangan pernah upload ulang Short yang macet di 0 views (bisa dianggap spam); perbaiki di video berikutnya.
 
 ## Data views yang benar
