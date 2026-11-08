@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-09 (Mon WIB) — daily run
+- Scheduled hide-gravy for 11 Nov. Queue: wake-up-tap 9, pick-one 10, hide-gravy 11 Nov scheduled; 7 drafts (batch 3, 12–18 Nov). No errors. No batch (Monday, 7 drafts).
+- Buffer metrics (metricsUpdatedAt 8 Nov 00:03 UTC): pet-nugget 1,371, sour-cat-lemon 1,214, 3am-zoomies 14, protect-cucumber 12, **gravy-disguise 3 at ~24 h** (first Gravy experiment, no seed test), leaf-pile 1, protect-vacuum / bed-vs-box / tv-fish / half-full-bowl 0. mirror-nugget 0 was measured ~4 min after posting, no verdict. 0 comments on everything. Six Shorts in a row at 3 views or fewer.
+- A character change alone (Gravy) did not unlock distribution, on one sample. Real test is still the Creative v2 batch from 12 Nov; judge ~25 Nov.
+- Setup note: /home/claude/ai-vooma can already exist on a detached HEAD; `git fetch && git checkout main && git reset --hard origin/main` before working.
+
 ## 2026-11-08 (Sun WIB) — daily run, Sunday batch skipped (batch 3 is <1 day old, 9 drafts)
 - Scheduled pick-one (guess_choice experiment) for 10 Nov. Queue: mirror-nugget 8, wake-up-tap 9, pick-one 10 Nov scheduled; drafts hide-gravy 11 + batch 3 (12–18 Nov) = 8 drafts. No errors.
 - Buffer metrics (metricsUpdatedAt 7 Nov 00:51 UTC, no refresh in ~22 h): unchanged — pet-nugget 1,371, sour-cat-lemon 1,211, 3am-zoomies 14, protect-cucumber 12, protect-vacuum / bed-vs-box / tv-fish / leaf-pile / half-full-bowl 0. gravy-disguise (first Gravy experiment) 0 but measured only ~48 min after posting, so no verdict yet.
