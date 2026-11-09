@@ -3,6 +3,10 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-10 (Tue WIB) — daily run
+- Scheduled spot-diff-kitchen (first Creative v2 / puzzle_spot) for 12 Nov. Queue: pick-one 10, hide-gravy 11, spot-diff-kitchen 12 Nov scheduled; 6 drafts (13–18 Nov). No errors. No batch (Tuesday, 6 drafts).
+- Buffer metrics (metricsUpdatedAt 8 Nov 23:22 UTC): gravy-disguise 2 (~2 d), mirror-nugget 1 (~1 d), leaf-pile 1, half-full-bowl 0; wake-up-tap 0 measured 3 min after posting (no verdict). Now 7 Shorts in a row at ≤3 views. Nothing new to learn until Creative v2 airs (12 Nov) and Apify resets (12 Nov 07:00 WIB): the next run after reset should scrape @aivooma/shorts to confirm the zeros are real.
+
 ## 2026-11-09 (Mon WIB) — daily run
 - Scheduled hide-gravy for 11 Nov. Queue: wake-up-tap 9, pick-one 10, hide-gravy 11 Nov scheduled; 7 drafts (batch 3, 12–18 Nov). No errors. No batch (Monday, 7 drafts).
 - Buffer metrics (metricsUpdatedAt 8 Nov 00:03 UTC): pet-nugget 1,371, sour-cat-lemon 1,214, 3am-zoomies 14, protect-cucumber 12, **gravy-disguise 3 at ~24 h** (first Gravy experiment, no seed test), leaf-pile 1, protect-vacuum / bed-vs-box / tv-fish / half-full-bowl 0. mirror-nugget 0 was measured ~4 min after posting, no verdict. 0 comments on everything. Six Shorts in a row at 3 views or fewer.
