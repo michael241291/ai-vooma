@@ -3,6 +3,10 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-11 (Wed WIB) — daily run
+- Scheduled whipped-cream for 13 Nov. Queue: hide-gravy 11, spot-diff-kitchen 12, whipped-cream 13 Nov scheduled; 5 drafts (14–18 Nov). No errors. No batch (Wednesday, 5 drafts).
+- Buffer metrics (fresh, metricsUpdatedAt 10 Nov 22:00 UTC): **pick-one 0 at ~22 h** (guess_choice + comment prompt, first try: no seed test, 0 comments), wake-up-tap 3 at ~46 h, gravy-disguise 2, mirror-nugget 1, leaf-pile 1, half-full-bowl 0. Now 8 Shorts in a row at ≤3 views, across 4 formats and 2 characters, so format alone is not the cause. Creative v2 (spot-diff-kitchen, 12 Nov) is the next real test; Apify resets 12 Nov 07:00 WIB — next run should scrape @aivooma/shorts to confirm the zeros.
+
 ## 2026-11-10 (Tue WIB) — daily run
 - Scheduled spot-diff-kitchen (first Creative v2 / puzzle_spot) for 12 Nov. Queue: pick-one 10, hide-gravy 11, spot-diff-kitchen 12 Nov scheduled; 6 drafts (13–18 Nov). No errors. No batch (Tuesday, 6 drafts).
 - Buffer metrics (metricsUpdatedAt 8 Nov 23:22 UTC): gravy-disguise 2 (~2 d), mirror-nugget 1 (~1 d), leaf-pile 1, half-full-bowl 0; wake-up-tap 0 measured 3 min after posting (no verdict). Now 7 Shorts in a row at ≤3 views. Nothing new to learn until Creative v2 airs (12 Nov) and Apify resets (12 Nov 07:00 WIB): the next run after reset should scrape @aivooma/shorts to confirm the zeros are real.
