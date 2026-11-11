@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-11 — review with the user ("statistik jelek banget, mesti ngapain")
+- Buffer (10 Nov 22:00 UTC): since 2 Nov, 9 Shorts in a row at 0–3 views (vacuum, box, tv, leaf, bowl, gravy, mirror, wake-up, pick-one). Only pet-nugget 1,370 and lemon 1,214 ever got a seed test. intinyaaje uses the same Buffer pipeline and gets ~1.2k per Short, so Buffer/API upload alone is not the cause.
+- 0–3 views is not "bad content": a weak Short still gets shown to some people and swiped. Near-zero means it is barely shown at all. Most likely causes to check, in order: (1) YouTube set the videos/channel to "made for kids" (cartoon cat) despite madeForKids=false; (2) a restriction/limited state on the channel or videos; (3) low channel trust (23 old AI Shorts at 0 views + automated daily uploads). Only YouTube Studio shows which: Content → Audience + Restrictions columns, and per-video Analytics "Shown in feed" vs "Viewed vs swiped away".
+- Batch 2 posts went out with notifySubscribers=false (batch 1 was true). Keep notifySubscribers=true.
+- Next tests proposed to the user: one manual upload from the YouTube phone app with a trending Shorts sound (isolates upload method), and posting the same video on TikTok/Reels (isolates content vs YouTube channel).
+
 ## 2026-11-11 (Wed WIB) — daily run
 - Scheduled whipped-cream for 13 Nov. Queue: hide-gravy 11, spot-diff-kitchen 12, whipped-cream 13 Nov scheduled; 5 drafts (14–18 Nov). No errors. No batch (Wednesday, 5 drafts).
 - Buffer metrics (fresh, metricsUpdatedAt 10 Nov 22:00 UTC): **pick-one 0 at ~22 h** (guess_choice + comment prompt, first try: no seed test, 0 comments), wake-up-tap 3 at ~46 h, gravy-disguise 2, mirror-nugget 1, leaf-pile 1, half-full-bowl 0. Now 8 Shorts in a row at ≤3 views, across 4 formats and 2 characters, so format alone is not the cause. Creative v2 (spot-diff-kitchen, 12 Nov) is the next real test; Apify resets 12 Nov 07:00 WIB — next run should scrape @aivooma/shorts to confirm the zeros.
