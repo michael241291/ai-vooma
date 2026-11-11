@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-12 (Thu WIB) — daily run
+- Scheduled cat-translator for 14 Nov. Queue: spot-diff-kitchen 12, whipped-cream 13, cat-translator 14 Nov scheduled; 4 drafts (15–18 Nov). No errors. No batch (Thursday, 4 drafts).
+- Buffer metrics (metricsUpdatedAt 11 Nov 21:23 UTC): **hide-gravy 0 at ~45 h** (interactive_protect, Gravy), **pick-one still 0 at ~45 h**, wake-up-tap 3, gravy-disguise 3, mirror-nugget 1. Now 10 Shorts in a row at 0–3 views. spot-diff-kitchen (first Creative v2) airs today 07:00 WIB: it is the key test; judge it at the 14 Nov run (~48 h).
+- Apify had not reset yet at run time (05:37 WIB, cycle ends 07:00 WIB), so no scrape this run. Next run: scrape @aivooma/shorts first.
+- Still waiting on the user: set "AI use: No" in Studio, and "stayed to watch" % for pet-nugget / sour-cat-lemon.
+
 ## 2026-11-11 — YouTube Studio screenshots from the user (first real Studio data)
 - Audience is fine: video "Not made for kids (set by you)" and channel set to "No, not made for kids". Made-for-kids is ruled out as the cause.
 - "AI use" question on the video is unanswered (neither Yes nor No), even though Buffer sends isAiGenerated=false. Our 2D cartoons are not realistic, so the honest answer is No; asked the user to set it. Effect on reach unknown.
