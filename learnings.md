@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-11 — YouTube Studio screenshots from the user (first real Studio data)
+- Audience is fine: video "Not made for kids (set by you)" and channel set to "No, not made for kids". Made-for-kids is ruled out as the cause.
+- "AI use" question on the video is unanswered (neither Yes nor No), even though Buffer sends isAiGenerated=false. Our 2D cartoons are not realistic, so the honest answer is No; asked the user to set it. Effect on reach unknown.
+- "How viewers engaged" on one of the recent 0–3 view Shorts: **0% stayed to watch, 100% swiped away**. With Shorts views counting every play, 0–3 views means YouTube showed it to only 1–3 people, and all of them swiped in the first second. The channel now gets a tiny test per video and fails it instantly. Main problem = frame 0 does not stop the scroll (and low channel trust shrinks each test).
+- Need next: "stayed to watch" % for pet-nugget and sour-cat-lemon (the two that got ~1.2k) as the baseline to beat.
+
 ## 2026-11-11 — review with the user ("statistik jelek banget, mesti ngapain")
 - Buffer (10 Nov 22:00 UTC): since 2 Nov, 9 Shorts in a row at 0–3 views (vacuum, box, tv, leaf, bowl, gravy, mirror, wake-up, pick-one). Only pet-nugget 1,370 and lemon 1,214 ever got a seed test. intinyaaje uses the same Buffer pipeline and gets ~1.2k per Short, so Buffer/API upload alone is not the cause.
 - 0–3 views is not "bad content": a weak Short still gets shown to some people and swiped. Near-zero means it is barely shown at all. Most likely causes to check, in order: (1) YouTube set the videos/channel to "made for kids" (cartoon cat) despite madeForKids=false; (2) a restriction/limited state on the channel or videos; (3) low channel trust (23 old AI Shorts at 0 views + automated daily uploads). Only YouTube Studio shows which: Content → Audience + Restrictions columns, and per-video Analytics "Shown in feed" vs "Viewed vs swiped away".
