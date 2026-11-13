@@ -3,6 +3,9 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-13 — user: new channel must not be cat-only
+- User wants varied videos, not only cats. New channel renamed from "Orange Cat Hours" to **Tiny Chaos** ("life's little chaos, animated"): one consistent promise (relatable everyday comedy for US 18–34), many topics and characters. 5 rotating pillars per week (pets, adult daily life, food/seasonal, brain/interactive, trend wildcard), max 2 per pillar, no same lead character two days running. Engine needs a human character and a dog before the first batch. Plan in NEW-CHANNEL.md.
+
 ## 2026-11-13 — Apify cross-check + user asks for a full overhaul ("0 terus, rombak ulang, apa kena children?")
 - Apify (13 Nov 04:23 UTC) confirms Buffer: pet 1,370, lemon 1,215, 3am 14, cucumber 12, and every other Short 0–4 views, **including the first Creative v2 videos** (spot-diff "Only 2% find all 3 differences" 0 at ~28 h, whipped-cream 4). Comments on, not age-restricted, not made for kids (Studio: "set by you", channel = not for kids).
 - Channel now shows 16 videos / 2,618 total views / 254 subs: the 23 old AI Shorts are gone (deleted), and pet+lemon are 99% of all channel views. Channel description is empty.
