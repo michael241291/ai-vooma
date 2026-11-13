@@ -58,3 +58,14 @@
 - Keputusan untuk mengurangi risiko: 6 video pertama channel baru = 3 dari engine (ditingkatkan: gerak lebih hidup, akting
   wajah, 15–25 dtk, pola judul "X Be Like!") + 3 dari Google Flow (Veo) yang klipnya diunduh user. Bandingkan "stayed to
   watch" dan views 48 jam; cara produksi yang menang dipakai seterusnya.
+
+## 100% dibuat Claude? (user 13 Nov: "pengennya semua dibuat oleh Claude")
+- Bukti format buatan kode bisa viral: simulasi bola "Will the ball escape?" — bouncyball 86 jt views (Jun 2025),
+  Satisfying Shapes 36 jt + 26 jt (Mei 2024), satisfying.ba11s 38–67 jt (akhir 2023). Semua dibuat dari kode.
+- Tapi November 2026 sudah jenuh: upload baru di format sama hanya 1–20 rb, banyak di bawah 4 rb (Apify 13 Nov).
+  Meniru mentah = risiko gagal + risiko "konten repetitif" untuk monetisasi.
+- Belum ketemu contoh kartun karakter yang 100% dibuat kode lalu viral; pemenang kartun (equmi, BlobbyClips) digambar animator.
+- Arah usulan (semua tetap dibuat Claude, tanpa Flow): gabungkan kekuatan kode + humor relatable Tiny Chaos:
+  1) simulasi fisika berlabel relatable ("My salary vs bills", "Me vs Monday", "Brain cells during an exam") — beda dari
+     ball-escape generik; 2) puzzle/kuis visual (cari perbedaan, pilih jalur, ilusi) ; 3) skit kartun engine yang ditingkatkan.
+  Data 2 minggu menentukan porsi.
