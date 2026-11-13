@@ -3,6 +3,11 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-13 — validation research for Tiny Chaos (Apify)
+- BlobbyClips (2.89M subs): varied everyday/gaming topics, 5–35M views per Short, 16–33 s, title template "X Be Like!" / "When X!" + doubled emoji. equmi (cat-only, Oct 2024): 58.5k subs, median ~330k per Short. Both prove the format; variety is fine if the promise and title pattern stay consistent.
+- Biggest risk is animation quality, not topic: both winners have expressive acting and smooth motion; our code puppets are stiff. Plan: first 6 videos on the new channel = 3 upgraded engine + 3 Google Flow (Veo) clips, judged on stayed-to-watch at 48 h.
+- Search queries with sortingOrder=views + dateFilter=month mostly return NO_VIDEOS; plain searchQueries can hang >5 min (aborted). Scraping known channels' /shorts pages is fast and reliable.
+
 ## 2026-11-13 — user: new channel must not be cat-only
 - User wants varied videos, not only cats. New channel renamed from "Orange Cat Hours" to **Tiny Chaos** ("life's little chaos, animated"): one consistent promise (relatable everyday comedy for US 18–34), many topics and characters. 5 rotating pillars per week (pets, adult daily life, food/seasonal, brain/interactive, trend wildcard), max 2 per pillar, no same lead character two days running. Engine needs a human character and a dog before the first batch. Plan in NEW-CHANNEL.md.
 

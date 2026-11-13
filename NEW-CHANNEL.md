@@ -44,3 +44,17 @@
 - Setelah 3 video: kalau ditampilkan ke ratusan orang (views ratusan+), hambatan memang di channel lama.
   Kalau tetap 0–4 views, masalahnya di isi/gaya video → pindah ke visual Google Flow (Veo) 3D.
 - Setelah 2 minggu: pilar yang di atas median dapat porsi lebih, yang di bawah dikurangi.
+
+## Riset validasi (Apify, 13 Nov 2026)
+- **BlobbyClips** (2,89 jt subs): topik beragam tapi satu rasa — "The Wifi at 3am Be Like!" 10,2 jt, "When You Lose Your Job!"
+  9,0 jt, "FaceTime with Different People!" 10,4 jt, "Gaming Memories in 50 Years!" 35 jt, "When Tape Sticks to Itself" 5,5 jt.
+  Durasi 16–33 dtk. Pola judul konsisten: "X Be Like!" / "When X!" + 2 emoji kembar. Animasi dari animator (kredit di deskripsi).
+  → Bukti: channel dengan topik beragam bisa sangat besar, asal janji dan pola judulnya konsisten.
+- **equmi** (kucing saja, channel Okt 2024): naik 42 rb → 58,5 rb subs. Okt–Nov 135 rb–5,1 jt per Short, median ±330 rb.
+  → Bukti: niche kucing tetap bisa, jadi beragam bukan syarat — tapi tidak merugikan.
+- Kesamaan dua pemenang: animasi ekspresif (tokoh "berakting", gerak halus), satu punchline jelas, 11–33 dtk.
+  **Risiko terbesar kita bukan topik, tapi kualitas animasi**: engine kode kita kaku dibanding mereka; video terbaik AIVOOMA
+  hanya 1,3 rb. Channel baru menghapus beban channel lama, tapi tidak memperbaiki kualitas.
+- Keputusan untuk mengurangi risiko: 6 video pertama channel baru = 3 dari engine (ditingkatkan: gerak lebih hidup, akting
+  wajah, 15–25 dtk, pola judul "X Be Like!") + 3 dari Google Flow (Veo) yang klipnya diunduh user. Bandingkan "stayed to
+  watch" dan views 48 jam; cara produksi yang menang dipakai seterusnya.
