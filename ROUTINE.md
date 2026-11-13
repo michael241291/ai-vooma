@@ -1,5 +1,10 @@
 # Rutinitas otomatis AIVOOMA (sumber utama, selalu diperbarui)
 
+> **STATUS 13 Nov 2026: AIVOOMA DIJEDA (keputusan user).** Jangan menjadwalkan, membuat draf, atau membuat batch untuk
+> channel AIVOOMA (6ae078d92f1f5ed648e86690). Semua antrean AIVOOMA di Buffer sudah dihapus. Konsep pindah ke channel
+> YouTube BARU "Orange Cat Hours" (lihat `NEW-CHANNEL.md`). Sampai user menyambungkan channel baru ke Buffer dan ID-nya
+> ditulis di sini, setiap run hanya: cek apakah channel baru sudah muncul di Buffer `list_channels`, lalu laporkan. Tidak ada aksi lain.
+
 Dokumen ini dibaca setiap kali rutinitas jalan. **Setiap run wajib memperbarui file ini dan `learnings.md`** kalau menemukan
 cara kerja yang lebih baik, kesalahan baru, atau pelajaran dari data. Skill `aivooma-weekly` hanya menunjuk ke sini,
 jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
