@@ -3,6 +3,12 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-13 — Apify cross-check + user asks for a full overhaul ("0 terus, rombak ulang, apa kena children?")
+- Apify (13 Nov 04:23 UTC) confirms Buffer: pet 1,370, lemon 1,215, 3am 14, cucumber 12, and every other Short 0–4 views, **including the first Creative v2 videos** (spot-diff "Only 2% find all 3 differences" 0 at ~28 h, whipped-cream 4). Comments on, not age-restricted, not made for kids (Studio: "set by you", channel = not for kids).
+- Channel now shows 16 videos / 2,618 total views / 254 subs: the 23 old AI Shorts are gone (deleted), and pet+lemon are 99% of all channel views. Channel description is empty.
+- Conclusion: format, character, layout and Creative v2 all failed the same way (12 Shorts in a row, shown to ~0–4 people, 100% swiped). The common factor is the channel, not the video: 254 subscribers who followed old surreal-AI content and never watch (Shorts tests start with them), deleted back catalogue, plus automated daily cartoon uploads. Made-for-kids is ruled out by Studio; "kid-appeal" cannot be measured from here.
+- Options given to the user: (1) fresh channel + new visual style (recommended), (2) keep AIVOOMA but switch visuals to Google Flow/Veo 3D, (3) keep AIVOOMA and change niche. Pause AIVOOMA posting while deciding so more 100%-swipe Shorts don't lower trust further.
+
 ## 2026-11-12 (Thu WIB) — daily run
 - Scheduled cat-translator for 14 Nov. Queue: spot-diff-kitchen 12, whipped-cream 13, cat-translator 14 Nov scheduled; 4 drafts (15–18 Nov). No errors. No batch (Thursday, 4 drafts).
 - Buffer metrics (metricsUpdatedAt 11 Nov 21:23 UTC): **hide-gravy 0 at ~45 h** (interactive_protect, Gravy), **pick-one still 0 at ~45 h**, wake-up-tap 3, gravy-disguise 3, mirror-nugget 1. Now 10 Shorts in a row at 0–3 views. spot-diff-kitchen (first Creative v2) airs today 07:00 WIB: it is the key test; judge it at the 14 Nov run (~48 h).
