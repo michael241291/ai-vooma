@@ -1,0 +1,109 @@
+{
+ "id": "salary-vs-bills",
+ "ver": 1,
+ "seed": 23,
+ "duration": 15.0,
+ "drain_end": 12.6,
+ "title": "MY SALARY VS MY BILLS",
+ "start_value": 3200,
+ "fmt": "${:,}",
+ "ball_label": "MY\nSALARY",
+ "gate_label": "PAYDAY",
+ "end_text": "DAY 29.\nBROKE.",
+ "footer": "How long does yours last?",
+ "costs": [
+  [
+   "RENT",
+   1100
+  ],
+  [
+   "GROCERIES",
+   120
+  ],
+  [
+   "PHONE BILL",
+   60
+  ],
+  [
+   "STREAMING x4",
+   55
+  ],
+  [
+   "CAR INSURANCE",
+   140
+  ],
+  [
+   "COFFEE",
+   7
+  ],
+  [
+   "DOORDASH",
+   38
+  ],
+  [
+   "STUDENT LOAN",
+   230
+  ],
+  [
+   "GYM I NEVER GO TO",
+   40
+  ],
+  [
+   "ELECTRICITY",
+   90
+  ],
+  [
+   "WIFI",
+   70
+  ],
+  [
+   "\"QUICK\" TARGET RUN",
+   85
+  ],
+  [
+   "SURPRISE VET BILL",
+   160
+  ],
+  [
+   "BIRTHDAY GIFT",
+   45
+  ],
+  [
+   "UBER",
+   24
+  ],
+  [
+   "AMAZON \"NEEDS\"",
+   66
+  ],
+  [
+   "GAS",
+   52
+  ],
+  [
+   "COFFEE AGAIN",
+   7
+  ],
+  [
+   "SUBSCRIPTION I FORGOT",
+   15
+  ],
+  [
+   "CONCERT TICKETS",
+   120
+  ]
+ ],
+ "ring_r": 470,
+ "ball_r0": 135,
+ "ball_r1": 18,
+ "preroll": 0.35,
+ "p0": [
+  440,
+  980
+ ],
+ "v0": [
+  1100,
+  -500
+ ],
+ "vmin": 1250
+}

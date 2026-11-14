@@ -1,0 +1,4 @@
+{"id": "odd-mug-out", "ver": 1, "title": "FIND THE ODD MUG\nIN 6 SECONDS", "item": "mug", "cols": 7, "rows": 9,
+ "odd": [4, 6], "seconds": 6, "start": 0.3, "duration": 10.0, "seed": 41, "mood": "tense",
+ "reveal_text": "THERE IT IS!", "end_text": "Did you find it? Be honest",
+ "bg": ["#FFF1C9", "#FFD6E8"]}
