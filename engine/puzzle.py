@@ -47,7 +47,31 @@ def donut(ctx, s, odd, wob):
     ctx.restore()
 
 
-ITEMS = dict(mug=mug, donut=donut)
+def loaf(ctx, s, odd, wob):
+    """Bread loaf; the odd one is a grey cat in perfect loaf position (ears, closed eyes, tail tip)."""
+    ctx.save(); ctx.scale(s, s); ctx.rotate(wob * 0.5)
+    body = '#D9964A'
+    if odd:
+        for sx in (-1, 1):  # ears
+            ctx.move_to(sx * 16, -27); ctx.line_to(sx * 28, -40); ctx.line_to(sx * 34, -21); ctx.close_path()
+            fill_stroke(ctx, hexc(body), 5)
+    ctx.move_to(-44, 24); ctx.line_to(-44, -6); ctx.curve_to(-44, -40, 44, -40, 44, -6); ctx.line_to(44, 24); ctx.close_path()
+    fill_stroke(ctx, hexc(body), 6)
+    if odd:
+        ctx.set_source_rgba(*hexc('#2A1636')); ctx.set_line_width(4)
+        for sx in (-1, 1):
+            ctx.arc(sx * 13, -4, 7, 0.2, math.pi - 0.2); ctx.stroke()
+        ctx.move_to(-4, 6); ctx.line_to(4, 6); ctx.line_to(0, 10); ctx.close_path(); ctx.set_source_rgba(*hexc('#FF8FA3')); ctx.fill()
+        ctx.move_to(40, 20); ctx.curve_to(56, 20, 58, 6, 50, 0); ctx.set_line_width(9); ctx.set_source_rgba(*hexc('#2A1636')); ctx.stroke()
+        ctx.move_to(40, 20); ctx.curve_to(56, 20, 58, 6, 50, 0); ctx.set_line_width(5); ctx.set_source_rgba(*hexc(body)); ctx.stroke()
+    else:
+        ctx.set_source_rgba(*hexc('#F4C27A')); ctx.set_line_width(5)
+        for k in (-20, 0, 20):
+            ctx.move_to(k - 8, -16); ctx.line_to(k + 8, -26); ctx.stroke()
+    ctx.restore()
+
+
+ITEMS = dict(mug=mug, donut=donut, loaf=loaf)
 
 
 def make_audio(cfg, dst):

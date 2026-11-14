@@ -97,6 +97,7 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   Durasi 12–18 detik.
 
 ### 4. Produksi
+- Tiny Chaos: sim → `engine/sims.py` (ring_drain) atau `engine/sims2.py` (plinko/duel/grow); puzzle → `engine/puzzle.py` (grid) atau `engine/games.py` (cup shuffle); skit → `engine/render.py` via make.py. Simpan config di `episodes/<id>/sim.json|puzzle.json|game.json`. Video sim/puzzle selalu punya punchline berlabel relatable, bukan bola generik.
 - Cara tercepat: tulis `episodes/<id>/make.py` memakai `engine/build.py` (lihat contoh batch 2, mis. episodes/hide-gravy/make.py),
   jalankan untuk menghasilkan episode.json. Bisa juga menulis episode.json langsung (spesifikasi di engine/README.md). Boleh menambah prop/efek/latar baru di engine
   kalau cerita butuh, lalu catat di engine/README.md.

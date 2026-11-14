@@ -3,6 +3,13 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-15 (Sun WIB) — Tiny Chaos batch 1 (18–24 Nov)
+- Nothing had aired yet at run time (first Short, salary-vs-bills, goes out 15 Nov 07:00 WIB), so no channel data: this batch is built on the 13 Nov validation research. Judge the first 3 at the 17–18 Nov runs (views at 48 h; hundreds+ = channel was the blocker).
+- Queue had 3 scheduled + 0 drafts, so the weekly batch ran. 7 drafts made for 18–24 Nov, rotating sim / puzzle / skit (3/2/2) and 5 pillars: adult life 2 (day-off plinko, coffee vs Monday), pets 1 (cat work call), brain 2 (cat-loaf puzzle, keys cup shuffle), seasonal 2 (turkey protest, stomach at Thanksgiving).
+- Research (web, 15 Nov): marble runs / falling-ball sims still trend in late 2026 (Nerdbot Sep 2026), so plinko + duel + grow sims are the experiments; generic "will the ball escape" is saturated, so every sim carries a relatable label and a scripted punchline.
+- Experiments this batch (5): sim_plinko, sim_duel, sim_grow, puzzle_shell (fair cup shuffle), skit_wfh (laptop video call). Compare their 48 h views vs. salary-vs-bills / odd-mug-out / cat-translator.
+- Production lessons: plinko balls need damped steering (ax = k·(target−x) − d·vx), an undamped spring makes balls wander 5–6 s; forcing the last ball to swerve into a different bin looks fake, so the joke was rewritten to fit the physics ("THE PLAN gets 1 hour... at 11PM"). Duel: the HP-zero end time must be set once (a bug kept pushing it forward). build.py `shown()` starting at t=0 hides the actor at frame 0: use an explicit show list. On-screen text cannot use emoji (Luckiest Guy). Wide skit shots waste the bottom third: put the action on a table top and zoom 1.2–1.3.
+
 ## 2026-11-14 — Tiny Chaos launch (@tinychaosland, Buffer 6af7ee0462b70b94b027acfe)
 - First 3 videos scheduled 07:00 WIB: 15 Nov salary-vs-bills (sim_relatable, new engine/sims.py ring_drain), 16 Nov odd-mug-out (puzzle_odd_one, new engine/puzzle.py), 17 Nov cat-translator (skit, made for AIVOOMA batch 3 but never aired).
 - Judge after 48 h each on views + stayed-to-watch: hundreds+ views = old channel was the blocker; 0–4 = content/style problem.

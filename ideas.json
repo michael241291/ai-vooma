@@ -270,6 +270,93 @@
      "used": null
     }
    ]
+  },
+  "tinychaos_sims": {
+   "what": "Code-native physics sims with relatable labels (engine/sims.py ring_drain, engine/sims2.py plinko/duel/grow). Label = everyday adult struggle; final state = punchline.",
+   "ideas": [
+    {
+     "idea": "Plinko: where my day off goes (hour balls into bins)",
+     "used": "day-off-plinko"
+    },
+    {
+     "idea": "Duel: my coffee vs Monday (coffee turns out to be decaf)",
+     "used": "coffee-vs-monday"
+    },
+    {
+     "idea": "Grow: my stomach at Thanksgiving (always room for pie)",
+     "used": "thanksgiving-stomach"
+    },
+    {
+     "idea": "Plinko: where my paycheck goes (rent / groceries / subscriptions I forgot / savings 0)",
+     "used": null
+    },
+    {
+     "idea": "Duel: my alarm vs me at 6AM (snooze regenerates)",
+     "used": null
+    },
+    {
+     "idea": "Grow: my Black Friday cart (ring = bank account cracks)",
+     "used": null
+    },
+    {
+     "idea": "Grow: my to-do list on Sunday night",
+     "used": null
+    },
+    {
+     "idea": "Duel: my phone battery vs one TikTok session",
+     "used": null
+    },
+    {
+     "idea": "Plinko: what my group chat talks about (bins: plans / memes / 'who's coming?' / actual plans 0)",
+     "used": null
+    }
+   ]
+  },
+  "tinychaos_puzzles": {
+   "what": "Fair visual puzzles drawn in code (engine/puzzle.py odd-one grid, engine/games.py cup shuffle).",
+   "ideas": [
+    {
+     "idea": "Find the cat hiding among bread loaves",
+     "used": "cat-loaf-bakery"
+    },
+    {
+     "idea": "Cup shuffle with my keys (I'm late)",
+     "used": "keys-cup-shuffle"
+    },
+    {
+     "idea": "Cup shuffle: which cup has the last slice of pie (Thanksgiving)",
+     "used": null
+    },
+    {
+     "idea": "Find the one wrapped present that is a sleeping cat (December)",
+     "used": null
+    },
+    {
+     "idea": "Find the odd donut (one sprinkle missing)",
+     "used": null
+    }
+   ]
+  },
+  "tinychaos_skits": {
+   "what": "Cartoon skits with the engine cast (Nugget, Gravy) in adult everyday situations.",
+   "ideas": [
+    {
+     "idea": "Cat joins the work video call",
+     "used": "cat-work-call"
+    },
+    {
+     "idea": "Gravy's protest march 3 days before Thanksgiving",
+     "used": "turkey-protest"
+    },
+    {
+     "idea": "Gravy survives Thanksgiving, then sees the Christmas ham ad",
+     "used": null
+    },
+    {
+     "idea": "Black Friday: cat guards the delivery box like treasure",
+     "used": null
+    }
+   ]
   }
  }
 }

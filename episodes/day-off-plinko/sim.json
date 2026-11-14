@@ -1,0 +1,145 @@
+{
+ "id": "day-off-plinko",
+ "ver": 1,
+ "mode": "plinko",
+ "duration": 15.7,
+ "seed": 21,
+ "mood": "playful",
+ "title": "WHERE MY DAY OFF GOES",
+ "sub": "1 BALL = 1 HOUR",
+ "unit": "H",
+ "bg": [
+  "#24135A",
+  "#E8577E"
+ ],
+ "bins": [
+  [
+   "SLEEP IN",
+   "#9B7BEA"
+  ],
+  [
+   "CHORES",
+   "#3DDC84"
+  ],
+  [
+   "SNACKS",
+   "#FFB347"
+  ],
+  [
+   "SCROLLING",
+   "#38E1FF"
+  ],
+  [
+   "THE PLAN",
+   "#FF5A5F"
+  ]
+ ],
+ "balls": [
+  [
+   "8AM",
+   0
+  ],
+  [
+   "9AM",
+   0
+  ],
+  [
+   "10AM",
+   0
+  ],
+  [
+   "11AM",
+   3
+  ],
+  [
+   "12PM",
+   2
+  ],
+  [
+   "1PM",
+   3
+  ],
+  [
+   "2PM",
+   1
+  ],
+  [
+   "3PM",
+   3
+  ],
+  [
+   "4PM",
+   2
+  ],
+  [
+   "5PM",
+   3
+  ],
+  [
+   "6PM",
+   2
+  ],
+  [
+   "7PM",
+   3
+  ],
+  [
+   "8PM",
+   1
+  ],
+  [
+   "9PM",
+   3
+  ],
+  [
+   "10PM",
+   3
+  ],
+  [
+   "11PM",
+   4
+  ]
+ ],
+ "every": 0.55,
+ "preroll": 1.4,
+ "last_delay": 0.9,
+ "steer": 30,
+ "slowmo": [
+  10.13,
+  12.28,
+  0.35
+ ],
+ "wah": 13.48,
+ "cards": [
+  [
+   10.23,
+   12.28,
+   "COME ON...",
+   420,
+   110,
+   "#FFE14D"
+  ],
+  [
+   12.28,
+   13.48,
+   "FINALLY!!",
+   420,
+   130,
+   "#3DDC84"
+  ],
+  [
+   13.48,
+   16.7,
+   "...AT 11PM",
+   420,
+   130,
+   "#FF5A5F"
+  ]
+ ],
+ "rows": 7,
+ "peg_top": 560,
+ "peg_gap": 100,
+ "peg_dx": 150,
+ "ball_r": 40,
+ "peg_r": 14
+}

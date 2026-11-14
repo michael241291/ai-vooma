@@ -1,0 +1,1344 @@
+{
+ "id": "cat-work-call",
+ "ver": 1,
+ "duration": 12,
+ "format": "skit_wfh",
+ "scene": {
+  "name": "living_b",
+  "tracks": {
+   "wall": [
+    [
+     0,
+     "#DCE8F2"
+    ]
+   ]
+  }
+ },
+ "camera": {
+  "zoom": [
+   [
+    0,
+    1.3
+   ],
+   [
+    0.9,
+    1.3
+   ],
+   [
+    1.1,
+    1.15,
+    "out"
+   ],
+   [
+    4.55,
+    1.15
+   ],
+   [
+    4.6,
+    1.65,
+    "step"
+   ],
+   [
+    6.75,
+    1.65
+   ],
+   [
+    6.8,
+    1.2,
+    "step"
+   ],
+   [
+    7.75,
+    1.2
+   ],
+   [
+    7.8,
+    1.65,
+    "step"
+   ],
+   [
+    9.95,
+    1.65
+   ],
+   [
+    10.0,
+    1.25,
+    "step"
+   ]
+  ],
+  "fx": [
+   [
+    0,
+    540
+   ]
+  ],
+  "fy": [
+   [
+    0,
+    1000
+   ],
+   [
+    4.55,
+    1000
+   ],
+   [
+    4.6,
+    870,
+    "step"
+   ],
+   [
+    6.75,
+    870
+   ],
+   [
+    6.8,
+    1000,
+    "step"
+   ],
+   [
+    7.75,
+    1000
+   ],
+   [
+    7.8,
+    870,
+    "step"
+   ],
+   [
+    9.95,
+    870
+   ],
+   [
+    10.0,
+    1000,
+    "step"
+   ]
+  ],
+  "shake": [
+   [
+    0,
+    0
+   ],
+   [
+    0.85,
+    0
+   ],
+   [
+    0.9,
+    16,
+    "step"
+   ],
+   [
+    1.2,
+    0
+   ],
+   [
+    4.95,
+    0
+   ],
+   [
+    5.0,
+    12,
+    "step"
+   ],
+   [
+    5.4,
+    0
+   ]
+  ]
+ },
+ "actors": [
+  {
+   "id": "table",
+   "kind": "prop",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1206
+     ]
+    ],
+    "w": [
+     [
+      0,
+      1000
+     ]
+    ],
+    "h": [
+     [
+      0,
+      420
+     ]
+    ]
+   },
+   "type": "table"
+  },
+  {
+   "id": "lap",
+   "kind": "prop",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1180
+     ]
+    ],
+    "scale": [
+     [
+      0,
+      1.3
+     ]
+    ],
+    "chat": [
+     [
+      0,
+      ""
+     ],
+     [
+      1.0,
+      "j",
+      "step"
+     ],
+     [
+      1.15,
+      "jjj",
+      "step"
+     ],
+     [
+      1.3,
+      "jjjjjj",
+      "step"
+     ],
+     [
+      1.45,
+      "jjjjjjj",
+      "step"
+     ],
+     [
+      1.6,
+      "jjjjjjj;;",
+      "step"
+     ],
+     [
+      1.75,
+      "jjjjjjj;;;;;",
+      "step"
+     ],
+     [
+      1.9,
+      "jjjjjjj;;;;;k",
+      "step"
+     ],
+     [
+      2.05,
+      "jjjjjjj;;;;;kkk",
+      "step"
+     ],
+     [
+      2.2,
+      "jjjjjjj;;;;;kkkkkk",
+      "step"
+     ],
+     [
+      2.3499999999999996,
+      "jjjjjjj;;;;;kkkkkk ",
+      "step"
+     ],
+     [
+      2.5,
+      "jjjjjjj;;;;;kkkkkk   ",
+      "step"
+     ],
+     [
+      2.65,
+      "jjjjjjj;;;;;kkkkkk   ;;;",
+      "step"
+     ],
+     [
+      2.8,
+      "jjjjjjj;;;;;kkkkkk   ;;;j",
+      "step"
+     ],
+     [
+      2.95,
+      "jjjjjjj;;;;;kkkkkk   ;;;jjj",
+      "step"
+     ],
+     [
+      3.1,
+      "jjjjjjj;;;;;kkkkkk   ;;;jjjjjj",
+      "step"
+     ],
+     [
+      3.25,
+      "jjjjjjj;;;;;kkkkkk   ;;;jjjjjjj",
+      "step"
+     ],
+     [
+      3.4,
+      "jjjjjjj;;;;;kkkkkk   ;;;jjjjjjj;;",
+      "step"
+     ],
+     [
+      3.55,
+      "jjjjjjj;;;;;kkkkkk   ;;;jjjjjjj;;;;;",
+      "step"
+     ],
+     [
+      7.8,
+      "CATS: meow meow meow",
+      "step"
+     ]
+    ],
+    "tiles": [
+     [
+      0,
+      [
+       "BOSS",
+       "KAREN",
+       "DAVE",
+       "ME (MUTED)"
+      ]
+     ]
+    ],
+    "butt": [
+     [
+      0,
+      -1
+     ],
+     [
+      4.3,
+      3,
+      "step"
+     ]
+    ],
+    "cats": [
+     [
+      0,
+      []
+     ],
+     [
+      7.8,
+      [
+       0,
+       1,
+       2
+      ],
+      "step"
+     ]
+    ],
+    "banner": [
+     [
+      0,
+      ""
+     ],
+     [
+      3.9,
+      "YOU ARE PRESENTING",
+      "step"
+     ],
+     [
+      6.8,
+      "",
+      "step"
+     ],
+     [
+      9.0,
+      "CATS ARE PRESENTING",
+      "step"
+     ],
+     [
+      10.0,
+      "",
+      "step"
+     ]
+    ]
+   },
+   "type": "laptop"
+  },
+  {
+   "id": "nug",
+   "kind": "nugget",
+   "tracks": {
+    "x": [
+     [
+      0,
+      250
+     ],
+     [
+      0.9,
+      330,
+      "out"
+     ],
+     [
+      3.7,
+      760,
+      "linear"
+     ],
+     [
+      4.2,
+      770
+     ]
+    ],
+    "y": [
+     [
+      0,
+      820
+     ],
+     [
+      0.5,
+      900,
+      "out"
+     ],
+     [
+      0.9,
+      1140,
+      "in"
+     ],
+     [
+      3.7,
+      1140
+     ],
+     [
+      4.2,
+      1140
+     ]
+    ],
+    "scale": [
+     [
+      0,
+      0.8
+     ]
+    ],
+    "flip": [
+     [
+      0,
+      1
+     ]
+    ],
+    "show": [
+     [
+      0,
+      true
+     ],
+     [
+      4.6,
+      false,
+      "step"
+     ],
+     [
+      6.8,
+      true,
+      "step"
+     ],
+     [
+      7.8,
+      false,
+      "step"
+     ],
+     [
+      10.0,
+      true,
+      "step"
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "run"
+     ],
+     [
+      3.7,
+      "sit"
+     ],
+     [
+      10.0,
+      "loaf"
+     ]
+    ],
+    "run_speed": [
+     [
+      0,
+      2.0
+     ],
+     [
+      0.9,
+      0.9
+     ]
+    ],
+    "rot": [
+     [
+      0,
+      -0.3
+     ],
+     [
+      0.9,
+      0,
+      "out"
+     ]
+    ],
+    "eye": [
+     [
+      0,
+      "wide"
+     ],
+     [
+      0.9,
+      "normal"
+     ],
+     [
+      3.9,
+      "big"
+     ],
+     [
+      6.8,
+      "happy"
+     ],
+     [
+      10.0,
+      "closed"
+     ]
+    ],
+    "look": [
+     [
+      0,
+      [
+       0.8,
+       0.3
+      ]
+     ],
+     [
+      3.9,
+      [
+       -0.6,
+       -0.8
+      ]
+     ],
+     [
+      6.8,
+      [
+       0,
+       0
+      ]
+     ]
+    ],
+    "mouth": [
+     [
+      0,
+      "scream"
+     ],
+     [
+      0.9,
+      "smile"
+     ],
+     [
+      4.9,
+      "open"
+     ],
+     [
+      5.6,
+      "smile"
+     ]
+    ],
+    "mk": [
+     [
+      0,
+      0.7
+     ],
+     [
+      0.9,
+      0.3
+     ]
+    ],
+    "tail": [
+     [
+      0,
+      2.0
+     ],
+     [
+      4.0,
+      1.0
+     ]
+    ],
+    "blush": [
+     [
+      0,
+      0.3
+     ],
+     [
+      6.8,
+      0.8
+     ]
+    ],
+    "sunglasses": [
+     [
+      0,
+      false
+     ],
+     [
+      6.9,
+      true,
+      "step"
+     ],
+     [
+      10.0,
+      false,
+      "step"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "zzz",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      840
+     ]
+    ],
+    "y": [
+     [
+      0,
+      930
+     ]
+    ],
+    "show": [
+     [
+      0,
+      false
+     ],
+     [
+      10.3,
+      true,
+      "step"
+     ],
+     [
+      12.1,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "zzz"
+  },
+  {
+   "id": "love",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      760
+     ]
+    ],
+    "y": [
+     [
+      0,
+      900
+     ]
+    ],
+    "show": [
+     [
+      0,
+      false
+     ],
+     [
+      10.3,
+      true,
+      "step"
+     ],
+     [
+      12.1,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "hearts"
+  },
+  {
+   "id": "t1",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      250
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "IMPORTANT CALL\nWITH THE CEO"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      92
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FFFFFF"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      1
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      1
+     ],
+     [
+      3.9,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "t2",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      250
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "OH NO."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      150
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF6B6B"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      3.9,
+      0.2
+     ],
+     [
+      4.2,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      3.9,
+      1,
+      "step"
+     ],
+     [
+      4.6,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "t3",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      250
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "YOU ARE NOW\nPRESENTING..."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      96
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FFE14D"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      4.6,
+      0.2
+     ],
+     [
+      4.8999999999999995,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      4.6,
+      1,
+      "step"
+     ],
+     [
+      6.8,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "t4",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      250
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "PROMOTED."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      140
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#7CF0A0"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      -0.08
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      6.8,
+      0.2
+     ],
+     [
+      7.1,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      6.8,
+      1,
+      "step"
+     ],
+     [
+      7.8,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "t5",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      250
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "WAIT. THEIR CATS\nJOINED TOO"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      92
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FFFFFF"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      7.8,
+      0.2
+     ],
+     [
+      8.1,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      7.8,
+      1,
+      "step"
+     ],
+     [
+      10.0,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "t6",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      250
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "MEETING COULD\nHAVE BEEN A NAP"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      90
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#9BE7FF"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      10.0,
+      0.2
+     ],
+     [
+      10.3,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      10.0,
+      1,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  }
+ ],
+ "audio": {
+  "music": [
+   {
+    "mood": "sneaky",
+    "seed": 401,
+    "gain": [
+     [
+      0,
+      1
+     ],
+     [
+      3.85,
+      1
+     ],
+     [
+      3.9,
+      0.3,
+      "step"
+     ],
+     [
+      6.8,
+      1,
+      "step"
+     ]
+    ],
+    "volume": 1.0
+   }
+  ],
+  "sfx": [
+   [
+    0.0,
+    "whoosh",
+    0.8
+   ],
+   [
+    0.9,
+    "thud",
+    0.8
+   ],
+   [
+    0.92,
+    "boing",
+    0.4,
+    {
+     "dur": 0.5
+    }
+   ],
+   [
+    3.9,
+    "ding",
+    0.8
+   ],
+   [
+    4.6,
+    "slide_down",
+    0.6
+   ],
+   [
+    5.0,
+    "meow",
+    1.0,
+    {
+     "rate": 0.9
+    }
+   ],
+   [
+    6.8,
+    "sparkle",
+    0.7
+   ],
+   [
+    7.8,
+    "meow",
+    0.7,
+    {
+     "rate": 1.2
+    }
+   ],
+   [
+    8.1,
+    "meow",
+    0.6,
+    {
+     "rate": 1.4
+    }
+   ],
+   [
+    8.4,
+    "meow",
+    0.6,
+    {
+     "rate": 1.05
+    }
+   ],
+   [
+    10.0,
+    "slide_down",
+    0.5
+   ],
+   [
+    10.2,
+    "purr_long",
+    0.6,
+    {
+     "dur": 1.8
+    }
+   ],
+   [
+    1.0,
+    "tick",
+    0.35
+   ],
+   [
+    1.15,
+    "tick",
+    0.35
+   ],
+   [
+    1.3,
+    "tick",
+    0.35
+   ],
+   [
+    1.45,
+    "tick",
+    0.35
+   ],
+   [
+    1.6,
+    "tick",
+    0.35
+   ],
+   [
+    1.75,
+    "tick",
+    0.35
+   ],
+   [
+    1.9,
+    "tick",
+    0.35
+   ],
+   [
+    2.05,
+    "tick",
+    0.35
+   ],
+   [
+    2.2,
+    "tick",
+    0.35
+   ],
+   [
+    2.3499999999999996,
+    "tick",
+    0.35
+   ],
+   [
+    2.5,
+    "tick",
+    0.35
+   ],
+   [
+    2.65,
+    "tick",
+    0.35
+   ],
+   [
+    2.8,
+    "tick",
+    0.35
+   ],
+   [
+    2.95,
+    "tick",
+    0.35
+   ],
+   [
+    3.1,
+    "tick",
+    0.35
+   ],
+   [
+    3.25,
+    "tick",
+    0.35
+   ],
+   [
+    3.4,
+    "tick",
+    0.35
+   ],
+   [
+    3.55,
+    "tick",
+    0.35
+   ]
+  ]
+ },
+ "situation": "work-from-home video call with the boss: the cat lands on the laptop keyboard, types gibberish into the chat, sits on it and shares his butt to the whole meeting",
+ "twist": "screen close-up: every other tile in the call is now ALSO a cat; the cats run the meeting, he falls asleep on the warm keyboard",
+ "title": "When your cat joins the work call 💻🐈",
+ "description": "Every remote worker has had this coworker. Who else's cat attends meetings? 👇\n\nTiny Chaos: life's little chaos, animated. New video every day.\n\n#shorts #wfh #workfromhome #cat #relatable #funny"
+}

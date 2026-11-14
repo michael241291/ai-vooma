@@ -1,0 +1,23 @@
+{
+ "id": "cat-loaf-bakery",
+ "ver": 1,
+ "title": "FIND THE CAT\nIN THE BAKERY",
+ "item": "loaf",
+ "cols": 6,
+ "rows": 8,
+ "odd": [
+  4,
+  5
+ ],
+ "seconds": 7,
+ "start": 0.0,
+ "duration": 11.0,
+ "seed": 12,
+ "mood": "sneaky",
+ "bg": [
+  "#FFE9C7",
+  "#F7B98B"
+ ],
+ "reveal_text": "THAT'S A CAT",
+ "end_text": "How fast did you find him?"
+}

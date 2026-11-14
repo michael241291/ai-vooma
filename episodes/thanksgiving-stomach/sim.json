@@ -1,0 +1,63 @@
+{
+ "id": "thanksgiving-stomach",
+ "ver": 1,
+ "mode": "grow",
+ "duration": 13.6,
+ "seed": 41,
+ "preroll": 0.8,
+ "title": "MY STOMACH AT\nTHANKSGIVING",
+ "ball_label": "MY\nSTOMACH",
+ "meter": "PLATE",
+ "bg": [
+  "#3B1F0E",
+  "#C8551E"
+ ],
+ "ring_r": 430,
+ "r_start": 130,
+ "r_end": 395,
+ "crack_t": 9.4,
+ "gravity": 1500,
+ "vmin": 1150,
+ "per_plate": 8,
+ "foods": [
+  "TURKEY",
+  "STUFFING",
+  "MAC N CHEESE",
+  "GRAVY",
+  "ROLLS",
+  "YAMS",
+  "CRANBERRY",
+  "GREEN BEANS",
+  "MASHED POTATOES",
+  "CORN",
+  "HAM",
+  "MORE TURKEY"
+ ],
+ "cards": [
+  [
+   9.6,
+   11.0,
+   "I'M SO FULL",
+   1680,
+   110,
+   "#FFFFFF"
+  ],
+  [
+   11.0,
+   12.4,
+   "...IS THAT PIE?",
+   1680,
+   110,
+   "#FFE14D"
+  ],
+  [
+   12.4,
+   14,
+   "THERE'S ALWAYS\nROOM FOR PIE",
+   1660,
+   90,
+   "#FFFFFF"
+  ]
+ ],
+ "pie_t": 11.6
+}

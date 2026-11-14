@@ -108,3 +108,19 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
 - build.py `card()` at t0 = 0 now starts full size (frame 0 used to show a tiny popping title).
 - Pitfall: camera `fx/fy` do NOT pan (they are the zoom pivot that stays put). To move the view use `px`/`py`.
 - Blobs/jets made of overlapping circles: draw all outlines first, then all fills, or they look like a pile of bubbles.
+
+## Batch 4 additions (2026-11-15, Tiny Chaos) — `sims2.py`, `games.py`, `extra4.py`, puzzle `loaf`
+- `python3 engine/sims2.py episodes/<id>/sim.json [--frames ...]`, `mode`:
+  - **plinko**: `bins` [[label, color]], `balls` [[label, bin]], `every`, `preroll`, `last_delay`, `steer` (30), `damp` (7), `bounce`,
+    `slowmo` [a, b, k] video-time window played at speed k, `wah`, `cards` [[t0, t1, msg, y, size, color]], `unit`, `sub`.
+    The sim prints actual vs target counts: check them. Use the printed land time of the last ball to place `slowmo`.
+  - **duel**: `a`/`b` {label, color, r, flip_label, flip_color}, `flip_t` (mid-video reversal), `end_t`, `dmg_a`, `dmg_b`, `b_floor`, `regen`,
+    `hit_a`/`hit_b`/`regen_labels` pop texts. The loser pops when its HP hits 0 (prints end_t; set duration ≈ end_t + 2.6).
+  - **grow**: reuses sims.simulate with a growing radius (`r_start` → `r_end` at `crack_t`), `foods` labels per wall hit, `meter`, `per_plate`,
+    ring cracks then bursts at crack_t, optional `pie_t` (a pie slice drops in and is gulped).
+- `python3 engine/games.py episodes/<id>/game.json`: **shell** cup shuffle (fair). `swaps` slot pairs, `swap_d0`→`swap_d1` speeds up,
+  `ask_t` (1/2/3 badges + countdown), `reveal_t` (cups lift, the right one last), `object` keys. Prints the final slot.
+- `puzzle.py` item **loaf**: bread loaves; the odd one is a same-colour cat loaf (ears, closed eyes, tail) — hard on purpose.
+- `extra4.py` props: **laptop** (origin = front of base; `tiles`, `cats` [tile idx], `butt` tile idx, `chat`, `banner` across the top of
+  the screen) and **picket** (protest sign on a stick, origin = stick bottom; `label`, `size`, `color`, `ink`).
+- Pitfall: `shown((0, x))` makes the actor invisible at frame 0 (first key is False). Use `show=[[0, True], [x, False, 'step']]`.

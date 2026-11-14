@@ -1,0 +1,84 @@
+{
+ "id": "coffee-vs-monday",
+ "ver": 1,
+ "mode": "duel",
+ "duration": 14.3,
+ "seed": 33,
+ "mood": "tense",
+ "title": "MY COFFEE VS MONDAY",
+ "bg": [
+  "#FFE27A",
+  "#FF8A5B"
+ ],
+ "ring_r": 430,
+ "preroll": 0.7,
+ "a": {
+  "label": "COFFEE",
+  "color": "#7B4A2A",
+  "r": 150,
+  "flip_label": "DECAF",
+  "flip_color": "#B9A089"
+ },
+ "b": {
+  "label": "MONDAY",
+  "color": "#4A6FA5",
+  "r": 125
+ },
+ "flip_t": 6.2,
+ "end_t": 13,
+ "dmg_b": 14,
+ "dmg_a": 7,
+ "b_floor": 12,
+ "regen": 8,
+ "hit_b": [
+  "-1 EMAIL",
+  "BOOST!",
+  "-10% SLEEPY",
+  "FOCUS!"
+ ],
+ "hit_a": [
+  "-20%",
+  "YAWN",
+  "-25%"
+ ],
+ "regen_labels": [
+  "+1 MEETING",
+  "+3 EMAILS",
+  "+1 'QUICK CALL'",
+  "+1 BUG"
+ ],
+ "cards": [
+  [
+   0,
+   1.6,
+   "8:00 AM",
+   1720,
+   90,
+   "#FFFFFF"
+  ],
+  [
+   6.2,
+   7.6,
+   "WAIT...",
+   1720,
+   110,
+   "#FFFFFF"
+  ],
+  [
+   7.6,
+   11.66,
+   "IT WAS DECAF",
+   1720,
+   100,
+   "#FF3B5C"
+  ],
+  [
+   11.96,
+   15.3,
+   "MONDAY WINS.\nAGAIN.",
+   1700,
+   110,
+   "#FFFFFF"
+  ]
+ ]
+}
