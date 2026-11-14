@@ -69,3 +69,13 @@
   1) simulasi fisika berlabel relatable ("My salary vs bills", "Me vs Monday", "Brain cells during an exam") — beda dari
      ball-escape generik; 2) puzzle/kuis visual (cari perbedaan, pilih jalur, ilusi) ; 3) skit kartun engine yang ditingkatkan.
   Data 2 minggu menentukan porsi.
+
+## Status & batch log
+- 14 Nov 2026: channel live (@tinychaosland, Buffer 6af7ee0462b70b94b027acfe). Tayang perdana 15 Nov: salary-vs-bills, 16 Nov odd-mug-out, 17 Nov cat-translator.
+- 15 Nov 2026 — **batch 1 (18–24 Nov)**, 7 draf Buffer, rotasi sim/puzzle/skit 3/2/2, 5 eksperimen format baru:
+  18 day-off-plinko (sim plinko, adult life) · 19 cat-loaf-bakery (puzzle cari kucing di antara roti, brain/pets) ·
+  20 cat-work-call (skit WFH, pets+adult) · 21 coffee-vs-monday (sim duel, adult life) · 22 keys-cup-shuffle (puzzle cup shuffle, brain) ·
+  23 turkey-protest (skit Gravy, musiman) · 24 thanksgiving-stomach (sim grow, makanan/musiman).
+  Engine baru: sims2.py (plinko/duel/grow), games.py (cup shuffle), laptop + picket props, item puzzle loaf.
+- Penilaian pertama: run 17–18 Nov (views 48 jam 3 video pertama). Belum ada data saat batch 1 dibuat.
+- Masih belum ada di engine: tokoh manusia penuh dan anjing (pakai tangan/laptop/tile video call dulu).
