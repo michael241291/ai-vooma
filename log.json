@@ -501,7 +501,8 @@
    "experiment": true,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e55f76c23bf1c74528a5"
   },
   {
    "id": "cat-loaf-bakery",
@@ -519,7 +520,8 @@
    "experiment": false,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e560b9a106584c739929"
   },
   {
    "id": "cat-work-call",
@@ -537,7 +539,8 @@
    "experiment": true,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e560b9a106584c739948"
   },
   {
    "id": "coffee-vs-monday",
@@ -555,7 +558,8 @@
    "experiment": true,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e56176c23bf1c745290f"
   },
   {
    "id": "keys-cup-shuffle",
@@ -573,7 +577,8 @@
    "experiment": true,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e562e86a5789a6d72fd2"
   },
   {
    "id": "turkey-protest",
@@ -591,7 +596,8 @@
    "experiment": false,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e562c5b364e0621eb6ca"
   },
   {
    "id": "thanksgiving-stomach",
@@ -609,7 +615,8 @@
    "experiment": true,
    "made": "2026-11-15",
    "status": "buffer draft",
-   "results": null
+   "results": null,
+   "buffer_post_id": "6af8e563918fe79d2eab01ff"
   }
  ]
 }
