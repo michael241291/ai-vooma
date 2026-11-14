@@ -28,7 +28,7 @@
   dan **anjing**. Tambah tokoh baru kalau riset menunjukkan perlu.
 
 ## Identitas
-- Nama: **Tiny Chaos**. Handle usulan: @tinychaostoons (cadangan @tinychaos.toons, @dailytinychaos).
+- Nama: **Tiny Chaos**. Handle (dicek Apify 14 Nov, belum ada channel): @tinychaosanimated (utama), @tinychaosland, @tinychaosville, @tinychaoscorner, @tinychaosworks. @tinychaostoons dkk sudah dipakai.
   Nama cadangan: "Daily Chaos", "Lowkey Toons".
 - Avatar (logo teks) + banner (Nugget + Gravy): `assets/brand-v3/`. Deskripsi: `assets/brand-v3/channel-description.txt`.
 
