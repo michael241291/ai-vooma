@@ -1,9 +1,8 @@
 # Rutinitas otomatis AIVOOMA (sumber utama, selalu diperbarui)
 
-> **STATUS 13 Nov 2026: AIVOOMA DIJEDA (keputusan user).** Jangan menjadwalkan, membuat draf, atau membuat batch untuk
-> channel AIVOOMA (6ae078d92f1f5ed648e86690). Semua antrean AIVOOMA di Buffer sudah dihapus. Konsep pindah ke channel
-> YouTube BARU "Tiny Chaos" (beragam topik, bukan cuma kucing) (lihat `NEW-CHANNEL.md`). Sampai user menyambungkan channel baru ke Buffer dan ID-nya
-> ditulis di sini, setiap run hanya: cek apakah channel baru sudah muncul di Buffer `list_channels`, lalu laporkan. Tidak ada aksi lain.
+> **STATUS 14 Nov 2026: channel aktif = Tiny Chaos (@tinychaosland), Buffer channel id 6af7ee0462b70b94b027acfe.**
+> AIVOOMA (6ae078d92f1f5ed648e86690) dijeda dan sudah dilepas dari Buffer: jangan disentuh. Konsep, pilar dan target
+> channel ada di `NEW-CHANNEL.md` (wajib dibaca tiap run). Nama "AIVOOMA" di bawah ini = channel aktif (Tiny Chaos).
 
 Dokumen ini dibaca setiap kali rutinitas jalan. **Setiap run wajib memperbarui file ini dan `learnings.md`** kalau menemukan
 cara kerja yang lebih baik, kesalahan baru, atau pelajaran dari data. Skill `aivooma-weekly` hanya menunjuk ke sini,
@@ -11,7 +10,9 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 
 ## Keputusan user yang terkunci
 - Channel YouTube AIVOOMA, penonton luar negeri (AS). Bahasa video, judul, deskripsi: Inggris.
-- Karakter utama saat ini: **Nugget**, kucing oranye 2D orisinal. TIDAK terkunci (permintaan user 27 Okt: "jangan terpaku
+- Channel Tiny Chaos = "life's little chaos, animated": 3 jenis video bergiliran (simulasi fisika berlabel relatable,
+  puzzle/kuis visual, skit kartun) + pilar topik di NEW-CHANNEL.md. Semua dibuat 100% oleh Claude (keputusan user 13 Nov).
+- Karakter kartun (Nugget dkk.) TIDAK terkunci (permintaan user 27 Okt: "jangan terpaku
   sama kucing nugget, harus update jika ada yang baru"). Ikuti aturan evolusi README.md no. 11–14: tiap batch minimal
   2 dari 7 video eksperimen baru (format/karakter/gaya/tren baru dari riset terbaru); data yang menentukan porsi.
   Semua desain orisinal, jangan meniru karakter channel lain.
@@ -23,14 +24,14 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Kalau user memberi masukan baru, catat di file ini + learnings.md + dokumen project `claude/aivooma-riset-format.md`.
 
 ## ID penting
-- Buffer org 6acfacf801a85ecc6480964d. Channel YouTube AIVOOMA: 6ae078d92f1f5ed648e86690.
+- Buffer org 6acfacf801a85ecc6480964d. Channel YouTube aktif Tiny Chaos (@tinychaosland): 6af7ee0462b70b94b027acfe.
 - Metadata YouTube per posting: title (≤60 karakter), categoryId "23" (Comedy), privacy public, madeForKids false,
   isAiGenerated false (kartun 2D, bukan realistis), notifySubscribers true. `text` = deskripsi.
 - Repo: michael241291/ai-vooma (publik). Video: https://raw.githubusercontent.com/michael241291/ai-vooma/main/episodes/<id>/<id>-v<ver>.mp4
 - Dokumen project: claude/aivooma-riset-format.md.
 
 ## Batas Buffer (khusus AIVOOMA)
-- Rutinitas ini hanya mengurus channel AIVOOMA (6ae078d92f1f5ed648e86690). Selalu filter `channelIds` ke channel ini;
+- Rutinitas ini hanya mengurus channel AIVOOMA (Tiny Chaos 6af7ee0462b70b94b027acfe). Selalu filter `channelIds` ke channel ini;
   jangan membaca, menghitung, mengubah, atau menghapus posting channel lain di org.
 - AIVOOMA maksimal **3** posting scheduled (3 hari ke depan). Sisanya disimpan sebagai draf. Draf tidak dihitung Buffer.
 - Paket gratis membatasi jumlah posting scheduled per org. Kalau penjadwalan ditolak karena batas, biarkan sebagai draf,
@@ -73,7 +74,7 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Kalau metrik Buffer masih 0 untuk video yang sudah tayang ≥3 hari, minta user screenshot YouTube Studio di laporan (Apify sering kena batas bulanan).
 - Bandingkan eksperimen (log.json `experiment: true`, mis. Gravy si kalkun, format guess_choice) dengan median channel.
 - Buffer `list_posts` channel AIVOOMA dengan includeMetrics (views, likes, comments) untuk video yang sudah tayang.
-- Apify `streamers/youtube-scraper` startUrls https://www.youtube.com/@aivooma/shorts untuk angka terbaru.
+- Apify `streamers/youtube-scraper` startUrls https://www.youtube.com/@tinychaosland/shorts untuk angka terbaru.
 - Isi `results` di log.json. Bandingkan per format, jenis twist, durasi, mood musik. Format dengan median views
   tertinggi dapat porsi lebih besar (tetap ≥3 format per minggu). Tulis pelajaran di learnings.md (paling baru di atas).
 
