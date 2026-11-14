@@ -3,6 +3,11 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-14 — Tiny Chaos launch (@tinychaosland, Buffer 6af7ee0462b70b94b027acfe)
+- First 3 videos scheduled 07:00 WIB: 15 Nov salary-vs-bills (sim_relatable, new engine/sims.py ring_drain), 16 Nov odd-mug-out (puzzle_odd_one, new engine/puzzle.py), 17 Nov cat-translator (skit, made for AIVOOMA batch 3 but never aired).
+- Judge after 48 h each on views + stayed-to-watch: hundreds+ views = old channel was the blocker; 0–4 = content/style problem.
+- sims.py: preroll so frame 0 already has motion; costs scaled so the counter hits 0 exactly at drain_end; no emoji in on-screen text (Luckiest Guy has none); clamp labels inside 300..780 px.
+
 ## 2026-11-13 — validation research for Tiny Chaos (Apify)
 - BlobbyClips (2.89M subs): varied everyday/gaming topics, 5–35M views per Short, 16–33 s, title template "X Be Like!" / "When X!" + doubled emoji. equmi (cat-only, Oct 2024): 58.5k subs, median ~330k per Short. Both prove the format; variety is fine if the promise and title pattern stay consistent.
 - Biggest risk is animation quality, not topic: both winners have expressive acting and smooth motion; our code puppets are stiff. Plan: first 6 videos on the new channel = 3 upgraded engine + 3 Google Flow (Veo) clips, judged on stayed-to-watch at 48 h.
