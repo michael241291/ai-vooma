@@ -78,4 +78,8 @@
   23 turkey-protest (skit Gravy, musiman) · 24 thanksgiving-stomach (sim grow, makanan/musiman).
   Engine baru: sims2.py (plinko/duel/grow), games.py (cup shuffle), laptop + picket props, item puzzle loaf.
 - Penilaian pertama: run 17–18 Nov (views 48 jam 3 video pertama). Belum ada data saat batch 1 dibuat.
+- 16 Nov 2026 (Apify): salary-vs-bills 1.369 views/7 likes (±46 jam, mentok setelah dorongan awal), odd-mug-out 1.186/3 (±10 jam).
+  0 subscriber, 0 komentar. Kesimpulan awal: channel baru dites normal (AIVOOMA cuma 0–4) → hambatan memang channel lama.
+  Masalah berikutnya: lolos dari tes awal ±1,2–1,4 rb ke dorongan kedua. Butuh "stayed to watch" dari YouTube Studio.
+- Jadwal 2 video/hari (07:00 + 19:00 WIB) sejak 15 Nov. Batch 2 paling lambat run 18 Nov (slot 19–22 Nov masih kosong).
 - Masih belum ada di engine: tokoh manusia penuh dan anjing (pakai tangan/laptop/tile video call dulu).
