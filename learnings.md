@@ -3,6 +3,10 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-15 — first Tiny Chaos video works; 2 posts per day
+- salary-vs-bills (sim_relatable): 1,268 views + 8 likes about 4 h after posting (Buffer 04:46 UTC). Same seed-test size AIVOOMA got only twice in 16 tries, on the first upload: the new channel is being tested normally.
+- User asked to start faster: now 2 slots per day, 07:00 and 19:00 WIB (19:00 WIB = morning in the US). Queue: 15 Nov 19:00 odd-mug-out, 16 Nov 07:00 cat-translator, 16 Nov 19:00 day-off-plinko, 17 Nov cat-loaf-bakery / cat-work-call, 18 Nov coffee-vs-monday / keys-cup-shuffle; turkey-protest 23 Nov and thanksgiving-stomach 24 Nov stay date-locked. Batch trigger is now drafts < 4.
+
 ## 2026-11-15 (Sun WIB) — Tiny Chaos batch 1 (18–24 Nov)
 - Nothing had aired yet at run time (first Short, salary-vs-bills, goes out 15 Nov 07:00 WIB), so no channel data: this batch is built on the 13 Nov validation research. Judge the first 3 at the 17–18 Nov runs (views at 48 h; hundreds+ = channel was the blocker).
 - Queue had 3 scheduled + 0 drafts, so the weekly batch ran. 7 drafts made for 18–24 Nov, rotating sim / puzzle / skit (3/2/2) and 5 pillars: adult life 2 (day-off plinko, coffee vs Monday), pets 1 (cat work call), brain 2 (cat-loaf puzzle, keys cup shuffle), seasonal 2 (turkey protest, stomach at Thanksgiving).
