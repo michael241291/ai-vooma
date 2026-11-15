@@ -6,7 +6,7 @@ before planning the next batch. The weekly skill reads this file first.
 ## 2026-11-16 (Mon WIB) — daily run: both first Tiny Chaos videos got the seed test
 - Apify 15 Nov 22:35 UTC: salary-vs-bills 1,369 views / 7 likes at ~46 h (was 1,268 at 4 h, so it plateaued after the first push); odd-mug-out 1,186 views / 3 likes at ~10.5 h. 0 subscribers, 0 comments on both. Buffer metrics for odd-mug-out were stale (0, updated 3 min after posting): trust Apify for fresh numbers.
 - Reading: the new channel is shown to people normally (old AIVOOMA got 0–4); the blocker was the channel. Next problem is the second push: ~1.2–1.4k is the seed-test ceiling, and 0 comments despite comment-bait questions. Judge stayed-to-watch % (needs Studio screenshot from user) before changing format mix.
-- Scheduled cat-loaf-bakery 17 Nov 07:00 WIB. Queue: 16 Nov 07:00 cat-translator, 16 Nov 19:00 day-off-plinko, 17 Nov 07:00 cat-loaf-bakery; 5 drafts (17 Nov 19:00 → 18 Nov 19:00, plus date-locked 23/24 Nov). Gap 19–22 Nov: next batch must be made by the 18 Nov run at the latest (drafts drop below 4 on 17 Nov run).
+- Scheduled cat-loaf-bakery 17 Nov 07:00 WIB. Queue: 16 Nov 07:00 cat-translator, 16 Nov 19:00 day-off-plinko, 17 Nov 07:00 cat-loaf-bakery; 5 drafts (17 Nov 19:00 → 18 Nov 19:00, plus date-locked 23/24 Nov). Gap 19–22 Nov: next batch must be made by the 18 Nov run at the latest (drafts drop below 4 at that run).
 
 ## 2026-11-15 — first Tiny Chaos video works; 2 posts per day
 - salary-vs-bills (sim_relatable): 1,268 views + 8 likes about 4 h after posting (Buffer 04:46 UTC). Same seed-test size AIVOOMA got only twice in 16 tries, on the first upload: the new channel is being tested normally.
