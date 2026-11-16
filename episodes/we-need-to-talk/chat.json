@@ -1,0 +1,182 @@
+{
+ "id": "we-need-to-talk",
+ "ver": 1,
+ "duration": 13.8,
+ "seed": 71,
+ "mood": "playful",
+ "header": "TEXTING \"WE NEED TO TALK\"\nTO DIFFERENT PEOPLE",
+ "footer": "Who replies fastest in your life?",
+ "scenes": [
+  {
+   "contact": "Mom",
+   "tag": "MOM",
+   "color": "#FF5A8A",
+   "t": 0,
+   "bg": [
+    "#FFD86B",
+    "#FF8A5B"
+   ],
+   "msgs": [
+    [
+     -0.6,
+     "me",
+     "we need to talk"
+    ],
+    [
+     -0.15,
+     "call",
+     "Missed call (4)"
+    ],
+    [
+     0.55,
+     "them",
+     "WHO DIED"
+    ],
+    [
+     1.25,
+     "them",
+     "ARE YOU PREGNANT"
+    ],
+    [
+     1.95,
+     "them",
+     "I KNEW IT. IT'S THE CAR"
+    ]
+   ]
+  },
+  {
+   "contact": "Jess",
+   "tag": "BEST FRIEND",
+   "color": "#9B7BEA",
+   "t": 2.7,
+   "bg": [
+    "#B8F2C9",
+    "#38C6A0"
+   ],
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "we need to talk"
+    ],
+    [
+     0.35,
+     "typing",
+     ""
+    ],
+    [
+     0.9,
+     "them",
+     "omw. bringing snacks"
+    ],
+    [
+     1.6,
+     "them",
+     "is this about Kevin"
+    ]
+   ]
+  },
+  {
+   "contact": "Boss",
+   "tag": "BOSS SENDS IT",
+   "color": "#4A6FA5",
+   "t": 5.4,
+   "bg": [
+    "#C9D6F2",
+    "#6C7FB8"
+   ],
+   "msgs": [
+    [
+     0.0,
+     "them",
+     "we need to talk"
+    ],
+    [
+     0.5,
+     "seen",
+     "Seen"
+    ],
+    [
+     0.9,
+     "me",
+     "sorry, no signal, I'm in a tunnel"
+    ],
+    [
+     1.8,
+     "system",
+     "(I work from home)"
+    ]
+   ]
+  },
+  {
+   "contact": "The Group Chat (6)",
+   "tag": "GROUP CHAT",
+   "color": "#FFB21F",
+   "t": 8.1,
+   "bg": [
+    "#FFC6E5",
+    "#FF6FB1"
+   ],
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "we need to talk"
+    ],
+    [
+     0.3,
+     "them",
+     "???"
+    ],
+    [
+     0.6,
+     "them",
+     "is this about the pizza"
+    ],
+    [
+     0.95,
+     "them",
+     "wasn't me"
+    ],
+    [
+     1.3,
+     "them",
+     "it was Dave"
+    ],
+    [
+     1.75,
+     "system",
+     "Dave left the group"
+    ]
+   ]
+  },
+  {
+   "contact": "My Bank",
+   "tag": "MY BANK",
+   "color": "#2E9E5B",
+   "t": 10.8,
+   "bg": [
+    "#2B2B3A",
+    "#0F0F18"
+   ],
+   "tag_color": "#FF5A5F",
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "we need to talk"
+    ],
+    [
+     0.45,
+     "typing",
+     ""
+    ],
+    [
+     1.15,
+     "them",
+     "No."
+    ]
+   ]
+  }
+ ]
+}

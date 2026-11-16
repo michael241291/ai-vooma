@@ -3,6 +3,14 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-17 (Tue WIB) — daily run + Tiny Chaos batch 2 (19–22 Nov)
+- Buffer metrics were NOT refreshed since 16 Nov 04:23 UTC (salary 1,376 / odd-mug 1,240 / cat-translator 730 + 12 likes; day-off-plinko 0, updated 1 min after posting). Nothing new to judge; re-check at the next run. If Buffer stays stale >24 h, note it and judge on the next refresh (no Apify on our own channel).
+- Scheduled cat-work-call 17 Nov 19:00 and coffee-vs-monday 18 Nov 07:00 (3 scheduled). Drafts left: keys 18 Nov 19:00 + date-locked turkey 23 / stomach 24 = 3 < 4 → batch 2 built.
+- Porsi from data so far (like rate: translator skit 1.64% > sim 0.51% > puzzle 0.24%): 2 translator skits as a SERIES (vet-translator, gravy-translator) + chat skit, 2 sims, 1 puzzle, 2 experiments.
+- Research (Apify, BlobbyClips /shorts, 16 Nov): still 4.8–35M per Short. New winners use comparison templates: "FaceTime with Different People!" 10.6M, "Play With vs. Against Your Friend!" 7.3M, "Minecraft Mods Then vs Now!" 13.2M, "When You Lose Your Job!" 9.1M; 19–33 s. → Experiment 1: **chat_different_people** (new engine/chat.py, phone UI, 'we need to talk' sent to Mom / best friend / boss / group chat / bank). Experiment 2: **race_bars** (new engine/race.py, bar-chart race "my screen time on a work day", WORK: 14 minutes). Both are code-native and not ball sims.
+- The @equmi handle in our notes now points to a Dead-by-Daylight clips channel (1–2k views): the cat channel 'equmi' must have another handle. Don't reuse that URL.
+- Production: plinko `fake_target` needs `fake_until` ≈ 260 (switch target ~2.5 peg rows above the bins) or the last ball stays in the fake bin; slow-mo window = [a, a + (land − a)/k]. Hand from the top covers a sitting cat's face: put it ≥300 px to the side and slide the treat to the mouth. Seasonal maths: Thanksgiving 2026 = Thu 26 Nov.
+
 ## 2026-11-16 — first 3 Tiny Chaos results (Buffer, 04:23 UTC)
 | video | type | age | views | likes | like rate |
 |---|---|---|---|---|---|

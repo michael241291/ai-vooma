@@ -72,6 +72,7 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   bisa tampil 0, pakai video_view_count. Akun Windsor youtube lain (Intinya Aje) JANGAN dibaca.
 
 ## Analisis performa (WAJIB tiap run, dari Buffer saja)
+- Cek `metricsUpdatedAt`: kalau metrik belum diperbarui sejak run sebelumnya, tulis "data basi" dan jangan ubah porsi berdasarkan angka lama.
 - Tabel semua video Tiny Chaos yang sudah tayang: umur (jam), views, likes, like rate = likes/views, komentar.
 - Bandingkan per JENIS (sim / puzzle / skit / format baru) memakai median like rate dan views pada umur ≥24 jam.
 - Video "tembus" = > 3.000 views atau masih naik >20% dalam 24 jam setelah 48 jam. Catat apa yang beda (hook detik 0,
@@ -113,7 +114,7 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   Durasi 12–18 detik.
 
 ### 4. Produksi
-- Tiny Chaos: sim → `engine/sims.py` (ring_drain) atau `engine/sims2.py` (plinko/duel/grow); puzzle → `engine/puzzle.py` (grid) atau `engine/games.py` (cup shuffle); skit → `engine/render.py` via make.py. Simpan config di `episodes/<id>/sim.json|puzzle.json|game.json`. Video sim/puzzle selalu punya punchline berlabel relatable, bukan bola generik.
+- Tiny Chaos: sim → `engine/sims.py` (ring_drain) atau `engine/sims2.py` (plinko/duel/grow); bar race → `engine/race.py`; chat "X to different people" → `engine/chat.py`; puzzle → `engine/puzzle.py` (grid) atau `engine/games.py` (cup shuffle); skit → `engine/render.py` via make.py. Simpan config di `episodes/<id>/sim.json|puzzle.json|game.json`. Video sim/puzzle selalu punya punchline berlabel relatable, bukan bola generik.
 - Cara tercepat: tulis `episodes/<id>/make.py` memakai `engine/build.py` (lihat contoh batch 2, mis. episodes/hide-gravy/make.py),
   jalankan untuk menghasilkan episode.json. Bisa juga menulis episode.json langsung (spesifikasi di engine/README.md). Boleh menambah prop/efek/latar baru di engine
   kalau cerita butuh, lalu catat di engine/README.md.

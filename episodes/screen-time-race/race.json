@@ -1,0 +1,166 @@
+{
+ "id": "screen-time-race",
+ "ver": 1,
+ "duration": 14.0,
+ "seed": 88,
+ "mood": "playful",
+ "title": "MY SCREEN TIME\nON A WORK DAY",
+ "bg": [
+  "#0F1B3D",
+  "#3B1260"
+ ],
+ "clock": {
+  "t0_min": 540,
+  "t1_min": 1020,
+  "end_t": 10.0
+ },
+ "bars": [
+  {
+   "label": "WORK",
+   "color": "#3DDC84",
+   "keys": [
+    [
+     0,
+     6
+    ],
+    [
+     1.2,
+     14
+    ],
+    [
+     10,
+     14
+    ]
+   ]
+  },
+  {
+   "label": "EMAIL",
+   "color": "#38A3FF",
+   "keys": [
+    [
+     0,
+     3
+    ],
+    [
+     2.5,
+     35
+    ],
+    [
+     10,
+     48
+    ]
+   ]
+  },
+  {
+   "label": "TIKTOK",
+   "color": "#FF4FD8",
+   "keys": [
+    [
+     0,
+     0
+    ],
+    [
+     1.5,
+     8
+    ],
+    [
+     5,
+     95
+    ],
+    [
+     10,
+     162
+    ]
+   ]
+  },
+  {
+   "label": "ONE YOUTUBE VIDEO",
+   "color": "#FF5A5F",
+   "keys": [
+    [
+     0,
+     0
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     7,
+     118
+    ],
+    [
+     10,
+     131
+    ]
+   ]
+  },
+  {
+   "label": "AMAZON CART",
+   "color": "#FFB21F",
+   "keys": [
+    [
+     0,
+     0
+    ],
+    [
+     5.5,
+     6
+    ],
+    [
+     9,
+     74
+    ],
+    [
+     10,
+     80
+    ]
+   ]
+  },
+  {
+   "label": "'BE RIGHT BACK'",
+   "color": "#9B7BEA",
+   "keys": [
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     30
+    ],
+    [
+     8,
+     41
+    ],
+    [
+     10,
+     57
+    ]
+   ]
+  }
+ ],
+ "focus": {
+  "label": "WORK",
+  "t": 10.3
+ },
+ "cards": [
+  [
+   10.3,
+   12.3,
+   "WORK: 14 MINUTES",
+   1660,
+   96,
+   "#FFE14D"
+  ],
+  [
+   12.3,
+   15,
+   "PRODUCTIVE DAY!",
+   1660,
+   110,
+   "#FFFFFF"
+  ]
+ ],
+ "footer": "Be honest. What's your #1?"
+}

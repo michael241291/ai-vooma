@@ -246,10 +246,18 @@
     },
     {
      "idea": "Vet visit: translator only outputs BETRAYAL in increasingly large fonts",
-     "used": null
+     "used": "vet-translator"
     },
     {
      "idea": "Gravy translator: every gobble = a Thanksgiving escape plan",
+     "used": "gravy-translator"
+    },
+    {
+     "idea": "Dog translator (needs dog in engine): every bark at the mailman = 'I SAVED US AGAIN'",
+     "used": null
+    },
+    {
+     "idea": "Baby/roommate-free: Roomba translator: 'I HAVE SEEN THINGS UNDER THAT COUCH'",
      "used": null
     }
    ]
@@ -309,6 +317,18 @@
     {
      "idea": "Plinko: what my group chat talks about (bins: plans / memes / 'who's coming?' / actual plans 0)",
      "used": null
+    },
+    {
+     "idea": "Plinko: my Black Friday budget (gifts $0)",
+     "used": "black-friday-budget"
+    },
+    {
+     "idea": "Ring drain: my social battery at a party (Irish exit)",
+     "used": "social-battery"
+    },
+    {
+     "idea": "Ring drain: my phone battery on a day out (charger in the other room)",
+     "used": null
     }
    ]
   },
@@ -334,6 +354,10 @@
     {
      "idea": "Find the odd donut (one sprinkle missing)",
      "used": null
+    },
+    {
+     "idea": "Find the sock with no partner (3 stripes)",
+     "used": "lost-sock"
     }
    ]
   },
@@ -354,6 +378,48 @@
     },
     {
      "idea": "Black Friday: cat guards the delivery box like treasure",
+     "used": null
+    }
+   ]
+  },
+  "chat_different_people": {
+   "what": "NEW (batch 5): engine/chat.py big phone UI, same text sent to 4-5 contacts, each replies in character, last contact = punchline. Inspired by BlobbyClips 'FaceTime with Different People!' (10.6M) / 'X with different people' pattern.",
+   "ideas": [
+    {
+     "idea": "Texting 'we need to talk' to different people (bank: 'No.')",
+     "used": "we-need-to-talk"
+    },
+    {
+     "idea": "Texting 'I'm outside' to different people (Uber driver, Mom, DoorDash, the date)",
+     "used": null
+    },
+    {
+     "idea": "Texting 'Happy Thanksgiving' to different people (ex replies with a photo of their turkey)",
+     "used": null
+    },
+    {
+     "idea": "Saying 'I'm on my way' to different people (still in bed)",
+     "used": null
+    }
+   ]
+  },
+  "race_bars": {
+   "what": "NEW (batch 5): engine/race.py bar-chart race of relatable 'data' with a clock; ranks swap; a focus bar flashes at the end for the punchline.",
+   "ideas": [
+    {
+     "idea": "My screen time on a work day (WORK: 14 minutes)",
+     "used": "screen-time-race"
+    },
+    {
+     "idea": "Where my paycheck goes, Jan-Dec (savings stays at $0)",
+     "used": null
+    },
+    {
+     "idea": "Things I think about in the shower (one embarrassing moment from 2014 wins)",
+     "used": null
+    },
+    {
+     "idea": "What I actually do at the gym (phone wins, then 'leg day' 0 min)",
      "used": null
     }
    ]

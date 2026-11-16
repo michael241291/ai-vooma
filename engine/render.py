@@ -29,6 +29,7 @@ import sound  # noqa: E402
 import extra  # noqa: E402,F401  (registers batch-2 backgrounds/props/fx)
 import extra3  # noqa: E402,F401  (batch 3: dining bg, panels helpers, new props/fx)
 import extra4  # noqa: E402,F401  (batch 4: laptop video call, picket sign)
+import extra5  # noqa: E402,F401  (batch 5: pet carrier, suitcase)
 
 
 SELF_ALPHA = {'caption', 'text', 'hearts', 'sweat', 'zzz', 'burst', 'speed', 'dust', 'sparkle', 'waves', 'flash', 'sunburst', 'hand', 'leaves'}

@@ -1,0 +1,4 @@
+{"id": "lost-sock", "ver": 1, "title": "ONE SOCK HAS\nNO PARTNER", "item": "sock", "cols": 6, "rows": 8,
+ "odd": [1, 6], "seconds": 7, "start": 0.0, "duration": 11.0, "seed": 77, "mood": "playful",
+ "reveal_text": "FOUND HIM!", "end_text": "Where do the other ones go?",
+ "bg": ["#D8F3FF", "#B9C7FF"]}

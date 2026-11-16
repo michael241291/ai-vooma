@@ -71,7 +71,22 @@ def loaf(ctx, s, odd, wob):
     ctx.restore()
 
 
-ITEMS = dict(mug=mug, donut=donut, loaf=loaf)
+def sock(ctx, s, odd, wob):
+    """Striped sock pair member; the odd one has 3 stripes instead of 2 (the sock with no partner)."""
+    ctx.save(); ctx.scale(s, s); ctx.rotate(wob - 0.15)
+    ctx.move_to(-14, -44); ctx.line_to(14, -44); ctx.line_to(14, 10); ctx.curve_to(14, 18, 22, 22, 34, 24)
+    ctx.curve_to(48, 26, 48, 44, 34, 44); ctx.line_to(-6, 44); ctx.curve_to(-18, 44, -16, 30, -14, 22); ctx.close_path()
+    fill_stroke(ctx, hexc('#F5F1E8'), 6)
+    ctx.save(); ctx.move_to(-14, -44); ctx.line_to(14, -44); ctx.line_to(14, 10); ctx.line_to(-14, 10); ctx.close_path(); ctx.clip()
+    ys = (-34, -22, -10) if odd else (-34, -22)
+    for y in ys:
+        ctx.rectangle(-16, y, 32, 7); ctx.set_source_rgba(*hexc('#FF5A5F')); ctx.fill()
+    ctx.restore()
+    ctx.arc(34, 34, 9, 0, 2 * math.pi); ctx.set_source_rgba(*hexc('#38E1FF')); ctx.fill()  # toe patch
+    ctx.restore()
+
+
+ITEMS = dict(mug=mug, donut=donut, loaf=loaf, sock=sock)
 
 
 def make_audio(cfg, dst):

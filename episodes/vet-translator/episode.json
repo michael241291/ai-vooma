@@ -1,0 +1,1462 @@
+{
+ "id": "vet-translator",
+ "ver": 1,
+ "duration": 11.4,
+ "format": "skit_translator",
+ "scene": {
+  "name": "living_b",
+  "tracks": {
+   "wall": [
+    [
+     0,
+     "#F2D9C9"
+    ]
+   ]
+  }
+ },
+ "camera": {
+  "zoom": [
+   [
+    0,
+    1.45
+   ],
+   [
+    1.8,
+    1.45
+   ],
+   [
+    2.1,
+    1.25,
+    "out"
+   ],
+   [
+    5.25,
+    1.3
+   ],
+   [
+    5.3,
+    1.5,
+    "step"
+   ],
+   [
+    6.85,
+    1.55
+   ],
+   [
+    6.9,
+    1.8,
+    "step"
+   ],
+   [
+    8.6,
+    1.85
+   ],
+   [
+    8.7,
+    1.4,
+    "step"
+   ],
+   [
+    10.15,
+    1.42
+   ],
+   [
+    10.2,
+    1.45,
+    "step"
+   ]
+  ],
+  "fx": [
+   [
+    0,
+    500
+   ],
+   [
+    5.3,
+    700,
+    "step"
+   ],
+   [
+    8.7,
+    500,
+    "step"
+   ]
+  ],
+  "fy": [
+   [
+    0,
+    1000
+   ],
+   [
+    1.8,
+    1000
+   ],
+   [
+    2.1,
+    1150,
+    "out"
+   ],
+   [
+    5.25,
+    1150
+   ],
+   [
+    5.3,
+    1130,
+    "step"
+   ],
+   [
+    8.6,
+    1130
+   ],
+   [
+    8.7,
+    1050,
+    "step"
+   ]
+  ],
+  "shake": [
+   [
+    0,
+    10
+   ],
+   [
+    1.6,
+    10
+   ],
+   [
+    1.7,
+    0,
+    "step"
+   ],
+   [
+    5.3,
+    6,
+    "step"
+   ],
+   [
+    6.9,
+    16,
+    "step"
+   ],
+   [
+    8.6,
+    16
+   ],
+   [
+    8.7,
+    0,
+    "step"
+   ],
+   [
+    10.2,
+    10,
+    "step"
+   ]
+  ]
+ },
+ "actors": [
+  {
+   "id": "carrier",
+   "kind": "prop",
+   "tracks": {
+    "x": [
+     [
+      0,
+      720
+     ],
+     [
+      5.3,
+      640,
+      "step"
+     ],
+     [
+      8.7,
+      720,
+      "step"
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1360
+     ]
+    ],
+    "scale": [
+     [
+      0,
+      0.85
+     ],
+     [
+      5.3,
+      1.1,
+      "step"
+     ],
+     [
+      8.7,
+      0.85,
+      "step"
+     ]
+    ],
+    "label": [
+     [
+      0,
+      "VET"
+     ]
+    ],
+    "rattle": [
+     [
+      0,
+      0
+     ],
+     [
+      5.3,
+      1.0,
+      "step"
+     ],
+     [
+      6.9,
+      2.2,
+      "step"
+     ],
+     [
+      8.7,
+      0,
+      "step"
+     ]
+    ],
+    "door": [
+     [
+      0,
+      0
+     ]
+    ],
+    "eyes": [
+     [
+      0,
+      false
+     ],
+     [
+      5.3,
+      true,
+      "step"
+     ],
+     [
+      8.7,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "carrier"
+  },
+  {
+   "id": "nug",
+   "kind": "nugget",
+   "tracks": {
+    "x": [
+     [
+      0,
+      360
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1264
+     ]
+    ],
+    "scale": [
+     [
+      0,
+      0.95
+     ]
+    ],
+    "flip": [
+     [
+      0,
+      1
+     ]
+    ],
+    "show": [
+     [
+      0,
+      true
+     ],
+     [
+      5.3,
+      false,
+      "step"
+     ],
+     [
+      8.7,
+      true,
+      "step"
+     ]
+    ],
+    "eye": [
+     [
+      0,
+      "squeeze"
+     ],
+     [
+      1.9,
+      "big"
+     ],
+     [
+      3.5,
+      "happy"
+     ],
+     [
+      8.7,
+      "normal"
+     ],
+     [
+      10.2,
+      "squeeze"
+     ]
+    ],
+    "look": [
+     [
+      0,
+      [
+       0.6,
+       0
+      ]
+     ],
+     [
+      1.9,
+      [
+       0.4,
+       0.7
+      ]
+     ],
+     [
+      3.5,
+      [
+       0,
+       0
+      ]
+     ],
+     [
+      8.7,
+      [
+       0.8,
+       0
+      ]
+     ]
+    ],
+    "lid": [
+     [
+      0,
+      0
+     ],
+     [
+      8.7,
+      0.45,
+      "step"
+     ],
+     [
+      10.2,
+      0,
+      "step"
+     ]
+    ],
+    "mouth": [
+     [
+      0,
+      "scream"
+     ],
+     [
+      1.9,
+      "o"
+     ],
+     [
+      2.6,
+      "chew"
+     ],
+     [
+      3.5,
+      "smile"
+     ],
+     [
+      8.7,
+      "line"
+     ],
+     [
+      10.2,
+      "scream"
+     ]
+    ],
+    "mk": [
+     [
+      0,
+      1.0
+     ],
+     [
+      1.9,
+      0.5
+     ],
+     [
+      10.2,
+      1.0,
+      "step"
+     ]
+    ],
+    "puff": [
+     [
+      0,
+      0.8
+     ],
+     [
+      1.9,
+      0.0
+     ],
+     [
+      8.7,
+      0.5,
+      "step"
+     ],
+     [
+      10.2,
+      0.8
+     ]
+    ],
+    "ear": [
+     [
+      0,
+      1.0
+     ],
+     [
+      1.9,
+      -0.2
+     ],
+     [
+      3.5,
+      0.3
+     ],
+     [
+      8.7,
+      0.8,
+      "step"
+     ]
+    ],
+    "blush": [
+     [
+      0,
+      0.3
+     ],
+     [
+      3.5,
+      0.9
+     ],
+     [
+      5.3,
+      0.3
+     ]
+    ],
+    "headtilt": [
+     [
+      0,
+      0
+     ],
+     [
+      1.9,
+      0.25
+     ],
+     [
+      3.5,
+      0
+     ]
+    ],
+    "tail": [
+     [
+      0,
+      3.0
+     ],
+     [
+      1.9,
+      1.0
+     ],
+     [
+      3.5,
+      0.3
+     ],
+     [
+      8.7,
+      2.5
+     ]
+    ]
+   }
+  },
+  {
+   "id": "hand",
+   "kind": "fx",
+   "tracks": {
+    "rot": [
+     [
+      0,
+      3.14159
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "palm"
+     ]
+    ],
+    "x": [
+     [
+      0,
+      740
+     ]
+    ],
+    "y": [
+     [
+      0,
+      -900
+     ],
+     [
+      1.9,
+      -900
+     ],
+     [
+      2.2,
+      930,
+      "out"
+     ],
+     [
+      3.1,
+      930
+     ],
+     [
+      3.4,
+      -900,
+      "in"
+     ]
+    ]
+   },
+   "type": "ownerhand"
+  },
+  {
+   "id": "treat",
+   "kind": "prop",
+   "tracks": {
+    "x": [
+     [
+      0,
+      700
+     ],
+     [
+      2.6,
+      700
+     ],
+     [
+      2.9,
+      430,
+      "in"
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1190
+     ],
+     [
+      2.6,
+      1190
+     ],
+     [
+      2.9,
+      1000,
+      "in"
+     ]
+    ],
+    "scale": [
+     [
+      0,
+      1.4
+     ]
+    ],
+    "show": [
+     [
+      0,
+      false
+     ],
+     [
+      2.15,
+      true,
+      "step"
+     ],
+     [
+      2.95,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "treat"
+  },
+  {
+   "id": "love",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      400
+     ]
+    ],
+    "y": [
+     [
+      0,
+      760
+     ]
+    ],
+    "show": [
+     [
+      0,
+      false
+     ],
+     [
+      3.5,
+      true,
+      "step"
+     ],
+     [
+      5.25,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "hearts"
+  },
+  {
+   "id": "bang",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      640
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1150
+     ]
+    ],
+    "r": [
+     [
+      0,
+      320
+     ]
+    ],
+    "show": [
+     [
+      0,
+      false
+     ],
+     [
+      6.9,
+      true,
+      "step"
+     ],
+     [
+      7.4,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "burst"
+  },
+  {
+   "id": "badge",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      200
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "CAT TRANSLATOR: ON"
+     ]
+    ],
+    "color": [
+     [
+      0,
+      "#E2463F"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      50
+     ]
+    ],
+    "w": [
+     [
+      0,
+      640
+     ]
+    ]
+   },
+   "type": "tag",
+   "screen": true
+  },
+  {
+   "id": "late",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      330
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "20 MINUTES LATER"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      60
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#9BE7FF"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      8.7,
+      0.2
+     ],
+     [
+      9.0,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      8.7,
+      1,
+      "step"
+     ],
+     [
+      10.2,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "bt1",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      620
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "BETRAYAL"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      150
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF5A5F"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      -0.05
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      5.5,
+      0.2
+     ],
+     [
+      5.8,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      5.5,
+      1,
+      "step"
+     ],
+     [
+      6.9,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "bt2",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      640
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "BETRAYAL!!"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      210
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E2E"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      1
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.05
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      6.9,
+      0.2
+     ],
+     [
+      7.2,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      6.9,
+      1,
+      "step"
+     ],
+     [
+      8.7,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "cap0",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "*HISSSSS*"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "I KNOW WHAT\nTHAT BOX MEANS."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      54
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      1
+     ],
+     [
+      1.9,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  },
+  {
+   "id": "cap1",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "mrrp?"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "IS THAT... A TREAT?"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      62
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      1.9,
+      1,
+      "step"
+     ],
+     [
+      3.5,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  },
+  {
+   "id": "cap2",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "*crunch* purrr"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "I FORGIVE YOU.\nYOU MAY LIVE."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      54
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      3.5,
+      1,
+      "step"
+     ],
+     [
+      5.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  },
+  {
+   "id": "cap3",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "MEOOOOW"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "BETRAYAL."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      62
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      5.3,
+      1,
+      "step"
+     ],
+     [
+      6.9,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  },
+  {
+   "id": "cap4",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "MEOOOOOOOOOW"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "BETRAYAL!!!!"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      62
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      6.9,
+      1,
+      "step"
+     ],
+     [
+      8.7,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  },
+  {
+   "id": "cap5",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "*stare*"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "I WILL REMEMBER THIS.\nUNTIL DINNER."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      54
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      8.7,
+      1,
+      "step"
+     ],
+     [
+      10.2,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  },
+  {
+   "id": "cap6",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1540
+     ]
+    ],
+    "top": [
+     [
+      0,
+      "*HISSSSS*"
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "I KNOW WHAT\nTHAT BOX MEANS."
+     ]
+    ],
+    "size": [
+     [
+      0,
+      54
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      10.2,
+      1,
+      "step"
+     ]
+    ]
+   },
+   "type": "caption",
+   "screen": true
+  }
+ ],
+ "audio": {
+  "music": [
+   {
+    "mood": "sneaky",
+    "seed": 612,
+    "gain": [
+     [
+      0,
+      0.7
+     ],
+     [
+      5.25,
+      0.7
+     ],
+     [
+      5.3,
+      0.3,
+      "step"
+     ],
+     [
+      8.7,
+      0.6,
+      "step"
+     ]
+    ],
+    "volume": 1.0
+   },
+   {
+    "mood": "tense",
+    "seed": 613,
+    "gain": [
+     [
+      0,
+      0
+     ],
+     [
+      5.3,
+      0.9,
+      "step"
+     ],
+     [
+      8.7,
+      0,
+      "step"
+     ]
+    ],
+    "volume": 1.0
+   }
+  ],
+  "sfx": [
+   [
+    0.02,
+    "scared",
+    0.8,
+    {
+     "start": 0.3,
+     "dur": 1.2
+    }
+   ],
+   [
+    1.9,
+    "rustle",
+    0.8,
+    {
+     "dur": 0.6
+    }
+   ],
+   [
+    2.6,
+    "crunch",
+    0.8
+   ],
+   [
+    3.5,
+    "purr",
+    0.9,
+    {
+     "loop": true,
+     "dur": 1.7
+    }
+   ],
+   [
+    5.3,
+    "whoosh",
+    0.8
+   ],
+   [
+    5.35,
+    "yowl",
+    0.8
+   ],
+   [
+    6.9,
+    "yowl",
+    1.0,
+    {
+     "rate": 0.85
+    }
+   ],
+   [
+    6.95,
+    "thud",
+    0.9
+   ],
+   [
+    7.6,
+    "scratch",
+    0.6
+   ],
+   [
+    8.7,
+    "pop",
+    0.4
+   ],
+   [
+    10.2,
+    "scared",
+    0.8,
+    {
+     "start": 0.3,
+     "dur": 1.1
+    }
+   ]
+  ]
+ },
+ "situation": "CAT TRANSLATOR part 2: the owner brings out the pet carrier with a VET sticker; the cat hisses 'I KNOW WHAT THAT BOX MEANS', gets bribed with a treat ('I FORGIVE YOU')",
+ "twist": "cut: he is inside the rattling carrier, translator only outputs BETRAYAL in bigger and bigger letters; ends 'I WILL REMEMBER THIS UNTIL DINNER' and loops",
+ "title": "Cat translator: vet day edition 😾🩺",
+ "description": "He forgave me 4 minutes later. Does your cat hold grudges? 👇\n\nTiny Chaos: life's little chaos, animated. New video every day.\n\n#shorts #cat #cattranslator #vet #catlife #funny",
+ "experiment": false
+}

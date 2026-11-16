@@ -1,0 +1,10 @@
+{"id": "social-battery", "ver": 1, "seed": 64, "duration": 14.0, "drain_end": 11.4,
+ "title": "MY SOCIAL BATTERY\nAT A PARTY", "start_value": 100, "fmt": "{:,}%", "cost_prefix": "-",
+ "ball_label": "SOCIAL\nBATTERY", "ball_small": "%", "ball_color": "#FFB21F", "gate_label": "THE DOOR",
+ "day_word": "MINUTE", "days": 49,
+ "end_text": "IRISH EXIT.", "footer": "How many minutes do you last?",
+ "bg": ["#0E1A3A", "#2B0F45"], "ring_cols": ["#FFB21F", "#FF5A5F", "#38E1FF", "#3DDC84"],
+ "ring_r": 470, "ball_r0": 140, "ball_r1": 18, "preroll": 0.35, "p0": [640, 960], "v0": [-1100, -450], "vmin": 1250,
+ "costs": [["HELLO EVERYONE", 6], ["SMALL TALK", 9], ["'SO WHAT DO\nYOU DO?'", 8], ["NAME I FORGOT", 7], ["GROUP PHOTO", 6],
+           ["SOMEONE'S\nCRYPTO STORY", 12], ["HUGS", 5], ["MUSIC TOO LOUD", 6], ["'ONE MORE DRINK!'", 7], ["SPEECH", 9],
+           ["KARAOKE", 11], ["'YOU'RE SO QUIET'", 10], ["GOODBYES x14", 4]]}

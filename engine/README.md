@@ -124,3 +124,15 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
 - `extra4.py` props: **laptop** (origin = front of base; `tiles`, `cats` [tile idx], `butt` tile idx, `chat`, `banner` across the top of
   the screen) and **picket** (protest sign on a stick, origin = stick bottom; `label`, `size`, `color`, `ink`).
 - Pitfall: `shown((0, x))` makes the actor invisible at frame 0 (first key is False). Use `show=[[0, True], [x, False, 'step']]`.
+
+## Batch 5 additions (2026-11-17, Tiny Chaos) — `chat.py`, `race.py`, `extra5.py`, puzzle `sock`
+- `python3 engine/chat.py episodes/<id>/chat.json [--frames ...]`: big phone chat UI. `header`, `footer`, `scenes` [{contact, tag (big text
+  above the phone), color (avatar), t (start), bg [a,b], tag_color, msgs [[t_rel, kind, text]]}]. kinds: me | them | typing | call
+  (red missed-call row) | seen | system (grey centred line). Negative t_rel = already on screen at the scene start (use it for frame 0).
+  Scenes swipe in from the right. Bubble font Inter (bold), falls back to cairo sans if missing. `font`/`font_small` override bubble size (60/52).
+- `python3 engine/race.py episodes/<id>/race.json`: bar-chart race. `bars` [{label, color, keys [[t, minutes]]}], `clock` {t0_min, t1_min, end_t},
+  `focus` {label, t} (that bar glows + music ducks + slide-down sfx), `cards`, `footer` (hidden after focus), `unit_fmt` 'hm' or a format string,
+  layout `top`/`gap`/`bar_h`. Rank swaps pop. `race.encode()` is a shared ffmpeg helper (chat.py uses it).
+- `extra5.py` props: **carrier** (pet carrier, origin floor centre, `label` sticker, `rattle`, `door`, `eyes` glowing inside) and
+  **suitcase** (origin floor centre, `label`, `size`, `color`, `stuffed` 0..1 bulges + a sock pokes out).
+- `puzzle.py` item **sock**: striped sock; the odd one has 3 stripes instead of 2.

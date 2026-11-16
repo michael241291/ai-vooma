@@ -83,3 +83,7 @@
   Masalah berikutnya: lolos dari tes awal ±1,2–1,4 rb ke dorongan kedua. Butuh "stayed to watch" dari YouTube Studio.
 - Jadwal 2 video/hari (07:00 + 19:00 WIB) sejak 15 Nov. Batch 2 paling lambat run 18 Nov (slot 19–22 Nov masih kosong).
 - Masih belum ada di engine: tokoh manusia penuh dan anjing (pakai tangan/laptop/tile video call dulu).
+- 17 Nov 2026 — **batch 2 (19–22 Nov)**, 7 draf: 19 07 black-friday-budget (sim plinko) · 19 19 vet-translator (skit, seri translator) ·
+  20 07 we-need-to-talk (EKSPERIMEN chat "X to different people", engine/chat.py) · 20 19 lost-sock (puzzle) · 21 07 gravy-translator (skit, seri) ·
+  21 19 social-battery (sim drain) · 22 07 screen-time-race (EKSPERIMEN bar race, engine/race.py). Porsi mengikuti like rate awal: skit/translator > sim > puzzle.
+  Slot 22 Nov 19:00, 23 Nov 19:00, 24 Nov 19:00 masih kosong → batch 3 paling lambat run 20–21 Nov.
