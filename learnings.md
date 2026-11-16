@@ -3,6 +3,9 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-16 — user rule: own channel data only via Buffer
+- Never scrape @tinychaosland with Apify; use Buffer list_posts includeMetrics. Apify is only for researching other channels and trends.
+
 ## 2026-11-16 (Mon WIB) — daily run: both first Tiny Chaos videos got the seed test
 - Apify 15 Nov 22:35 UTC: salary-vs-bills 1,369 views / 7 likes at ~46 h (was 1,268 at 4 h, so it plateaued after the first push); odd-mug-out 1,186 views / 3 likes at ~10.5 h. 0 subscribers, 0 comments on both. Buffer metrics for odd-mug-out were stale (0, updated 3 min after posting): trust Apify for fresh numbers.
 - Reading: the new channel is shown to people normally (old AIVOOMA got 0–4); the blocker was the channel. Next problem is the second push: ~1.2–1.4k is the seed-test ceiling, and 0 comments despite comment-bait questions. Judge stayed-to-watch % (needs Studio screenshot from user) before changing format mix.

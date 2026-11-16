@@ -9,6 +9,8 @@
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.
 
+> **16 Nov 2026 (keputusan user): cek data channel sendiri hanya lewat Buffer, jangan lewat Apify.** Apify khusus riset channel lain/tren.
+
 Dokumen ini dibaca setiap kali rutinitas jalan. **Setiap run wajib memperbarui file ini dan `learnings.md`** kalau menemukan
 cara kerja yang lebih baik, kesalahan baru, atau pelajaran dari data. Skill `aivooma-weekly` hanya menunjuk ke sini,
 jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
@@ -76,10 +78,10 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
 - Pasang pycairo/numpy/pillow + font Luckiest Guy sesuai engine/README.md.
 
 ### 1. Evaluasi
-- Kalau metrik Buffer masih 0 untuk video yang sudah tayang ≥3 hari, minta user screenshot YouTube Studio di laporan (Apify sering kena batas bulanan).
+- Kalau metrik Buffer masih 0 untuk video yang sudah tayang ≥3 hari, minta user screenshot YouTube Studio di laporan .
 - Bandingkan eksperimen (log.json `experiment: true`, mis. Gravy si kalkun, format guess_choice) dengan median channel.
 - Buffer `list_posts` channel AIVOOMA dengan includeMetrics (views, likes, comments) untuk video yang sudah tayang.
-- Apify `streamers/youtube-scraper` startUrls https://www.youtube.com/@tinychaosland/shorts untuk angka terbaru.
+- **Data channel sendiri HANYA dari Buffer** (`list_posts` channelIds=[Tiny Chaos], includeMetrics). JANGAN scrape channel sendiri lewat Apify (keputusan user 16 Nov). Apify hanya untuk riset channel/tren orang lain.
 - Isi `results` di log.json. Bandingkan per format, jenis twist, durasi, mood musik. Format dengan median views
   tertinggi dapat porsi lebih besar (tetap ≥3 format per minggu). Tulis pelajaran di learnings.md (paling baru di atas).
 
