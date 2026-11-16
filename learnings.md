@@ -3,6 +3,16 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-16 — first 3 Tiny Chaos results (Buffer, 04:23 UTC)
+| video | type | age | views | likes | like rate |
+|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~28 h | 1,376 | 7 | 0.51% |
+| odd-mug-out | puzzle | ~16 h | 1,240 | 3 | 0.24% |
+| cat-translator | skit (subtitle "translator") | ~4 h | 730 | 12 | 1.64% |
+- All three got a normal seed test (~1.2–1.4k); none has broken out yet (salary flat: +108 in 24 h).
+- cat-translator has 3x the like rate of the sim and 7x the puzzle while still early: emotional, relatable punchline + readable subtitles beats pure visuals. Next batch: 3 skits with the translator/subtitle device (as a series), 2 sims, 1 puzzle, 1 experiment. Puzzle stays at most 1 per batch until a puzzle beats 0.5%.
+- n=3, different ages: re-check at 48 h before locking in.
+
 ## 2026-11-16 — user rule: own channel data only via Buffer
 - Never scrape @tinychaosland with Apify; use Buffer list_posts includeMetrics. Apify is only for researching other channels and trends.
 

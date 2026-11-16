@@ -71,6 +71,15 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
   engaged_views, average_view_percentage, likes, shares, traffic_source. Analytics Windsor telat ±2 hari: video umur <48 jam
   bisa tampil 0, pakai video_view_count. Akun Windsor youtube lain (Intinya Aje) JANGAN dibaca.
 
+## Analisis performa (WAJIB tiap run, dari Buffer saja)
+- Tabel semua video Tiny Chaos yang sudah tayang: umur (jam), views, likes, like rate = likes/views, komentar.
+- Bandingkan per JENIS (sim / puzzle / skit / format baru) memakai median like rate dan views pada umur ≥24 jam.
+- Video "tembus" = > 3.000 views atau masih naik >20% dalam 24 jam setelah 48 jam. Catat apa yang beda (hook detik 0,
+  topik, judul, durasi) di learnings.md.
+- Porsi batch berikutnya mengikuti data: jenis dengan like rate tertinggi dapat 3 dari 7 slot, terendah maksimal 1,
+  sisanya eksperimen. Video yang tembus dibuat lanjutannya sebagai SERI ("part 2"), bukan diulang mentah.
+- Laporan harian ke user (Bahasa Indonesia, sekali) berisi tabel singkat + 1 kesimpulan + apa yang diubah.
+
 ## BAGIAN 2 — Mingguan (batch 7 video)
 ### Persiapan
 - add_repo michael241291/ai-vooma (access push), clone ke /home/claude/ai-vooma. Baca README.md, engine/README.md,
