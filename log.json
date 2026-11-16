@@ -668,7 +668,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-19 07:00 WIB"
+   "planned_publish": "2026-11-19 07:00 WIB",
+   "buffer_post_id": "6afb8819797935b975c5a436"
   },
   {
    "id": "vet-translator",
@@ -687,7 +688,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-19 19:00 WIB"
+   "planned_publish": "2026-11-19 19:00 WIB",
+   "buffer_post_id": "6afb8819797935b975c5a464"
   },
   {
    "id": "we-need-to-talk",
@@ -706,7 +708,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-20 07:00 WIB"
+   "planned_publish": "2026-11-20 07:00 WIB",
+   "buffer_post_id": "6afb881adf36f4d825513bc5"
   },
   {
    "id": "lost-sock",
@@ -725,7 +728,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-20 19:00 WIB"
+   "planned_publish": "2026-11-20 19:00 WIB",
+   "buffer_post_id": "6afb881a4b26315855a54728"
   },
   {
    "id": "gravy-translator",
@@ -744,7 +748,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-21 07:00 WIB"
+   "planned_publish": "2026-11-21 07:00 WIB",
+   "buffer_post_id": "6afb881b4b26315855a5474e"
   },
   {
    "id": "social-battery",
@@ -763,7 +768,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-21 19:00 WIB"
+   "planned_publish": "2026-11-21 19:00 WIB",
+   "buffer_post_id": "6afb881c4b26315855a54773"
   },
   {
    "id": "screen-time-race",
@@ -782,7 +788,8 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-22 07:00 WIB"
+   "planned_publish": "2026-11-22 07:00 WIB",
+   "buffer_post_id": "6afb881cdf36f4d825513bf1"
   }
  ]
 }
