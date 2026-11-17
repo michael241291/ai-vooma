@@ -3,6 +3,20 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-18 (Wed WIB, 05:35) — daily run: 5 Tiny Chaos results, all stuck at the seed test
+Buffer metrics refreshed 17 Nov 05:13 UTC (new since last run). cat-work-call (aired 17 Nov 19:00) still 0 = stale, judge next run.
+| video | type | age at refresh | views | likes | like rate | comments |
+|---|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~53 h | 1,451 | 8 | 0.55% | 0 |
+| odd-mug-out | puzzle | ~41 h | 1,467 | 4 | 0.27% | 0 |
+| cat-translator | skit (translator) | ~29 h | 1,214 | 16 | 1.32% | 0 |
+| day-off-plinko | sim | ~17 h | 1,393 | 5 | 0.36% | 0 |
+| cat-loaf-bakery | puzzle (find the cat) | ~5 h | 1,106 | 6 | 0.54% | 1 (first ever) |
+- Every Short lands at 1.1–1.5k and then flattens (salary +75 views in ~25 h). No breakout (>3k) yet: the ceiling is the second push, not the seed test.
+- Like rate by type (≥24 h): translator skit 1.32% > sim 0.46–0.55% > puzzle 0.27%. Ranking unchanged, so batch-2 porsi (2 translator skits as series) stands.
+- cat-loaf-bakery (puzzle with a cat + "not bread" joke) doubled the plain odd-mug puzzle like rate and got the channel's first comment: puzzles with a character/joke beat abstract object puzzles. Next puzzle should hide a character, not a shape.
+- Scheduled keys-cup-shuffle 18 Nov 19:00 and black-friday-budget 19 Nov 07:00 (3 scheduled). Drafts left 8 (19 Nov 19:00 → 22 Nov 07:00 + date-locked 23/24 Nov) → no batch needed; next batch due when drafts < 4 (around the 20 Nov run).
+
 ## 2026-11-17 (Tue WIB) — daily run + Tiny Chaos batch 2 (19–22 Nov)
 - Buffer metrics were NOT refreshed since 16 Nov 04:23 UTC (salary 1,376 / odd-mug 1,240 / cat-translator 730 + 12 likes; day-off-plinko 0, updated 1 min after posting). Nothing new to judge; re-check at the next run. If Buffer stays stale >24 h, note it and judge on the next refresh (no Apify on our own channel).
 - Scheduled cat-work-call 17 Nov 19:00 and coffee-vs-monday 18 Nov 07:00 (3 scheduled). Drafts left: keys 18 Nov 19:00 + date-locked turkey 23 / stomach 24 = 3 < 4 → batch 2 built.
