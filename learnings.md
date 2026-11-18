@@ -3,6 +3,13 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-18 (Wed WIB, ~23:00) — Pixabay photo-background test launched (user request)
+- engine/world.py `bg_photo` (scene='photo'): Pixabay photo cover-fit + slow Ken Burns + tint/dim + floor shadow. Photos only (video CDN 429; no SFX API; no Pixabay music = Content ID risk). Key only in the scheduled-task env, never in repo.
+- Test A `translator-3am-kitchen` (19 Nov 19:00): strongest format (translator skit) on a real kitchen photo. Compare vs cat-translator 1,214 views / 1.32% likes and vet-translator (20 Nov 19:00, cartoon bg) in the same week.
+- Test B `find-nugget-photo` (20 Nov 07:00): hide-the-cat in a real living-room photo. Compare vs cat-loaf-bakery (cartoon, 1,106 views, first comment) and lost-sock (22 Nov 07:00).
+- Production notes: dim 0.4+ and no sunburst glow keep the photo readable; cat scale ~0.7 on a photo (it looks huge otherwise); hidden-object cat scale 0.13 on a windowsill is findable but not instant. Pick photos by tags, not query ("dark kitchen night" returned the Milky Way).
+- Verdict rule: if a photo video beats its cartoon twin by >30% views or like rate at 48 h, raise photo share to 2-3 per batch; if worse, keep at most 1 per batch as variety.
+
 ## 2026-11-18 (Wed WIB, 05:35) — daily run: 5 Tiny Chaos results, all stuck at the seed test
 Buffer metrics refreshed 17 Nov 05:13 UTC (new since last run). cat-work-call (aired 17 Nov 19:00) still 0 = stale, judge next run.
 | video | type | age at refresh | views | likes | like rate | comments |
