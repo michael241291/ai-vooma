@@ -3,6 +3,23 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-19 (Thu WIB, 05:35) — daily run: two videos got a second push; coffee-vs-monday may be stuck
+Buffer metrics refreshed 18 Nov 03:52 UTC (new since last run). keys-cup-shuffle still 0 = updated 1 min after posting, judge next run.
+| video | type | age at refresh | views | likes | like rate | comments | Δ views vs 17 Nov |
+|---|---|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~76 h | 1,456 | 8 | 0.55% | 0 | +5 (flat) |
+| odd-mug-out | puzzle | ~64 h | 1,490 | 4 | 0.27% | 0 | +23 |
+| cat-translator | skit (translator) | ~52 h | 1,235 | 16 | 1.30% | 0 | +21 |
+| day-off-plinko | sim (plinko) | ~40 h | 1,791 | 5 | 0.28% | 0 | **+398 (+29%)** |
+| cat-loaf-bakery | puzzle (find the cat) | ~28 h | 1,592 | 10 | 0.63% | 1 | **+486 (+44%)** |
+| cat-work-call | skit (WFH) | ~16 h | 1,274 | 9 | 0.71% | 0 | new |
+| coffee-vs-monday | sim (duel) | ~3.8 h | **4** | 0 | – | 0 | new |
+- First signs of a second push: day-off-plinko and cat-loaf-bakery kept growing past the 1.1–1.5k seed ceiling (both now channel top 2 by views). Not yet "tembus" (>3k) — check again at the next refresh whether growth continues >20%/24 h.
+- Views ≠ likes: day-off-plinko has the most views but the lowest like rate (0.28%); cat-translator has the best like rate but stalled at 1.2k. Watch-through (not visible in Buffer) may be what drives the second push; plinko's 15.7 s of falling balls is a "watch to the end" format.
+- Warning: coffee-vs-monday had only 4 views at ~3.8 h, while every other Tiny Chaos Short had 700–1,300 at a similar age. Could be just the snapshot time, but it is the AIVOOMA "0–4 views" pattern. If it is still <100 at the next refresh, compare its frame 0 / title with the others before more sim_duel videos.
+- Pet + character puzzles (cat-loaf) beat object puzzles again (0.63% vs 0.27%): keep the rule "puzzles hide a character".
+- Nothing scheduled (3 already: black-friday-budget 19 Nov 07:00, translator-3am-kitchen 19 Nov 19:00, find-nugget-photo 20 Nov 07:00). 8 drafts left → no batch. Free slots: 22 Nov 19:00 is still empty; batch 3 due when drafts < 4 (around 21 Nov).
+
 ## 2026-11-18 (Wed WIB, ~23:00) — Pixabay photo-background test launched (user request)
 - engine/world.py `bg_photo` (scene='photo'): Pixabay photo cover-fit + slow Ken Burns + tint/dim + floor shadow. Photos only (video CDN 429; no SFX API; no Pixabay music = Content ID risk). Key only in the scheduled-task env, never in repo.
 - Test A `translator-3am-kitchen` (19 Nov 19:00): strongest format (translator skit) on a real kitchen photo. Compare vs cat-translator 1,214 views / 1.32% likes and vet-translator (20 Nov 19:00, cartoon bg) in the same week.
