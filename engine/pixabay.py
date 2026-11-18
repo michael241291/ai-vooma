@@ -21,7 +21,8 @@ def search(q, orientation='vertical', per_page=20, image_type='photo'):
     url = 'https://pixabay.com/api/?' + urllib.parse.urlencode(dict(
         key=key, q=q, image_type=image_type, orientation=orientation, per_page=per_page, safesearch='true',
         order='popular'))
-    with urllib.request.urlopen(url, timeout=30) as r:
+    req = urllib.request.Request(url, headers={'User-Agent': 'curl/8.5.0'})
+    with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)['hits']
 
 
@@ -31,7 +32,7 @@ def fetch(q, dst, orientation='vertical', pick=0):
         raise SystemExit(f'no Pixabay results for {q!r}')
     h = hits[min(pick, len(hits) - 1)]
     os.makedirs(os.path.dirname(os.path.abspath(dst)), exist_ok=True)
-    req = urllib.request.Request(h['largeImageURL'], headers={'User-Agent': 'Mozilla/5.0'})
+    req = urllib.request.Request(h['largeImageURL'], headers={'User-Agent': 'curl/8.5.0'})
     with urllib.request.urlopen(req, timeout=60) as r, open(dst, 'wb') as f:
         f.write(r.read())
     meta = {k: h[k] for k in ('id', 'pageURL', 'user', 'tags', 'imageWidth', 'imageHeight')}
