@@ -1,0 +1,1117 @@
+{
+ "id": "find-nugget-photo",
+ "ver": 1,
+ "duration": 10.5,
+ "format": "puzzle_find_photo",
+ "scene": {
+  "name": "photo",
+  "tracks": {
+   "photo": [
+    [
+     0,
+     "episodes/find-nugget-photo/bg.jpg"
+    ]
+   ],
+   "dim": [
+    [
+     0,
+     0.12
+    ]
+   ],
+   "tint": [
+    [
+     0,
+     "#1A0E08"
+    ]
+   ],
+   "kb": [
+    [
+     0,
+     0.006
+    ]
+   ],
+   "floor_dark": [
+    [
+     0,
+     0.0
+    ]
+   ]
+  }
+ },
+ "camera": {
+  "zoom": [
+   [
+    0,
+    1.0
+   ],
+   [
+    7.3,
+    1.0
+   ],
+   [
+    7.8999999999999995,
+    3.0,
+    "out"
+   ],
+   [
+    10.0,
+    3.1
+   ],
+   [
+    10.4,
+    1.0,
+    "in"
+   ]
+  ],
+  "fx": [
+   [
+    0,
+    540
+   ],
+   [
+    7.3,
+    540
+   ],
+   [
+    7.8999999999999995,
+    960,
+    "out"
+   ],
+   [
+    10.0,
+    960
+   ],
+   [
+    10.4,
+    540,
+    "in"
+   ]
+  ],
+  "fy": [
+   [
+    0,
+    960
+   ],
+   [
+    7.3,
+    960
+   ],
+   [
+    7.8999999999999995,
+    948,
+    "out"
+   ],
+   [
+    10.0,
+    948
+   ],
+   [
+    10.4,
+    960,
+    "in"
+   ]
+  ]
+ },
+ "actors": [
+  {
+   "id": "nug",
+   "kind": "nugget",
+   "tracks": {
+    "x": [
+     [
+      0,
+      960
+     ]
+    ],
+    "y": [
+     [
+      0,
+      968
+     ]
+    ],
+    "scale": [
+     [
+      0,
+      0.13
+     ]
+    ],
+    "flip": [
+     [
+      0,
+      -1
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "loaf"
+     ]
+    ],
+    "eye": [
+     [
+      0,
+      "normal"
+     ],
+     [
+      8.0,
+      "wide",
+      "step"
+     ],
+     [
+      9.0,
+      "happy",
+      "step"
+     ]
+    ],
+    "look": [
+     [
+      0,
+      [
+       0,
+       0
+      ]
+     ]
+    ],
+    "lid": [
+     [
+      0,
+      0.5
+     ],
+     [
+      8.0,
+      0,
+      "step"
+     ]
+    ],
+    "mouth": [
+     [
+      0,
+      "line"
+     ],
+     [
+      9.0,
+      "smile",
+      "step"
+     ]
+    ],
+    "tail": [
+     [
+      0,
+      0.4
+     ]
+    ],
+    "blink": [
+     [
+      0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ring",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      960
+     ]
+    ],
+    "y": [
+     [
+      0,
+      938
+     ]
+    ],
+    "r": [
+     [
+      0,
+      70
+     ]
+    ],
+    "show": [
+     [
+      0,
+      false
+     ],
+     [
+      7.8,
+      true,
+      "step"
+     ],
+     [
+      10.0,
+      false,
+      "step"
+     ]
+    ]
+   },
+   "type": "target"
+  },
+  {
+   "id": "title",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      230
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "FIND THE CAT\nIN 7 SECONDS"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      96
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FFFFFF"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      1
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      1
+     ],
+     [
+      7.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n0",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "7"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      1
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      1
+     ],
+     [
+      1.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n1",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "6"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      1.3,
+      0.2
+     ],
+     [
+      1.6,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      1.3,
+      1,
+      "step"
+     ],
+     [
+      2.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n2",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "5"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      2.3,
+      0.2
+     ],
+     [
+      2.5999999999999996,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      2.3,
+      1,
+      "step"
+     ],
+     [
+      3.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n3",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "4"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      3.3,
+      0.2
+     ],
+     [
+      3.5999999999999996,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      3.3,
+      1,
+      "step"
+     ],
+     [
+      4.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n4",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "3"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      4.3,
+      0.2
+     ],
+     [
+      4.6,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      4.3,
+      1,
+      "step"
+     ],
+     [
+      5.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n5",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "2"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      5.3,
+      0.2
+     ],
+     [
+      5.6,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      5.3,
+      1,
+      "step"
+     ],
+     [
+      6.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "n6",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      470
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "1"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      190
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FF2E63"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      6.3,
+      0.2
+     ],
+     [
+      6.6,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      6.3,
+      1,
+      "step"
+     ],
+     [
+      7.3,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "found",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      330
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "THERE HE IS!"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      110
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#3DDC84"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      7.7,
+      0.2
+     ],
+     [
+      8.0,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      7.7,
+      1,
+      "step"
+     ],
+     [
+      10.1,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  },
+  {
+   "id": "tip",
+   "kind": "fx",
+   "tracks": {
+    "x": [
+     [
+      0,
+      540
+     ]
+    ],
+    "y": [
+     [
+      0,
+      1600
+     ]
+    ],
+    "text": [
+     [
+      0,
+      "MOST PEOPLE CHECK\nTHE CANDLES FIRST"
+     ]
+    ],
+    "size": [
+     [
+      0,
+      64
+     ]
+    ],
+    "fill": [
+     [
+      0,
+      "#FFD23F"
+     ]
+    ],
+    "pulse": [
+     [
+      0,
+      0
+     ]
+    ],
+    "tilt": [
+     [
+      0,
+      0.0
+     ]
+    ],
+    "pop": [
+     [
+      0,
+      0.2
+     ],
+     [
+      8.5,
+      0.2
+     ],
+     [
+      8.8,
+      1,
+      "back"
+     ]
+    ],
+    "alpha": [
+     [
+      0,
+      0
+     ],
+     [
+      8.5,
+      1,
+      "step"
+     ],
+     [
+      10.1,
+      0,
+      "step"
+     ]
+    ]
+   },
+   "type": "text",
+   "screen": true
+  }
+ ],
+ "audio": {
+  "music": [
+   {
+    "mood": "tense",
+    "seed": 841,
+    "gain": [
+     [
+      0,
+      0.8
+     ],
+     [
+      7.3,
+      0.8
+     ],
+     [
+      7.35,
+      0.3,
+      "step"
+     ]
+    ],
+    "volume": 1.0
+   }
+  ],
+  "sfx": [
+   [
+    0.3,
+    "tick",
+    0.9
+   ],
+   [
+    1.3,
+    "tick",
+    0.9
+   ],
+   [
+    2.3,
+    "tick",
+    0.9
+   ],
+   [
+    3.3,
+    "tick",
+    0.9
+   ],
+   [
+    4.3,
+    "tick",
+    0.9
+   ],
+   [
+    5.3,
+    "tick",
+    0.9
+   ],
+   [
+    6.3,
+    "tick",
+    0.9
+   ],
+   [
+    7.3,
+    "ding",
+    1.0
+   ],
+   [
+    7.3999999999999995,
+    "sparkle",
+    0.7
+   ],
+   [
+    8.05,
+    "meow",
+    0.7
+   ]
+  ]
+ },
+ "situation": "PHOTO-BACKGROUND test 2: real cozy living-room photo (Pixabay); a tiny cartoon cat loaf is hidden on the windowsill next to the plant; 7-second countdown",
+ "twist": "reveal zooms in: the cat was staring at the viewer the whole time; card 'MOST PEOPLE CHECK THE CANDLES FIRST'",
+ "title": "Find the cat in this room in 7 seconds 👀🐈",
+ "description": "He was there the whole time. How fast did you find him? Be honest 👇\n\nTiny Chaos: life's little chaos, animated. New video every day.\n\n#shorts #puzzle #findthecat #hiddencat #brainteaser #eyetest",
+ "experiment": true,
+ "pixabay": "episodes/find-nugget-photo/bg.jpg.json"
+}

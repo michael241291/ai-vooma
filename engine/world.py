@@ -1,3 +1,4 @@
+import os
 """Backgrounds, props and effects for AIVOOMA videos. Every draw function takes (ctx, t, p) where p holds the
 actor's current track values. Floor line is y≈1330; a sitting Nugget at scale 1 stands at y=1255."""
 import math
@@ -689,3 +690,39 @@ def fx_text(ctx, t, p):
 FX = dict(target=fx_target, hand=fx_hand, burst=fx_burst, sweat=fx_sweat, hearts=fx_hearts, zzz=fx_zzz, speed=fx_speed,
           dust=fx_dust, mark=fx_mark, sparkle=fx_sparkle, waves=fx_waves, flash=fx_flash, sunburst=fx_sunburst,
           stars=fx_stars, text=fx_text)
+
+
+# ---------------- photo background (Pixabay) ----------------
+_PHOTO_CACHE = {}
+
+
+def _photo_surface(path):
+    if path not in _PHOTO_CACHE:
+        from PIL import Image
+        import io
+        full = path if os.path.isabs(path) else os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), path)
+        im = Image.open(full).convert('RGB')
+        buf = io.BytesIO(); im.save(buf, 'PNG'); buf.seek(0)
+        _PHOTO_CACHE[path] = cairo.ImageSurface.create_from_png(buf)
+    return _PHOTO_CACHE[path]
+
+
+def bg_photo(ctx, t, p):
+    """Real photo as backdrop: cover-fit, slow Ken Burns (kb = zoom per second), warm tint + dim so the cartoon pops."""
+    surf = _photo_surface(p['photo'])
+    iw, ih = surf.get_width(), surf.get_height()
+    s = max((W + 240) / iw, (H + 240) / ih) * (1 + p.get("kb", 0.012) * t)
+    ctx.save()
+    ctx.translate(W / 2 + p.get('px', 0), H / 2 + p.get('py', 0)); ctx.scale(s, s); ctx.translate(-iw / 2, -ih / 2)
+    ctx.set_source_surface(surf, 0, 0); ctx.paint()
+    ctx.restore()
+    ctx.rectangle(-600, -600, W + 1200, H + 1200)
+    ctx.set_source_rgba(*hexc(p.get('tint', '#2A1636'), p.get('dim', 0.25))); ctx.fill()
+    # soft floor shadow band where actors stand
+    fy = p.get('floor_y', 1330)
+    g = cairo.LinearGradient(0, fy - 40, 0, fy + 260)
+    g.add_color_stop_rgba(0, 0, 0, 0, 0); g.add_color_stop_rgba(1, 0, 0, 0, p.get('floor_dark', 0.25))
+    ctx.rectangle(-600, fy - 40, W + 1200, 900); ctx.set_source(g); ctx.fill()
+
+
+BACKGROUNDS['photo'] = bg_photo
