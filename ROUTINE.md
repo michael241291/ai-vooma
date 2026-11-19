@@ -61,7 +61,10 @@ jadi perbaikan di sini langsung berlaku tanpa perlu mengubah skill.
    (title, categoryId "23", privacy, madeForKids, isAiGenerated, notifySubscribers) dari `get_post`, kalau tidak ditolak.
   
    1 video per hari, hari kosong terdekat mulai besok. Kalau dueAt draf sudah lewat, geser ke hari kosong berikutnya.
-4. Posting AIVOOMA berstatus error: laporkan alasannya.
+4. Posting AIVOOMA berstatus error: laporkan alasannya. Error "daily posting limit for this channel has been reached"
+   (pertama 19 Nov 19:00): pindahkan ke draf (edit_post saveToDraft true + customScheduled + dueAt baru, payload lengkap) di slot
+   kosong yang tidak melanggar aturan 6 slot; jangan diunggah ulang hari itu. Kalau terjadi lagi, turunkan ke 1 video/hari (07:00)
+   dan laporkan ke user.
 5. Kalau draf AIVOOMA tersisa < 3: jalankan BAGIAN 2. Kalau hari ini Minggu (WIB): jalankan BAGIAN 2 hanya jika batch terakhir
    (commit "Batch N" di git log) berumur ≥4 hari; kalau lebih baru, cukup evaluasi + catat di learnings.md (batch tanpa data baru
    hanya memperpanjang antrean dan menunda keputusan berbasis data).

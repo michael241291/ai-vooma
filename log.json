@@ -461,9 +461,9 @@
    "duration": 15.0,
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~76h",
-    "views": 1456,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~100h",
+    "views": 1439,
     "likes": 8,
     "comments": 0
    }
@@ -480,9 +480,9 @@
    "duration": 10.0,
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~64h",
-    "views": 1490,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~88h",
+    "views": 1506,
     "likes": 4,
     "comments": 0
    }
@@ -499,10 +499,10 @@
    "duration": 11.0,
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~52h",
-    "views": 1235,
-    "likes": 16,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~76h",
+    "views": 1245,
+    "likes": 17,
     "comments": 0
    }
   },
@@ -524,9 +524,9 @@
    "status": "aired 16 Nov 19:00 WIB (Buffer metrics not refreshed yet)",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~40h",
-    "views": 1791,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~64h",
+    "views": 1832,
     "likes": 5,
     "comments": 0
    },
@@ -550,9 +550,9 @@
    "status": "buffer scheduled 17 Nov 07:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~28h",
-    "views": 1592,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~52h",
+    "views": 1915,
     "likes": 10,
     "comments": 1
    },
@@ -576,9 +576,9 @@
    "status": "aired 17 Nov 19:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~16h",
-    "views": 1274,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~40h",
+    "views": 1335,
     "likes": 9,
     "comments": 0
    },
@@ -602,9 +602,9 @@
    "status": "aired 18 Nov 07:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T03:52Z",
-    "age": "~3.8h",
-    "views": 4,
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~28h",
+    "views": 15,
     "likes": 0,
     "comments": 0
    },
@@ -628,11 +628,11 @@
    "status": "aired 18 Nov 19:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-18T12:05Z",
-    "age": "~1 min (stale)",
-    "views": 0,
-    "likes": 0,
-    "comments": 0
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~16h",
+    "views": 1262,
+    "likes": 9,
+    "comments": 4
    },
    "buffer_post_id": "6af8e562e86a5789a6d72fd2"
   },
@@ -690,7 +690,14 @@
    "file": "episodes/black-friday-budget/black-friday-budget-v1.mp4",
    "made": "2026-11-17",
    "status": "buffer scheduled 19 Nov 07:00 WIB",
-   "results": null,
+   "results": {
+    "source": "buffer",
+    "metricsUpdatedAt": "2026-11-19T03:44Z",
+    "age": "~3.7h",
+    "views": 1184,
+    "likes": 2,
+    "comments": 0
+   },
    "planned_publish": "2026-11-19 07:00 WIB",
    "buffer_post_id": "6afb8819797935b975c5a436"
   },
@@ -729,7 +736,7 @@
    "batch": "tinychaos-2",
    "file": "episodes/we-need-to-talk/we-need-to-talk-v1.mp4",
    "made": "2026-11-17",
-   "status": "buffer draft",
+   "status": "buffer scheduled 20 Nov 19:00 WIB",
    "results": null,
    "planned_publish": "2026-11-20 19:00 WIB",
    "buffer_post_id": "6afb881adf36f4d825513bc5"
@@ -789,7 +796,7 @@
    "batch": "tinychaos-2",
    "file": "episodes/social-battery/social-battery-v1.mp4",
    "made": "2026-11-17",
-   "status": "buffer draft",
+   "status": "buffer scheduled 21 Nov 07:00 WIB",
    "results": null,
    "planned_publish": "2026-11-21 07:00 WIB",
    "buffer_post_id": "6afb881c4b26315855a54773"
@@ -831,7 +838,7 @@
    "batch": "pixabay-test",
    "made": "2026-11-18",
    "results": null,
-   "status": "buffer scheduled"
+   "status": "Buffer ERROR 19 Nov 19:00 (daily posting limit reached) -> draft, re-dated 27 Nov 19:00 WIB"
   },
   {
    "id": "find-nugget-photo",

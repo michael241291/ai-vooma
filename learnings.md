@@ -3,6 +3,26 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-20 (Fri WIB, 05:35) — daily run: first Buffer ERROR (daily posting limit); coffee-vs-monday confirmed dead
+Buffer metrics refreshed 19 Nov 03:44 UTC (new since last run).
+| video | type | age at refresh | views | likes | like rate | comments | Δ views vs 18 Nov |
+|---|---|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~100 h | 1,439 | 8 | 0.56% | 0 | flat |
+| odd-mug-out | puzzle | ~88 h | 1,506 | 4 | 0.27% | 0 | +16 |
+| cat-translator | skit (translator) | ~76 h | 1,245 | 17 | 1.37% | 0 | +10 |
+| day-off-plinko | sim (plinko) | ~64 h | 1,832 | 5 | 0.27% | 0 | +41 (+2%) — second push over |
+| cat-loaf-bakery | puzzle (find the cat) | ~52 h | 1,915 | 10 | 0.52% | 1 | +323 (+20%) — still growing, channel #1 |
+| cat-work-call | skit (WFH) | ~40 h | 1,335 | 9 | 0.67% | 0 | +61 |
+| coffee-vs-monday | sim (duel) | ~28 h | **15** | 0 | – | 0 | +11 → never got the seed test |
+| keys-cup-shuffle | puzzle (cup game) | ~16 h | 1,262 | 9 | 0.71% | **4** | new — most comments ever |
+| black-friday-budget | sim (plinko) | ~3.7 h | 1,184 | 2 | 0.17% | 0 | new (fast seed, low likes) |
+- **Buffer error:** translator-3am-kitchen (19 Nov 19:00 WIB) failed with "The daily posting limit for this channel has been reached". Same 2/day pattern worked 15–18 Nov, so it is a YouTube/Buffer per-channel upload cap on a brand-new channel (likely rolling 24 h). Moved back to draft and re-dated **27 Nov 19:00** (not 22 Nov 19:00, to keep translator ≤1 per 6 slots: vet 21 Nov 19:00, gravy 24 Nov 19:00). If the 20 Nov 19:00 post also errors, drop to 1 video/day (07:00) until the channel is older and tell the user.
+- coffee-vs-monday is the only Tiny Chaos Short that did not get the 1.1k seed (15 views at 28 h). Do NOT reupload. Before another sim_duel: compare its frame 0/title with the others (title "Coffee vs Monday"-style head-to-head may read as a generic ball sim).
+- Comment bait works when the answer is a number the viewer commits to before the reveal: keys-cup-shuffle "Comment 1, 2 or 3 before the reveal" → 4 comments in 16 h (the channel had 1 comment total before). Use a commit-before-reveal CTA on every puzzle.
+- cat-loaf-bakery keeps growing (+20%/day at 52 h) — closest to "tembus"; candidate for a SERIES ("part 2": hide a character among look-alike objects) in batch 3.
+- Like rate ranking unchanged: translator skit (1.37%) > cup/character puzzles (0.5–0.7%) > sims (0.17–0.56%). Plinko gets views but almost no likes.
+- Scheduled: we-need-to-talk 20 Nov 19:00, social-battery 21 Nov 07:00 (3 scheduled with find-nugget-photo 20 Nov 07:00). Drafts 7 → no batch. Empty slots: 22 Nov 19:00, 25 Nov 07:00 – 27 Nov 07:00 → batch 3 at the run when drafts < 4 (≈22 Nov).
+
 ## 2026-11-19 (Thu WIB, 05:35) — daily run: two videos got a second push; coffee-vs-monday may be stuck
 Buffer metrics refreshed 18 Nov 03:52 UTC (new since last run). keys-cup-shuffle still 0 = updated 1 min after posting, judge next run.
 | video | type | age at refresh | views | likes | like rate | comments | Δ views vs 17 Nov |
