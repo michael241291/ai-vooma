@@ -9,6 +9,15 @@
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.
 
+> **19 Nov 2026 (permintaan user, berlaku permanen): "jangan terlalu monoton".** Selain aturan README no. 5–10 dan 15–19, cek
+> antrean 6 slot ke depan (bukan cuma video sebelahnya) sebelum menjadwalkan atau membuat batch:
+> - Satu format (mis. translator, odd-one-out, plinko) maksimal 1x per 6 slot (3 hari) dan maksimal 2x per batch 7 video.
+> - Nugget/kucing maksimal 3 dari 7 video. Sisanya karakter/objek/manusia lain (user tidak mau terpaku kucing).
+> - Tiap batch minimal 2 format yang BELUM PERNAH tayang di channel (format baru di engine, bukan topik baru di format lama),
+>   termasuk minimal 1 video berlatar foto Pixabay.
+> - Gaya visual, mood musik, posisi teks dan pola judul: maksimal 2x per 6 slot.
+> - Kalau antrean melanggar, geser urutan draf dulu. Kalau tetap melanggar, buat video pengganti di batch berikutnya.
+
 > **16 Nov 2026 (keputusan user): cek data channel sendiri hanya lewat Buffer, jangan lewat Apify.** Apify khusus riset channel lain/tren.
 
 Dokumen ini dibaca setiap kali rutinitas jalan. **Setiap run wajib memperbarui file ini dan `learnings.md`** kalau menemukan
