@@ -344,7 +344,7 @@
      "used": "keys-cup-shuffle"
     },
     {
-     "idea": "Cup shuffle: which cup has the last slice of pie (Thanksgiving)",
+     "idea": "Cup shuffle: which cup has the last slice of pie (Thanksgiving) — PRIORITY: cup shuffle part 2 (keys-cup-shuffle broke out 3k/9 comments, 21 Nov). Change object + twist (4 cups or a speed-up), keep 'Comment 1, 2 or 3 before the reveal'",
      "used": null
     },
     {
@@ -358,6 +358,10 @@
     {
      "idea": "Find the sock with no partner (3 stripes)",
      "used": "lost-sock"
+    },
+    {
+     "idea": "Cup shuffle part 3: the cat is under a cup and moves on his own mid-shuffle (commit-before-reveal, wrong-looking ending)",
+     "used": null
     }
    ]
   },

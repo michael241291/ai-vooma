@@ -87,3 +87,7 @@
   20 07 we-need-to-talk (EKSPERIMEN chat "X to different people", engine/chat.py) · 20 19 lost-sock (puzzle) · 21 07 gravy-translator (skit, seri) ·
   21 19 social-battery (sim drain) · 22 07 screen-time-race (EKSPERIMEN bar race, engine/race.py). Porsi mengikuti like rate awal: skit/translator > sim > puzzle.
   Slot 22 Nov 19:00, 23 Nov 19:00, 24 Nov 19:00 masih kosong → batch 3 paling lambat run 20–21 Nov.
+- 21 Nov 2026 (Buffer, data 20 Nov 03:47 UTC): **tembus pertama: keys-cup-shuffle 3.016 views / 20 like / 9 komentar** (+139% dalam 24 jam), satu-satunya
+  video dengan CTA "Comment 1, 2 or 3 before the reveal". Aturan baru: semua puzzle + sim ditutup pilihan bernomor yang ditebak sebelum jawaban; batch 3 memuat
+  cup shuffle part 2 (seri). cat-loaf-bakery 2.027 (melambat), find-nugget-photo (latar foto) 1.052 / 0,76% like pada ±4 jam. Error batas harian tidak terulang
+  (we-need-to-talk tayang 20 Nov 19:00) → tetap 2 video/hari. Dijadwalkan vet-translator 21 Nov 19:00 + lost-sock 22 Nov 07:00; draf 5 → batch 3 di run berikutnya.

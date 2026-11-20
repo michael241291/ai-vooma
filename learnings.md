@@ -3,6 +3,27 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-21 (Sat WIB, 05:35) — daily run: FIRST BREAKOUT (keys-cup-shuffle 3k + 9 comments); daily-limit error did not repeat
+Buffer metrics refreshed 20 Nov 03:47 UTC (new since last run). we-need-to-talk (20 Nov 19:00) measured 1 min after posting = 0, judge next run.
+| video | type | age at refresh | views | likes | like rate | comments | Δ views vs 19 Nov |
+|---|---|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~124 h | 1,447 | 8 | 0.55% | 0 | flat |
+| odd-mug-out | puzzle | ~112 h | 1,494 | 4 | 0.27% | 0 | flat |
+| cat-translator | skit (translator) | ~100 h | 1,244 | 17 | 1.37% | 0 | flat |
+| day-off-plinko | sim (plinko) | ~88 h | 1,836 | 5 | 0.27% | 0 | flat |
+| cat-loaf-bakery | puzzle (find the cat) | ~76 h | 2,027 | 10 | 0.49% | 1 | +112 (+6%) — slowing |
+| cat-work-call | skit (WFH) | ~64 h | 1,341 | 9 | 0.67% | 0 | flat |
+| coffee-vs-monday | sim (duel) | ~52 h | 29 | 0 | – | 0 | dead |
+| **keys-cup-shuffle** | puzzle (cup game) | ~40 h | **3,016** | **20** | 0.66% | **9** | **+1,754 (+139%)** |
+| black-friday-budget | sim (plinko) | ~28 h | 1,318 | 2 | 0.15% | 0 | +134 |
+| find-nugget-photo | puzzle (photo bg, find the cat) | ~3.8 h | 1,052 | 8 | 0.76% | 0 | new — fast seed, best early like rate of any puzzle |
+- **First "tembus" (>3k): keys-cup-shuffle.** It is the only Short with a commit-before-reveal CTA ("Comment 1, 2 or 3 before the reveal") and it has 9 of the channel's 10 comments. Comments (not likes) look like the signal that buys the second/third push. Rule from now on: every puzzle AND sim ends with a commit-before-reveal choice (numbered options on screen, answer revealed after a pause), and the title asks for the guess.
+- Make it a SERIES in batch 3: cup shuffle part 2 (new object + new twist, e.g. faster swaps / 4 cups / the cup itself is the trick), not a reupload.
+- Plinko sims keep getting seed views but the lowest like rates (0.15–0.27%) and no comments: max 1 plinko per batch, and only with a "which bin?" guess before the drop.
+- Photo-background test B (find-nugget-photo) seeded as fast as cartoon puzzles with a higher early like rate (0.76% at 4 h vs cat-loaf 0.54% at 5 h). Verdict at 48 h (next 1–2 runs).
+- The daily posting limit error did NOT repeat: we-need-to-talk (20 Nov 19:00) and find-nugget-photo (20 Nov 07:00) both posted. Keep 2/day; the 19 Nov error was a one-off.
+- Scheduled: vet-translator 21 Nov 19:00, lost-sock 22 Nov 07:00 (3 scheduled with social-battery 21 Nov 07:00). Drafts left 5 (turkey 23/07, screen-time 23/19, stomach 24/07, gravy-translator 24/19, translator-3am 27/19). Empty slots: 22 Nov 19:00, 25 Nov 07:00 – 27 Nov 07:00 → batch 3 at the next run (drafts will drop to 3). Batch 3 porsi: 2 commit-before-reveal puzzles (incl. cup shuffle part 2), 2 skits, 1 sim with a guess, 2 new formats.
+
 ## 2026-11-20 (Fri WIB, 05:35) — daily run: first Buffer ERROR (daily posting limit); coffee-vs-monday confirmed dead
 Buffer metrics refreshed 19 Nov 03:44 UTC (new since last run).
 | video | type | age at refresh | views | likes | like rate | comments | Δ views vs 18 Nov |
