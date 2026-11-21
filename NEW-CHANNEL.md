@@ -91,3 +91,9 @@
   video dengan CTA "Comment 1, 2 or 3 before the reveal". Aturan baru: semua puzzle + sim ditutup pilihan bernomor yang ditebak sebelum jawaban; batch 3 memuat
   cup shuffle part 2 (seri). cat-loaf-bakery 2.027 (melambat), find-nugget-photo (latar foto) 1.052 / 0,76% like pada ±4 jam. Error batas harian tidak terulang
   (we-need-to-talk tayang 20 Nov 19:00) → tetap 2 video/hari. Dijadwalkan vet-translator 21 Nov 19:00 + lost-sock 22 Nov 07:00; draf 5 → batch 3 di run berikutnya.
+- 22 Nov 2026 (Buffer, data 21 Nov 05:19 UTC): keys-cup-shuffle 4.181 views / 23 like / 9 komentar, masih naik +39%/hari pada ±65 jam (satu-satunya).
+  we-need-to-talk (chat) like rate 0,82% (no. 2 setelah translator). **Error batas harian kedua** (vet-translator 21 Nov 19:00) → **turun ke 1 video/hari
+  07:00 WIB**; vet-translator dipindah ke 28 Nov. **Batch 3 (27 Nov–5 Dec)**, 7 draf, 6 dari 7 punya tebakan bernomor sebelum jawaban:
+  27 wallet-bag-shuffle (cup shuffle part 2, Black Friday) · 29 last-slice-text (chat part 2) · 30 phone-battery-guess (sim + tebak) ·
+  2 Des memory-gifts (FORMAT BARU memory test) · 3 Des gravy-december (skit) · 4 Des spot-diff-photo (FORMAT BARU, foto Pixabay) ·
+  5 Des december-money-race (race + tebak). Engine baru: memory.py, spotphoto.py.

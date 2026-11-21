@@ -3,6 +3,29 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-22 (Sun WIB, 05:35) — daily + batch 3: 2nd daily-limit ERROR → now 1 video/day (07:00); keys-cup-shuffle keeps growing
+Buffer metrics refreshed 21 Nov 05:19 UTC (new since last run).
+| video | type | age at refresh | views | likes | like rate | comments | Δ views vs 20 Nov |
+|---|---|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~149 h | 1,447 | 8 | 0.55% | 0 | flat |
+| odd-mug-out | puzzle | ~137 h | 1,496 | 4 | 0.27% | 0 | flat |
+| cat-translator | skit (translator) | ~125 h | 1,258 | 17 | 1.35% | 0 | +14 |
+| day-off-plinko | sim (plinko) | ~113 h | 1,844 | 5 | 0.27% | 0 | flat |
+| cat-loaf-bakery | puzzle (find the cat) | ~101 h | 2,040 | 10 | 0.49% | 1 | +13 — stopped |
+| cat-work-call | skit (WFH) | ~89 h | 1,449 | 10 | 0.69% | 0 | +108 |
+| coffee-vs-monday | sim (duel) | ~77 h | 29 | 0 | – | 0 | dead |
+| **keys-cup-shuffle** | puzzle (cup game) | ~65 h | **4,181** | 23 | 0.55% | **9** | **+1,165 (+39%)** — still a 2nd/3rd push |
+| black-friday-budget | sim (plinko) | ~53 h | 1,324 | 2 | 0.15% | 0 | flat |
+| find-nugget-photo | puzzle (photo) | ~29 h | 1,346 | 9 | 0.67% | 0 | +294 |
+| we-need-to-talk | chat | ~17 h | 1,596 | 13 | **0.82%** | 1 | new — best like rate after translator |
+| social-battery | sim (ring) | ~5 h | 1,197 | 5 | 0.42% | 0 | new |
+- **2nd Buffer error "daily posting limit"**: vet-translator (21 Nov 19:00 WIB). Both errors were the 19:00 slot of a day whose 07:00 slot had posted, while 20 Nov had 2 successes. Per the rule, the channel is now on **1 video/day at 07:00 WIB** (ROUTINE.md updated). vet-translator → draft 28 Nov 07:00 (not reuploaded). Retry 2/day only after ~2 clean weeks, and tell the user.
+- keys-cup-shuffle is the only video still growing after 48 h (+39%/day at 65 h). Commit-before-reveal = the channel's working lever. Batch 3 puts a numbered guess in 6 of 7 videos (shell part 2, battery sim guess, memory 1-6, spot score 0-3, race 1-6, Gravy vote 1/2; chat asks "who hides the pie").
+- Photo test B verdict (48 h rule not reached yet, ~29 h): find-nugget-photo 1,346 vs cat-loaf 1,592 at a similar age (−15%), like rate 0.67% vs 0.63%. Within ±30% → keep exactly 1 photo video per batch (spot-diff-photo this batch).
+- Chat format (we-need-to-talk 0.82%, 1 comment) is the 2nd-best like rate → part 2 in batch 3 (last-slice-text).
+- Trend research skipped this run (time went to the 2-new-engine batch). Do Apify trend research at the next batch.
+- Batch 3 (made 22 Nov, all 07:00 WIB): 27 wallet-bag-shuffle (shell part 2, Black Friday) · 29 last-slice-text (chat) · 30 phone-battery-guess (ring sim + guess, EXP) · 2 Dec memory-gifts (NEW memory.py, EXP) · 3 Dec gravy-december (skit) · 4 Dec spot-diff-photo (NEW spotphoto.py + Pixabay, EXP) · 5 Dec december-money-race (race + guess). Queue now: 22 lost-sock, 23 turkey, 24 stomach (scheduled) · drafts 25 gravy-translator, 26 screen-time-race, 27 wallet, 28 vet-translator, 29 last-slice, 30 battery, 1 Dec translator-3am, 2–5 Dec batch 3 → covered to 5 Dec, next batch around 2 Dec.
+
 ## 2026-11-21 (Sat WIB, 05:35) — daily run: FIRST BREAKOUT (keys-cup-shuffle 3k + 9 comments); daily-limit error did not repeat
 Buffer metrics refreshed 20 Nov 03:47 UTC (new since last run). we-need-to-talk (20 Nov 19:00) measured 1 min after posting = 0, judge next run.
 | video | type | age at refresh | views | likes | like rate | comments | Δ views vs 19 Nov |

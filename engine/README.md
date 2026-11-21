@@ -136,3 +136,18 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
 - `extra5.py` props: **carrier** (pet carrier, origin floor centre, `label` sticker, `rattle`, `door`, `eyes` glowing inside) and
   **suitcase** (origin floor centre, `label`, `size`, `color`, `stuffed` 0..1 bulges + a sock pokes out).
 - `puzzle.py` item **sock**: striped sock; the odd one has 3 stripes instead of 2.
+
+## Batch 6 additions (2026-11-22, Tiny Chaos batch 3) — `memory.py`, `spotphoto.py`, guess options
+- `python3 engine/memory.py episodes/<id>/memory.json`: **memory test**. 2x3 numbered gift boxes (`items` [{box, ribbon, pattern
+  plain|dots|stripes|stars, pcol, bow round|flat}]), `look_t` (memorize countdown), lights-out flicker until `ask_t`, ONE change
+  `change` {i, key, value}, countdown to `reveal_t`, then ring + BEFORE/AFTER flip on the changed box. `cards`, `ask`.
+- `python3 engine/spotphoto.py episodes/<id>/spot.json`: **spot the difference on a real photo** (Pixabay). Same photo in two
+  940x622 panels; cartoon props from world.PROPS placed in photo pixels with per-panel params (`top`/`bottom`, null = absent).
+  `seconds` countdown + timer bar, "TIME! COMMENT YOUR SCORE", rings `diffs` [[x, y, r]] in the bottom panel. A horizontal 3:2 photo
+  fits the panels exactly. The .jpg is converted to `<photo>.png` once (git-ignored).
+- `games.py`: `cup_style: "bag"` (shopping bags), `object: "wallet"`, `bag_label`, `table` [top, edge] colours, `part` badge ("PART 2"),
+  `ask_word`.
+- `sims.py` ring_drain: `final_label` (the hit that empties the counter = the answer), `guess` {t0, t1, q, opts, answer, y} shows
+  numbered options under the ring and turns the answer green at the end; `end_dy` moves the end text; `cy` to lift the ring.
+- `race.py`: `clock.date_prefix` ("DEC") shows a date counter instead of a clock; `unit_fmt` "${:,}" for money.
+- Pitfall: chat.py bubble font has no emoji glyphs (renders boxes) — no emoji inside chat messages.

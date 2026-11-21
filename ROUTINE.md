@@ -4,7 +4,12 @@
 > AIVOOMA (6ae078d92f1f5ed648e86690) dijeda dan sudah dilepas dari Buffer: jangan disentuh. Konsep, pilar dan target
 > channel ada di `NEW-CHANNEL.md` (wajib dibaca tiap run). Nama "AIVOOMA" di bawah ini = channel aktif (Tiny Chaos).
 
-> **15 Nov 2026 (keputusan user): 2 video per hari, slot 07:00 dan 19:00 WIB.** Jadwalkan draf ke slot kosong terdekat
+> **22 Nov 2026: TURUN KE 1 VIDEO/HARI, slot 07:00 WIB saja.** Error "daily posting limit" terjadi 2x (19 Nov 19:00 dan 21 Nov 19:00),
+> sesuai aturan BAGIAN 1 no. 4. Semua draf memakai 07:00. Aturan "per 6 slot" di bawah sekarang dibaca "per 3 hari".
+> Batch baru dibuat kalau draf < 4 ATAU antrean 07:00 tinggal ≤ 4 hari. Kembali ke 2/hari hanya setelah ±2 minggu tanpa error + lapor user.
+> Setiap puzzle/sim/race wajib ditutup pilihan bernomor yang ditebak SEBELUM jawaban (pelajaran keys-cup-shuffle).
+
+> **15 Nov 2026 (keputusan user, DIGANTI 22 Nov): 2 video per hari, slot 07:00 dan 19:00 WIB.** Jadwalkan draf ke slot kosong terdekat
 > (07:00 atau 19:00), maksimal 3 scheduled. Batch baru (BAGIAN 2) dibuat kalau draf < 4 (cukup 2 hari), tidak menunggu Minggu.
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.

@@ -461,8 +461,7 @@
    "duration": 15.0,
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~124h",
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
     "views": 1447,
     "likes": 8,
     "comments": 0
@@ -480,9 +479,8 @@
    "duration": 10.0,
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~112h",
-    "views": 1494,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1496,
     "likes": 4,
     "comments": 0
    }
@@ -499,9 +497,8 @@
    "duration": 11.0,
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~100h",
-    "views": 1244,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1258,
     "likes": 17,
     "comments": 0
    }
@@ -524,9 +521,8 @@
    "status": "aired 16 Nov 19:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~88h",
-    "views": 1836,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1844,
     "likes": 5,
     "comments": 0
    },
@@ -550,9 +546,8 @@
    "status": "aired 17 Nov 07:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~76h",
-    "views": 2027,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 2040,
     "likes": 10,
     "comments": 1
    },
@@ -576,10 +571,9 @@
    "status": "aired 17 Nov 19:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~64h",
-    "views": 1341,
-    "likes": 9,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1449,
+    "likes": 10,
     "comments": 0
    },
    "buffer_post_id": "6af8e560b9a106584c739948"
@@ -602,8 +596,7 @@
    "status": "aired 18 Nov 07:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~52h",
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
     "views": 29,
     "likes": 0,
     "comments": 0
@@ -628,10 +621,9 @@
    "status": "aired 18 Nov 19:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~40h",
-    "views": 3016,
-    "likes": 20,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 4181,
+    "likes": 23,
     "comments": 9
    },
    "buffer_post_id": "6af8e562e86a5789a6d72fd2"
@@ -692,9 +684,8 @@
    "status": "aired 19 Nov 07:00 WIB",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~28h",
-    "views": 1318,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1324,
     "likes": 2,
     "comments": 0
    },
@@ -716,7 +707,7 @@
    "batch": "tinychaos-2",
    "file": "episodes/vet-translator/vet-translator-v1.mp4",
    "made": "2026-11-17",
-   "status": "buffer scheduled 21 Nov 19:00 WIB",
+   "status": "Buffer error 21 Nov 19:00 (daily posting limit) -> draft, re-dated 28 Nov 07:00 WIB",
    "results": null,
    "planned_publish": "2026-11-21 19:00 WIB",
    "buffer_post_id": "6afb8819797935b975c5a464"
@@ -737,7 +728,13 @@
    "file": "episodes/we-need-to-talk/we-need-to-talk-v1.mp4",
    "made": "2026-11-17",
    "status": "aired 20 Nov 19:00 WIB (metrics not in yet)",
-   "results": null,
+   "results": {
+    "source": "buffer",
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1596,
+    "likes": 13,
+    "comments": 1
+   },
    "planned_publish": "2026-11-20 19:00 WIB",
    "buffer_post_id": "6afb881adf36f4d825513bc5"
   },
@@ -778,7 +775,7 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-24 19:00 WIB",
+   "planned_publish": "2026-11-25 07:00 WIB",
    "buffer_post_id": "6afb881b4b26315855a5474e"
   },
   {
@@ -797,7 +794,13 @@
    "file": "episodes/social-battery/social-battery-v1.mp4",
    "made": "2026-11-17",
    "status": "buffer scheduled 21 Nov 07:00 WIB",
-   "results": null,
+   "results": {
+    "source": "buffer",
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1197,
+    "likes": 5,
+    "comments": 0
+   },
    "planned_publish": "2026-11-21 07:00 WIB",
    "buffer_post_id": "6afb881c4b26315855a54773"
   },
@@ -818,7 +821,7 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-23 19:00 WIB",
+   "planned_publish": "2026-11-26 07:00 WIB",
    "buffer_post_id": "6afb881cdf36f4d825513bf1"
   },
   {
@@ -831,7 +834,7 @@
    "photo_test": "A: photo bg vs cartoon bg on the strongest format (translator)",
    "description": "Same time. Every. Night. What time does yours start? 👇",
    "file": "episodes/translator-3am-kitchen/translator-3am-kitchen-v1.mp4",
-   "planned_publish": "2026-11-19 19:00 WIB",
+   "planned_publish": "2026-12-01 07:00 WIB",
    "buffer_post_id": "6afdca306a70d040da030237",
    "experiment": true,
    "channel": "tinychaos",
@@ -858,10 +861,9 @@
    "made": "2026-11-18",
    "results": {
     "source": "buffer",
-    "metricsUpdatedAt": "2026-11-20T03:47Z",
-    "age": "~3.8h",
-    "views": 1052,
-    "likes": 8,
+    "metricsUpdatedAt": "2026-11-21T05:19Z",
+    "views": 1346,
+    "likes": 9,
     "comments": 0
    },
    "status": "aired 20 Nov 07:00 WIB"
@@ -882,7 +884,8 @@
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
    "status": "draft in Buffer",
-   "experiment": false
+   "experiment": false,
+   "buffer_post_id": "6b021ea6cc364169c10e1569"
   },
   {
    "id": "last-slice-text",
@@ -899,7 +902,8 @@
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
    "status": "draft in Buffer",
-   "experiment": false
+   "experiment": false,
+   "buffer_post_id": "6b021ea7024796909208dc5f"
   },
   {
    "id": "phone-battery-guess",
@@ -916,7 +920,8 @@
    "channel": "tinychaos",
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
-   "status": "draft in Buffer"
+   "status": "draft in Buffer",
+   "buffer_post_id": "6b021ea7cc364169c10e15ce"
   },
   {
    "id": "memory-gifts",
@@ -933,7 +938,8 @@
    "channel": "tinychaos",
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
-   "status": "draft in Buffer"
+   "status": "draft in Buffer",
+   "buffer_post_id": "6b021ea8d5eabfb8cc6721b1"
   },
   {
    "id": "gravy-december",
@@ -950,7 +956,8 @@
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
    "status": "draft in Buffer",
-   "experiment": false
+   "experiment": false,
+   "buffer_post_id": "6b021ea8d5eabfb8cc6721d3"
   },
   {
    "id": "spot-diff-photo",
@@ -967,7 +974,8 @@
    "channel": "tinychaos",
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
-   "status": "draft in Buffer"
+   "status": "draft in Buffer",
+   "buffer_post_id": "6b021ea9846b0ee9074263c8"
   },
   {
    "id": "december-money-race",
@@ -984,7 +992,8 @@
    "batch": "batch-3 (22 Nov)",
    "made": "2026-11-22",
    "status": "draft in Buffer",
-   "experiment": false
+   "experiment": false,
+   "buffer_post_id": "6b021eaac72676f5e9e78e6a"
   }
  ]
 }
