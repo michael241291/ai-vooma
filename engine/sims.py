@@ -201,6 +201,8 @@ def render(cfg_path, frames=None):
     costs = cfg['costs']  # list of [label, amount]; repeats if more hits than costs
     # assign each hit a cost; scale so the total equals start exactly at the last hit before T
     labels = [costs[i % len(costs)] for i in range(len(hits))]
+    if cfg.get('final_label') and labels:
+        labels[-1] = cfg['final_label']  # guess mode: the hit that empties the counter is the answer
     tot = sum(c[1] for c in labels) or 1
     scale = start / tot
     remaining = []; acc = start
@@ -246,9 +248,19 @@ def render(cfg_path, frames=None):
         text(ctx, f"{cfg.get('day_word', 'DAY')} {day}", W / 2, 455, 60, hexc('#FFD23F'), sw=12)
         if not alive:
             k = min(1, (t - T) * 3)
-            text(ctx, cfg['end_text'], W / 2, cy, 120, hexc('#FF5A5F'), sw=22, scale=0.6 + 0.4 * k, alpha=k, rot=-0.05,
+            text(ctx, cfg['end_text'], W / 2, cy + cfg.get('end_dy', 0), 120, hexc('#FF5A5F'), sw=22, scale=0.6 + 0.4 * k, alpha=k, rot=-0.05,
                  shadow=hexc('#000000', 0.6))
-        text(ctx, cfg.get('footer', ''), W / 2, 1700, 54, hexc('#FFFFFF'), sw=12, alpha=0.95)
+        gs = cfg.get('guess')
+        if gs and gs['t0'] <= t < gs['t1']:
+            k = min(1, (t - gs['t0']) * 4)
+            text(ctx, gs['q'], W / 2, gs.get('y', 1600), 70, hexc('#FFD23F'), sw=14, scale=0.7 + 0.3 * k)
+            for i, opt in enumerate(gs['opts']):
+                kk = min(1, max(0, (t - gs['t0'] - 0.15 * (i + 1)) * 4))
+                win = t >= T and i == gs.get('answer', 0)
+                text(ctx, opt, W / 2, gs.get('y', 1600) + 80 + 56 * i, 48, hexc('#3DDC84' if win else '#FFFFFF'), sw=11, alpha=kk,
+                     scale=1.15 if win else 1.0)
+        else:
+            text(ctx, cfg.get('footer', ''), W / 2, 1700, 54, hexc('#FFFFFF'), sw=12, alpha=0.95)
         return s
 
     if frames:

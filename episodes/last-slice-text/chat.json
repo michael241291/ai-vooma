@@ -1,0 +1,172 @@
+{
+ "id": "last-slice-text",
+ "ver": 1,
+ "duration": 14.6,
+ "seed": 1129,
+ "mood": "playful",
+ "header": "TEXTING \"CAN I HAVE THE\nLAST SLICE OF PIE?\"",
+ "footer": "Who in your family hides the pie?",
+ "scenes": [
+  {
+   "contact": "Grandma",
+   "tag": "GRANDMA",
+   "color": "#FF9F5A",
+   "t": 0,
+   "bg": [
+    "#FFE3A3",
+    "#FFB061"
+   ],
+   "msgs": [
+    [
+     -0.6,
+     "me",
+     "can I have the last slice of pie?"
+    ],
+    [
+     -0.1,
+     "them",
+     "I MADE YOU A NEW ONE"
+    ],
+    [
+     0.7,
+     "them",
+     "AND A SECOND ONE"
+    ],
+    [
+     1.4,
+     "them",
+     "are you eating enough??"
+    ]
+   ]
+  },
+  {
+   "contact": "Little brother",
+   "tag": "LITTLE BROTHER",
+   "color": "#4DA3FF",
+   "t": 2.6,
+   "bg": [
+    "#C7E8FF",
+    "#5AA9E6"
+   ],
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "can I have the last slice of pie?"
+    ],
+    [
+     0.4,
+     "them",
+     "what pie"
+    ],
+    [
+     0.95,
+     "them",
+     "there was never a pie"
+    ],
+    [
+     1.6,
+     "system",
+     "(he has whipped cream on his face)"
+    ]
+   ]
+  },
+  {
+   "contact": "Mom",
+   "tag": "MOM",
+   "color": "#FF5A8A",
+   "t": 5.3,
+   "bg": [
+    "#FFD1E3",
+    "#FF7FAE"
+   ],
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "can I have the last slice of pie?"
+    ],
+    [
+     0.45,
+     "them",
+     "that one is for your aunt"
+    ],
+    [
+     1.15,
+     "them",
+     "and the ugly one is for you"
+    ]
+   ]
+  },
+  {
+   "contact": "Roommate",
+   "tag": "ROOMMATE",
+   "color": "#3DDC84",
+   "t": 7.9,
+   "bg": [
+    "#D2F7DF",
+    "#47C27A"
+   ],
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "can I have the last slice of pie?"
+    ],
+    [
+     0.35,
+     "typing",
+     ""
+    ],
+    [
+     0.95,
+     "them",
+     "sure"
+    ],
+    [
+     1.5,
+     "system",
+     "(it has a bite missing)"
+    ]
+   ]
+  },
+  {
+   "contact": "Dad",
+   "tag": "DAD",
+   "color": "#FFC93C",
+   "t": 10.5,
+   "bg": [
+    "#2B2B3A",
+    "#0F0F18"
+   ],
+   "tag_color": "#FFD23F",
+   "msgs": [
+    [
+     0.0,
+     "me",
+     "can I have the last slice of pie?"
+    ],
+    [
+     0.45,
+     "typing",
+     ""
+    ],
+    [
+     1.05,
+     "them",
+     "who is this"
+    ],
+    [
+     1.6,
+     "me",
+     "your kid"
+    ],
+    [
+     2.2,
+     "them",
+     "No."
+    ]
+   ]
+  }
+ ]
+}

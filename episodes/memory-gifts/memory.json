@@ -1,0 +1,14 @@
+{"id": "memory-gifts", "ver": 1, "title": "MEMORY TEST:\nONE GIFT WILL CHANGE", "seed": 1202, "mood": "sneaky",
+ "bg": ["#0F5132", "#06241A"],
+ "items": [
+  {"box": "#E63946", "ribbon": "#FFD23F", "pattern": "dots", "pcol": "#FFFFFF", "bow": "round"},
+  {"box": "#38A3FF", "ribbon": "#FFFFFF", "pattern": "stars", "pcol": "#FFFFFF", "bow": "flat"},
+  {"box": "#FFD23F", "ribbon": "#E63946", "pattern": "stripes", "pcol": "#FFFFFF", "bow": "round"},
+  {"box": "#9B5DE5", "ribbon": "#3DDC84", "pattern": "plain", "bow": "round"},
+  {"box": "#3DDC84", "ribbon": "#E63946", "pattern": "dots", "pcol": "#FFFFFF", "bow": "flat"},
+  {"box": "#FF8FB1", "ribbon": "#FFD23F", "pattern": "stripes", "pcol": "#FFFFFF", "bow": "round"}],
+ "change": {"i": 4, "key": "bow", "value": "round"},
+ "look_t": 4.2, "ask_t": 5.4, "reveal_t": 10.4, "duration": 13.4,
+ "ask": "WHICH GIFT CHANGED?",
+ "cards": [[5.4, 10.4, "COMMENT 1-6 BEFORE THE REVEAL", 1690, 52, "#FFE14D"],
+           [11.4, 13.5, "GOT IT? BE HONEST", 1800, 56, "#FFFFFF"]]}

@@ -109,7 +109,7 @@ class Race:
         if ck:
             kt = min(1, t / ck['end_t']); m = ck['t0_min'] + (ck['t1_min'] - ck['t0_min']) * kt
             rrect(ctx, W / 2 - 230, 330, 460, 130, 40); fill_stroke(ctx, hexc('#FFFFFF'), 8)
-            text(ctx, clock_label(m), W / 2, 397, 92 + 10 * punch, hexc('#FF5A5F'), ink=INK, sw=0)
+            text(ctx, (f"{ck['date_prefix']} {int(m)}" if ck.get('date_prefix') else clock_label(m)), W / 2, 397, 92 + 10 * punch, hexc('#FF5A5F'), ink=INK, sw=0)
         for (t0, t1, msg, y, size, col) in c.get('cards', []):
             if t0 <= t < t1:
                 k = 1 if t0 <= 0 else min(1, (t - t0) * 5)

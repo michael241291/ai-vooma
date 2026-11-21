@@ -1,0 +1,108 @@
+{
+ "id": "wallet-bag-shuffle",
+ "ver": 1,
+ "title": "BLACK FRIDAY.\nWHERE'S MY WALLET?",
+ "object": "wallet",
+ "start_slot": 0,
+ "swaps": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "swap_t0": 0.75,
+ "swap_d0": 0.55,
+ "swap_d1": 0.17,
+ "seed": 1127,
+ "mood": "tense",
+ "bg": [
+  "#6A35C9",
+  "#1A0838"
+ ],
+ "cup_style": "bag",
+ "bag_label": "SALE",
+ "cup_colors": [
+  "#F7F3EA",
+  "#F7F3EA",
+  "#F7F3EA"
+ ],
+ "table": [
+  "#B8202E",
+  "#7A1019"
+ ],
+ "part": "PART 2",
+ "ask_word": "WHICH BAG?",
+ "ask_t": 7.35,
+ "reveal_t": 9.85,
+ "duration": 12.9,
+ "cards": [
+  [
+   11.2,
+   13.9,
+   "BAG 2. DID YOU GET IT?",
+   1660,
+   76,
+   "#FFFFFF"
+  ]
+ ]
+}

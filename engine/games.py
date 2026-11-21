@@ -78,6 +78,8 @@ class Shell:
         return x, y, lift
 
     def draw_cup(self, ctx, x, y, lift, col):
+        if self.c.get('cup_style') == 'bag':
+            return self.draw_bag(ctx, x, y, lift, col)
         yy = y - lift * 360
         ctx.save(); ctx.translate(x, yy)
         ctx.move_to(-120, 0); ctx.line_to(-80, -300); ctx.line_to(80, -300); ctx.line_to(120, 0); ctx.close_path()
@@ -87,6 +89,24 @@ class Shell:
         ellipse(ctx, 0, -300, 80, 16); fill_stroke(ctx, hexc(col), 7, INK)
         ctx.move_to(-60, -270); ctx.line_to(-80, -30); ctx.set_line_width(14); ctx.set_source_rgba(1, 1, 1, 0.25); ctx.stroke()
         ellipse(ctx, 0, 0, 120, 20); ctx.set_source_rgba(*hexc(col)); ctx.fill_preserve(); ctx.set_source_rgba(*INK); ctx.set_line_width(9); ctx.stroke()
+        ctx.restore()
+
+    def draw_bag(self, ctx, x, y, lift, col):
+        """Shopping bag (Black Friday part 2). Lifts by its handles."""
+        yy = y - lift * 380
+        ctx.save(); ctx.translate(x, yy); ctx.scale(0.88, 1.0)
+        # handles
+        for hx in (-55, 55):
+            ctx.arc(hx, -330, 34, math.pi, 2 * math.pi); ctx.set_line_width(14); ctx.set_source_rgba(*INK); ctx.stroke()
+            ctx.arc(hx, -330, 34, math.pi, 2 * math.pi); ctx.set_line_width(6); ctx.set_source_rgba(*hexc('#F4E9D8')); ctx.stroke()
+        ctx.move_to(-135, 0); ctx.line_to(-120, -330); ctx.line_to(120, -330); ctx.line_to(135, 0); ctx.close_path()
+        fill_stroke(ctx, hexc(col), 9, INK)
+        ctx.move_to(-120, -330); ctx.line_to(-100, -300); ctx.line_to(100, -300); ctx.line_to(120, -330); ctx.close_path()
+        ctx.set_source_rgba(0, 0, 0, 0.25); ctx.fill()
+        lab = self.c.get('bag_label', 'SALE')
+        rrect(ctx, -92, -230, 184, 92, 14); fill_stroke(ctx, hexc('#FFFFFF'), 6, INK)
+        text(ctx, lab, 0, -184, 58, hexc('#E63946'), ink=INK, sw=6)
+        text(ctx, '-70%', 0, -80, 56, hexc('#FFE14D'), ink=INK, sw=10)
         ctx.restore()
 
     def draw_object(self, ctx, x, y, t):
@@ -100,6 +120,15 @@ class Shell:
                 rrect(ctx, 28, -7, 70, 14, 4); fill_stroke(ctx, hexc(col), 6, INK)
                 ctx.rectangle(70, 6, 9, 10); ctx.rectangle(84, 6, 9, 8); ctx.set_source_rgba(*hexc(col)); ctx.fill()
                 ctx.restore()
+        elif self.c.get('object') == 'wallet':
+            ctx.rotate(-0.08)
+            rrect(ctx, -95, -110, 190, 110, 18); fill_stroke(ctx, hexc('#7A4A2A'), 8, INK)
+            rrect(ctx, -95, -110, 190, 46, 14); fill_stroke(ctx, hexc('#5E3A24'), 6, INK)
+            ctx.arc(70, -87, 10, 0, 2 * math.pi); fill_stroke(ctx, hexc('#FFC93C'), 4, INK)
+            # a card and a bill sticking out
+            rrect(ctx, -70, -140, 90, 50, 6); fill_stroke(ctx, hexc('#38A3FF'), 5, INK)
+            rrect(ctx, 0, -150, 80, 50, 4); fill_stroke(ctx, hexc('#7BD389'), 5, INK)
+            text(ctx, '$', 40, -126, 34, hexc('#1F6B3A'), ink=INK, sw=0)
         ctx.restore()
 
     def draw(self, ctx, t):
@@ -109,8 +138,14 @@ class Shell:
         g.add_color_stop_rgba(0, *hexc(a)); g.add_color_stop_rgba(1, *hexc(b))
         ctx.rectangle(0, 0, W, H); ctx.set_source(g); ctx.fill()
         # table
-        ctx.rectangle(0, BASE - 20, W, 700); ctx.set_source_rgba(*hexc('#8B5A3C')); ctx.fill()
-        ctx.rectangle(0, BASE - 20, W, 16); ctx.set_source_rgba(*hexc('#5E3A24')); ctx.fill()
+        tc = c.get('table', ['#8B5A3C', '#5E3A24'])
+        ctx.rectangle(0, BASE - 20, W, 700); ctx.set_source_rgba(*hexc(tc[0])); ctx.fill()
+        ctx.rectangle(0, BASE - 20, W, 16); ctx.set_source_rgba(*hexc(tc[1])); ctx.fill()
+        if c.get('part'):
+            ctx.save(); ctx.translate(900, 345); ctx.rotate(0.12)
+            rrect(ctx, -120, -42, 240, 84, 20); fill_stroke(ctx, hexc('#FFE14D'), 7, INK)
+            text(ctx, c['part'], 0, 4, 52, hexc('#2A1636'), ink=INK, sw=0)
+            ctx.restore()
         moving = any(t0 <= t < t0 + d for (t0, d, _a, _b) in self.moves)
         z = 1.2 + (0.04 if moving else 0) + 0.08 * max(0, 1 - abs(t - c['reveal_t'] - 1.4))
         ctx.save(); ctx.translate(540, 1150); ctx.scale(z, z); ctx.translate(-540, -1150)
@@ -142,7 +177,7 @@ class Shell:
                     ctx.arc(SLOTS[i], BASE + 180, 70 * kk, 0, 2 * math.pi); fill_stroke(ctx, hexc('#FFD23F'), 8, INK)
                     text(ctx, str(i + 1), SLOTS[i], BASE + 182, 90 * kk, hexc('#FFFFFF'), ink=INK, sw=12)
             left = c['reveal_t'] - t
-            text(ctx, 'WHICH CUP?', W / 2, 420, 100 + 8 * math.sin(t * 10), hexc('#FFFFFF'), ink=INK, sw=18)
+            text(ctx, c.get('ask_word', 'WHICH CUP?'), W / 2, 420, 100 + 8 * math.sin(t * 10), hexc('#FFFFFF'), ink=INK, sw=18)
             text(ctx, str(max(1, int(math.ceil(left)))), W / 2, 560, 90, hexc('#FF5A5F'), ink=INK, sw=14)
         for (t0, t1, msg, y, size, col) in c.get('cards', []):
             if t0 <= t < t1:

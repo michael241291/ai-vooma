@@ -1,0 +1,110 @@
+{
+ "id": "phone-battery-guess",
+ "ver": 1,
+ "seed": 1130,
+ "duration": 14.2,
+ "drain_end": 11.8,
+ "title": "MY PHONE BATTERY\nON A DAY OUT",
+ "start_value": 100,
+ "fmt": "{:,}%",
+ "cost_prefix": "-",
+ "ball_label": "PHONE\nBATTERY",
+ "ball_small": "%",
+ "ball_color": "#3DDC84",
+ "gate_label": "CHARGER\n(AT HOME)",
+ "day_word": "HOUR",
+ "days": 9,
+ "end_text": "PHONE DIED.",
+ "footer": "Comment 1, 2 or 3 before it dies",
+ "bg": [
+  "#06231F",
+  "#0B1640"
+ ],
+ "ring_cols": [
+  "#3DDC84",
+  "#38E1FF",
+  "#FFD23F",
+  "#FF5A5F"
+ ],
+ "ring_r": 440,
+ "ball_r0": 135,
+ "ball_r1": 18,
+ "preroll": 0.35,
+ "p0": [
+  460,
+  910
+ ],
+ "v0": [
+  1150,
+  -380
+ ],
+ "vmin": 1280,
+ "costs": [
+  [
+   "GOOGLE MAPS",
+   9
+  ],
+  [
+   "27 PHOTOS\nOF ONE DOG",
+   7
+  ],
+  [
+   "BRIGHTNESS 100%",
+   8
+  ],
+  [
+   "QUICK SCROLL\n(40 MIN)",
+   12
+  ],
+  [
+   "GROUP CHAT",
+   5
+  ],
+  [
+   "HOTSPOT FOR\nA FRIEND",
+   10
+  ],
+  [
+   "COLD WEATHER",
+   9
+  ],
+  [
+   "BLUETOOTH",
+   3
+  ],
+  [
+   "SEARCHING\nFOR SIGNAL",
+   8
+  ],
+  [
+   "ONE MORE VIDEO",
+   7
+  ],
+  [
+   "FLASHLIGHT",
+   6
+  ],
+  [
+   "SPOTIFY",
+   5
+  ]
+ ],
+ "final_label": [
+  "THE 'LOW BATTERY'\nPOP-UP",
+  4
+ ],
+ "guess": {
+  "t0": -1,
+  "t1": 14.2,
+  "q": "WHAT KILLS IT?",
+  "answer": 2,
+  "opts": [
+   "1) GOOGLE MAPS",
+   "2) ONE MORE VIDEO",
+   "3) THE 'LOW BATTERY' POP-UP"
+  ],
+  "y": 1530
+ },
+ "cy": 1010,
+ "end_dy": 170
+}

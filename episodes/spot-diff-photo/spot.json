@@ -1,0 +1,85 @@
+{
+ "id": "spot-diff-photo",
+ "ver": 1,
+ "photo": "episodes/spot-diff-photo/bg.jpg",
+ "seed": 1204,
+ "mood": "sneaky",
+ "title": "FIND 3 DIFFERENCES",
+ "sub": "IN",
+ "seconds": 9,
+ "ask_t": 9,
+ "reveal_t": 11.0,
+ "duration": 14.6,
+ "bg": [
+  "#FF9F5A",
+  "#C2366B"
+ ],
+ "dim": 0.05,
+ "props": [
+  {
+   "type": "mug",
+   "x": 250,
+   "y": 625,
+   "scale": 0.85,
+   "top": {
+    "color": "#FF8FA3",
+    "label": "#1"
+   },
+   "bottom": {
+    "color": "#6CCB7E",
+    "label": "#1"
+   }
+  },
+  {
+   "type": "clock",
+   "x": 600,
+   "y": 215,
+   "scale": 0.42,
+   "top": {
+    "time": "7:00",
+    "blinkcolon": false
+   },
+   "bottom": {
+    "time": "1:00",
+    "blinkcolon": false
+   }
+  },
+  {
+   "type": "yarn",
+   "x": 720,
+   "y": 760,
+   "scale": 0.75,
+   "top": {
+    "color": "#38A3FF"
+   },
+   "bottom": null
+  }
+ ],
+ "diffs": [
+  [
+   250,
+   570,
+   95
+  ],
+  [
+   600,
+   215,
+   95
+  ],
+  [
+   720,
+   705,
+   85
+  ]
+ ],
+ "cards": [
+  [
+   12.6,
+   14.7,
+   "HOW MANY DID YOU GET?",
+   1700,
+   64,
+   "#FFFFFF"
+  ]
+ ]
+}

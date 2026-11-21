@@ -329,6 +329,10 @@
     {
      "idea": "Ring drain: my phone battery on a day out (charger in the other room)",
      "used": null
+    },
+    {
+     "idea": "Phone battery on a day out, guess what kills it (answer: the low-battery pop-up)",
+     "used": "phone-battery-guess"
     }
    ]
   },
@@ -383,6 +387,10 @@
     {
      "idea": "Black Friday: cat guards the delivery box like treasure",
      "used": null
+    },
+    {
+     "idea": "Gravy survived Thanksgiving, victory dance on Dec 1, calendar flips to Dec 25 \"XMAS DINNER\", faints; vote 1 safe / 2 not safe",
+     "used": "gravy-december"
     }
    ]
   },
@@ -404,6 +412,14 @@
     {
      "idea": "Saying 'I'm on my way' to different people (still in bed)",
      "used": null
+    },
+    {
+     "idea": "\"Can I have the last slice of pie?\" to different people (Grandma bakes 2 more, Dad: who is this / No.)",
+     "used": "last-slice-text"
+    },
+    {
+     "idea": "\"Are you awake?\" at 2am to different people",
+     "used": null
     }
    ]
   },
@@ -415,8 +431,8 @@
      "used": "screen-time-race"
     },
     {
-     "idea": "Where my paycheck goes, Jan-Dec (savings stays at $0)",
-     "used": null
+     "idea": "Where my money goes in December (savings starts first, ends at $0; \"one for me\" wins) — guess-the-winner CTA",
+     "used": "december-money-race"
     },
     {
      "idea": "Things I think about in the shower (one embarrassing moment from 2014 wins)",
@@ -424,6 +440,69 @@
     },
     {
      "idea": "What I actually do at the gym (phone wins, then 'leg day' 0 min)",
+     "used": null
+    }
+   ]
+  },
+  "puzzle_shell": {
+   "what": "engine/games.py cup shuffle, fair, commit-before-reveal (keys-cup-shuffle = first breakout 4.2k / 9 comments). Series: change object + containers + setting each part.",
+   "ideas": [
+    {
+     "idea": "Part 1: I'm late, where are my keys (cups)",
+     "used": "keys-cup-shuffle"
+    },
+    {
+     "idea": "Part 2: Black Friday, where's my wallet (shopping bags, 16 swaps)",
+     "used": "wallet-bag-shuffle"
+    },
+    {
+     "idea": "Part 3: which takeout box has the last dumpling (4 boxes?)",
+     "used": null
+    },
+    {
+     "idea": "Part 4: Secret Santa, which gift is mine (gift boxes, fake-out lift)",
+     "used": null
+    },
+    {
+     "idea": "Part 5: the remote under 3 couch cushions",
+     "used": null
+    }
+   ]
+  },
+  "puzzle_memory": {
+   "what": "NEW batch 6: engine/memory.py memorize a 2x3 grid, lights out, ONE item changes, comment 1-6 before reveal, before/after flip.",
+   "ideas": [
+    {
+     "idea": "6 gift boxes, one bow changes",
+     "used": "memory-gifts"
+    },
+    {
+     "idea": "6 coffee orders on a counter, one cup name changes",
+     "used": null
+    },
+    {
+     "idea": "6 holiday sweaters, one pattern changes",
+     "used": null
+    },
+    {
+     "idea": "6 phone home screens, one app moved",
+     "used": null
+    }
+   ]
+  },
+  "spot_photo": {
+   "what": "NEW batch 6: engine/spotphoto.py same Pixabay photo twice + cartoon props that differ; countdown, \"comment your score 0-3\", rings.",
+   "ideas": [
+    {
+     "idea": "Bright kitchen: mug colour, clock time, missing yarn",
+     "used": "spot-diff-photo"
+    },
+    {
+     "idea": "Living room at Christmas: ornament colour, stocking missing, clock",
+     "used": null
+    },
+    {
+     "idea": "Office desk: sticky note text, mug, plant",
      "used": null
     }
    ]

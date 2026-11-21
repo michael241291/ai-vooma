@@ -1,0 +1,15 @@
+{"id": "december-money-race", "ver": 1, "duration": 14.2, "seed": 1205, "mood": "triumph",
+ "title": "WHERE MY MONEY\nGOES IN DECEMBER", "bg": ["#0B3D2E", "#5C0F1F"],
+ "clock": {"t0_min": 1, "t1_min": 31, "end_t": 10.0, "date_prefix": "DEC"},
+ "unit_fmt": "${:,}",
+ "bars": [
+  {"label": "1) GIFTS", "color": "#E63946", "keys": [[0, 40], [2.0, 260], [6.0, 610], [10, 690]]},
+  {"label": "2) FOOD DELIVERY", "color": "#FFB21F", "keys": [[0, 25], [3.0, 180], [7.0, 330], [10, 410]]},
+  {"label": "3) 'ONE FOR ME'", "color": "#FF4FD8", "keys": [[0, 0], [3.0, 60], [6.5, 300], [9.2, 650], [10, 760]]},
+  {"label": "4) WRAPPING PAPER", "color": "#38E1FF", "keys": [[0, 5], [4.0, 90], [10, 140]]},
+  {"label": "5) PARTY OUTFIT", "color": "#9B7BEA", "keys": [[0, 0], [1.5, 120], [5.0, 230], [10, 240]]},
+  {"label": "6) SAVINGS", "color": "#3DDC84", "keys": [[0, 50], [2.0, 50], [2.6, 0], [10, 0]]}
+ ],
+ "focus": {"label": "3) 'ONE FOR ME'", "t": 10.3},
+ "cards": [[10.3, 12.4, "#3 WINS. AGAIN.", 1660, 100, "#FFE14D"], [12.4, 15, "SAVINGS: $0", 1660, 110, "#FFFFFF"]],
+ "footer": "Guess the winner: comment 1-6"}
