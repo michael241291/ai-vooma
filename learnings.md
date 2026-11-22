@@ -3,6 +3,29 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-23 (Mon WIB, 05:35) — daily run: SECOND BREAKOUT = we-need-to-talk (chat) 3.5k; no errors
+Buffer metrics refreshed 22 Nov 04:09 UTC (new since last run).
+| video | type | age at refresh | views | likes | like rate | comments | Δ views vs 21 Nov |
+|---|---|---|---|---|---|---|---|
+| salary-vs-bills | sim | ~172 h | 1,450 | 8 | 0.55% | 0 | flat |
+| odd-mug-out | puzzle | ~160 h | 1,498 | 4 | 0.27% | 0 | flat |
+| cat-translator | skit (translator) | ~148 h | 1,263 | 17 | 1.35% | 0 | flat |
+| day-off-plinko | sim (plinko) | ~136 h | 1,846 | 5 | 0.27% | 0 | flat |
+| cat-loaf-bakery | puzzle | ~124 h | 2,041 | 10 | 0.49% | 1 | flat |
+| cat-work-call | skit (WFH) | ~112 h | 1,448 | 10 | 0.69% | 0 | flat |
+| coffee-vs-monday | sim (duel) | ~100 h | 31 | 1 | – | 0 | dead |
+| keys-cup-shuffle | puzzle (cup game) | ~88 h | **4,328** | 24 | 0.55% | 9 | +147 (+3.5%) — push over |
+| black-friday-budget | sim (plinko) | ~76 h | 1,330 | 2 | 0.15% | 0 | flat |
+| find-nugget-photo | puzzle (photo) | ~52 h | 1,378 | 8 | 0.58% | 0 | +32 — stopped at seed |
+| **we-need-to-talk** | chat | ~40 h | **3,513** | 15 | 0.43% | 1 | **+1,917 (+120%)** — 2nd video >3k |
+| social-battery | sim (ring) | ~28 h | 1,991 | 6 | 0.30% | 0 | +794 (+66%) — second push |
+| lost-sock | puzzle (odd one out) | ~4 h | 824 | 5 | 0.61% | 0 | new |
+- **2nd "tembus": we-need-to-talk (chat "X to different people")**, +120% in a day at 40 h, without a numbered CTA. So the second push is not only comment-bait: the chat format (relatable people, readable text, fast punchlines) also gets it. Both breakouts are formats where the viewer has to READ/TRACK until the end (cup tracking, message replies) → probably high stayed-to-watch. Chat part 2 (last-slice-text, 29 Nov) is already queued; give chat 2 slots in batch 4.
+- social-battery (ring sim, relatable "introvert" label) got a second push (+66%) while plinko sims stay flat → sims with a person-label topic beat money/plinko sims.
+- find-nugget-photo stopped at the seed (1.4k at 52 h) → photo test B verdict: no advantage over cartoon puzzles; keep max 1 photo video per batch (rule unchanged).
+- Daily: gravy-translator scheduled 25 Nov 07:00 (3 scheduled: 23 turkey-protest, 24 thanksgiving-stomach, 25 gravy-translator). 10 drafts to 5 Dec → no batch. No new error. vet-translator / translator-3am-kitchen still show the old error text but are drafts (28 Nov, 1 Dec).
+- Batch 4 due ≈ 1–2 Dec (when the 07:00 queue is ≤4 days). Do Apify trend research then (skipped in batch 3).
+
 ## 2026-11-22 (Sun WIB, 05:35) — daily + batch 3: 2nd daily-limit ERROR → now 1 video/day (07:00); keys-cup-shuffle keeps growing
 Buffer metrics refreshed 21 Nov 05:19 UTC (new since last run).
 | video | type | age at refresh | views | likes | like rate | comments | Δ views vs 20 Nov |
