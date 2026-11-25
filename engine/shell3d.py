@@ -56,6 +56,7 @@ sc.render.film_transparent = True
 sc.render.image_settings.file_format = 'PNG'
 sc.render.image_settings.color_mode = 'RGBA'
 sc.render.use_persistent_data = True
+sc.render.use_overwrite = False; sc.render.use_placeholder = True  # resumable
 cy = sc.cycles
 cy.device = 'CPU'; cy.samples = C.get('samples', 12); cy.use_adaptive_sampling = True; cy.adaptive_threshold = 0.05
 cy.use_denoising = True; cy.denoising_prefilter = 'FAST'

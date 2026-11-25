@@ -34,6 +34,7 @@ sc.render.resolution_percentage = C.get('res_pct', 50); sc.render.fps = FPS
 sc.frame_start, sc.frame_end = 0, N - 1
 sc.render.film_transparent = True; sc.render.image_settings.color_mode = 'RGBA'
 sc.render.use_persistent_data = True
+sc.render.use_overwrite = False; sc.render.use_placeholder = True  # resumable
 cy = sc.cycles; cy.device = 'CPU'; cy.samples = C.get('samples', 10); cy.use_adaptive_sampling = True
 cy.adaptive_threshold = 0.05; cy.use_denoising = True; cy.denoising_prefilter = 'FAST'
 cy.max_bounces = 3; cy.diffuse_bounces = 2; cy.glossy_bounces = 2; cy.transmission_bounces = 2; cy.transparent_max_bounces = 2
