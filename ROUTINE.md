@@ -14,6 +14,21 @@
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.
 
+> **25 Nov 2026 siang (keputusan user, MENGGANTIKAN semua aturan Buffer di bawah):**
+> 1. **Semua posting YouTube Tiny Chaos sekarang lewat ZERNIO, bukan Buffer.** Akun Zernio YouTube tinychaosland =
+>    `6b04799558c0732b0b11069a` (JANGAN pakai akun intinyaaje 6b047980e42dda7fdfc7eec0). Buat posting dengan Zernio
+>    `call_tool` → `posts_create_post`: media_items [{type: video, url: raw GitHub mp4}], platforms [{platform: youtube,
+>    accountId: 6b04799558c0732b0b11069a, platformSpecificData: {title, visibility: public, categoryId: "23",
+>    madeForKids: false, containsSyntheticMedia: false}}], scheduled_for "YYYY-MM-DDT07:00:00+07:00", tags [...],
+>    external_id = id episode. Data performa channel sendiri: Zernio `analytics_get_analytics` (account_id Tiny Chaos)
+>    dan `posts_list`. Buffer tidak dipakai lagi untuk Tiny Chaos (draf lama di Buffer hanya arsip: ambil teks/judul/URL-nya
+>    kalau mau dipakai, lalu jadwalkan di Zernio). Jangan pernah menjadwalkan video yang sama di dua tempat.
+> 2. **SEMUA video baru dibuat 3D** (Blender, lihat poin 25 Nov di bawah), tanpa batas porsi. Engine 2D hanya cadangan
+>    darurat kalau render 3D gagal. Draf 2D lama di Buffer dipakai hanya untuk mengisi hari yang belum punya video 3D.
+> 3. **Durasi 12–14 detik: tambah 1–2 detik ketegangan sebelum reveal** (hold + "REVEAL IN 3-2-1" + tick), supaya penonton
+>    penasaran dan menonton sampai akhir. Contoh: episodes/ring-shuffle-3d/comp-v2.json (v2 = 12.5 s).
+> 4. Jadwal tetap 1 video/hari 07:00 WIB sampai ada bukti Zernio aman untuk 2/hari.
+
 > **25 Nov 2026 (keputusan user): arah visual baru = lebih 3D + gambar/VIDEO Pixabay.** Mulai batch berikutnya:
 > - Minimal 3 dari 7 video dibuat 3D sungguhan dengan Blender: `pip install --break-system-packages bpy` (wheel ~430 MB, Python 3.13),
 >   lalu `python3 engine/shell3d.py episodes/<id>/shell.json` (contoh: episodes/ring-shuffle-3d). Render CPU ±7 s/frame
