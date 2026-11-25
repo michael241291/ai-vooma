@@ -1,0 +1,155 @@
+{
+ "id": "marble-race-3d-2",
+ "dur": 14.0,
+ "fps": 25,
+ "frames": "/tmp/claude-0/marble3d2/frames",
+ "layout": "/tmp/claude-0/marble3d2/layout.json",
+ "bg": "episodes/marble-race-3d-2/bg.mp4",
+ "bg_crop_x": 0,
+ "bg_crop_w": 720,
+ "bg_crop_h": 1280,
+ "bg_blur": 6,
+ "bg_bright": -0.02,
+ "captions": [
+  {
+   "text": "PICK ONE. NO CHANGING.",
+   "t0": 0,
+   "t1": 2.0,
+   "y": 190,
+   "size": 90,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "COMMENT YOUR COLOR",
+   "t0": 0,
+   "t1": 2.0,
+   "y": 320,
+   "size": 78,
+   "fill": "#FFD23F"
+  },
+  {
+   "text": "3",
+   "t0": 0.5,
+   "t1": 1.0,
+   "y": 1700,
+   "size": 160,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "t0": 1.0,
+   "t1": 1.5,
+   "y": 1700,
+   "size": 160,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "1",
+   "t0": 1.5,
+   "t1": 2.0,
+   "y": 1700,
+   "size": 160,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "GO!",
+   "t0": 2.0,
+   "t1": 2.8,
+   "y": 1700,
+   "size": 170,
+   "fill": "#3DDC84"
+  },
+  {
+   "text": "WHO WINS?",
+   "t0": 2.0,
+   "t1": 11.32,
+   "y": 190,
+   "size": 110,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "ORANGE WINS!",
+   "t0": 11.32,
+   "t1": 14.0,
+   "y": 200,
+   "size": 120,
+   "fill": "#FF9500"
+  },
+  {
+   "text": "DID YOU PICK IT?",
+   "t0": 11.9,
+   "t1": 14.0,
+   "y": 340,
+   "size": 80,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "TINY CHAOS",
+   "t0": 0,
+   "t1": 14.0,
+   "y": 1880,
+   "size": 36,
+   "fill": "#FFFFFF",
+   "x": 150
+  }
+ ],
+ "audio": {
+  "seed": 9,
+  "music": {
+   "mood": "playful",
+   "seed": 4421,
+   "gain": [
+    [
+     0,
+     0.5
+    ],
+    [
+     2.0,
+     0.8
+    ],
+    [
+     11.28,
+     0.8
+    ],
+    [
+     11.32,
+     0.35,
+     "step"
+    ]
+   ]
+  },
+  "sfx": [
+   [
+    0.5,
+    "tick",
+    0.9
+   ],
+   [
+    1.0,
+    "tick",
+    0.9
+   ],
+   [
+    1.5,
+    "tick",
+    0.9
+   ],
+   [
+    2.0,
+    "pop",
+    1.0
+   ],
+   [
+    11.32,
+    "ding",
+    1.0
+   ],
+   [
+    11.43,
+    "sparkle",
+    0.8
+   ]
+  ]
+ },
+ "out": "episodes/marble-race-3d-2/marble-race-3d-2-v1.mp4"
+}

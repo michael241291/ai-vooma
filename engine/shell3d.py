@@ -171,8 +171,21 @@ def make_ring():
     return root
 
 
-prize = make_ring()
-prize.scale = (1.5, 1.5, 1.5)
+def make_coin():
+    # a standing gold coin with a raised rim, leaning slightly so the face catches the light
+    bpy.ops.mesh.primitive_cylinder_add(radius=0.24, depth=0.045, vertices=64, location=(0, 0, 0.26),
+                                        rotation=(math.radians(80), 0, math.radians(15)))
+    coin = bpy.context.object; smooth(coin); coin.data.materials.append(mat_metal('coin', '#F2C14E', 0.22))
+    bev = coin.modifiers.new('b', 'BEVEL'); bev.width = 0.012; bev.segments = 3
+    bpy.ops.object.empty_add(location=(0, 0, 0)); root = bpy.context.object
+    coin.parent = root; coin.location = (0, 0, 0.26)
+    return root
+
+
+if C.get('prize', 'ring') == 'coin':
+    prize = make_coin(); prize.scale = (1.4, 1.4, 1.4)
+else:
+    prize = make_ring(); prize.scale = (1.5, 1.5, 1.5)
 
 # lights
 bpy.ops.object.light_add(type='AREA', location=(-2.5, -2.5, 5.0)); key = bpy.context.object

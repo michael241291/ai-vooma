@@ -1,0 +1,1 @@
+{"fps": 25, "dur": 12.6, "seed": 47, "cup_colors": ["#7B61FF", "#FF9500", "#34C759"], "prize_cup": 0, "wood": "episodes/last-dollar-3d/wood.jpg", "swaps_from": 1.1, "swaps_to": 8.2, "d0": 0.62, "d1": 0.32, "reveal_t": 10.7, "out_dir": "/tmp/claude-0/coin3d", "res_pct": 50, "samples": 12, "prize": "coin"}

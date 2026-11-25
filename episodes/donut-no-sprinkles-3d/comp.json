@@ -1,0 +1,208 @@
+{
+ "id": "donut-no-sprinkles-3d",
+ "dur": 13.0,
+ "fps": 25,
+ "frames": "/tmp/claude-0/donut3d2/frames",
+ "layout": "/tmp/claude-0/donut3d2/layout.json",
+ "bg": "episodes/donut-no-sprinkles-3d/bg.mp4",
+ "bg_crop_x": 0,
+ "bg_crop_w": 720,
+ "bg_crop_h": 1280,
+ "bg_blur": 9,
+ "bg_bright": -0.03,
+ "captions": [
+  {
+   "text": "ONE DONUT HAS\nNO SPRINKLES",
+   "t0": 0,
+   "t1": 9.0,
+   "y": 150,
+   "size": 96,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "7",
+   "t0": 0,
+   "t1": 1,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "6",
+   "t0": 1,
+   "t1": 2,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "5",
+   "t0": 2,
+   "t1": 3,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "4",
+   "t0": 3,
+   "t1": 4,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "3",
+   "t0": 4,
+   "t1": 5,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "2",
+   "t0": 5,
+   "t1": 6,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "1",
+   "t0": 6,
+   "t1": 7,
+   "y": 1760,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "REVEAL IN 2",
+   "t0": 7.0,
+   "t1": 8.0,
+   "y": 1760,
+   "size": 100,
+   "fill": "#FFD23F"
+  },
+  {
+   "text": "REVEAL IN 1",
+   "t0": 8.0,
+   "t1": 9.0,
+   "y": 1760,
+   "size": 100,
+   "fill": "#FFD23F"
+  },
+  {
+   "text": "THERE IT IS!",
+   "t0": 9.0,
+   "t1": 13.0,
+   "y": 200,
+   "size": 118,
+   "fill": "#3DDC84"
+  },
+  {
+   "text": "HOW MANY SECONDS\nDID IT TAKE YOU?",
+   "t0": 9.8,
+   "t1": 13.0,
+   "y": 1640,
+   "size": 76,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "TINY CHAOS",
+   "t0": 0,
+   "t1": 13.0,
+   "y": 1880,
+   "size": 36,
+   "fill": "#FFFFFF",
+   "x": 150
+  }
+ ],
+ "audio": {
+  "seed": 7,
+  "music": {
+   "mood": "sneaky",
+   "seed": 5113,
+   "gain": [
+    [
+     0,
+     0.75
+    ],
+    [
+     8.95,
+     0.75
+    ],
+    [
+     9.0,
+     0.3,
+     "step"
+    ]
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "tick",
+    0.8
+   ],
+   [
+    1.0,
+    "tick",
+    0.8
+   ],
+   [
+    2.0,
+    "tick",
+    0.8
+   ],
+   [
+    3.0,
+    "tick",
+    0.8
+   ],
+   [
+    4.0,
+    "tick",
+    0.8
+   ],
+   [
+    5.0,
+    "tick",
+    0.8
+   ],
+   [
+    6.0,
+    "tick",
+    0.8
+   ],
+   [
+    7.0,
+    "tick",
+    1.0
+   ],
+   [
+    8.0,
+    "tick",
+    1.0
+   ],
+   [
+    9.0,
+    "swoosh",
+    0.6,
+    {
+     "dur": 0.8
+    }
+   ],
+   [
+    9.4,
+    "ding",
+    1.0
+   ],
+   [
+    9.5,
+    "sparkle",
+    0.7
+   ]
+  ]
+ },
+ "out": "episodes/donut-no-sprinkles-3d/donut-no-sprinkles-3d-v1.mp4"
+}

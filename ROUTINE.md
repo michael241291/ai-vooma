@@ -29,7 +29,8 @@
 >    (balapan kelereng, fisika rigid body: pakai collision CONVEX_HULL, BOX di objek miring bikin bola tembus/macet).
 > 3. **Durasi 12–14 detik: tambah 1–2 detik ketegangan sebelum reveal** (hold + "REVEAL IN 3-2-1" + tick), supaya penonton
 >    penasaran dan menonton sampai akhir. Contoh: episodes/ring-shuffle-3d/comp-v2.json (v2 = 12.5 s).
-> 4. Jadwal tetap 1 video/hari 07:00 WIB sampai ada bukti Zernio aman untuk 2/hari.
+> 4. **2 video/hari: 07:00 dan 19:00 WIB** (keputusan user 25 Nov). Jangan format sama berurutan; selalu stok minimal 3 hari
+>    (6 video) terjadwal di Zernio. Kalau YouTube/Zernio menolak karena batas harian, jadwalkan ulang ke slot berikutnya dan laporkan.
 
 > **25 Nov 2026 (keputusan user): arah visual baru = lebih 3D + gambar/VIDEO Pixabay.** Mulai batch berikutnya:
 > - Minimal 3 dari 7 video dibuat 3D sungguhan dengan Blender: `pip install --break-system-packages bpy` (wheel ~430 MB, Python 3.13),

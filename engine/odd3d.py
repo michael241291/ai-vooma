@@ -119,15 +119,16 @@ for i in range(n):
     positions.append((x, y))
     bpy.ops.object.empty_add(location=(x, y, 0.2)); root = bpy.context.object
     root.rotation_euler = (0, 0, rng.uniform(0, 6.28)); s = rng.uniform(0.95, 1.04); root.scale = (s, s, s)
-    ice_m = icings[i % len(icings)] if C.get('mix_icing') else icings[0]
+    ice_m = rng.choice(icings) if C.get('mix_icing') else icings[0]
     inst(t_dough, root, (0, 0, 0))
     inst(t_ice, root, (0, 0, 0.1), scale=(1, 1, 0.7), material=ice_m)
-    if i == odd:
+    otype = C.get('odd_type', 'nohole')
+    if i == odd and otype == 'nohole':
         inst(t_fill, root, (0, 0, 0.0))
         inst(t_cap, root, (0, 0, 0.15), scale=(1, 1, 0.3), material=ice_m)
-    for k in range(16):
+    for k in range(0 if (i == odd and otype == 'nosprinkles') else 16):
         th = rng.uniform(0, 6.28)
-        rr = rng.uniform(0.3, 0.55) if i != odd else rng.uniform(0.05, 0.55)
+        rr = rng.uniform(0.3, 0.55) if (i != odd or otype != 'nohole') else rng.uniform(0.05, 0.55)
         h = 0.1 + 0.7 * math.sqrt(max(0, 0.205 ** 2 - (rr - 0.42) ** 2)) if rr > 0.25 else 0.15 + 0.3 * 0.27 * math.sqrt(max(0, 1 - (rr / 0.27) ** 2))
         inst(t_spr, root, (rr * math.cos(th), rr * math.sin(th), h + 0.012),
              rot=(math.radians(90), 0, rng.uniform(0, 6.28)), material=rng.choice(spr_cols))
@@ -147,7 +148,7 @@ cam.data.dof.use_dof = True; cam.data.dof.focus_object = tgt; cam.data.dof.apert
 
 reveal_t = C.get('reveal_t', 9.0)
 ox, oy = positions[odd]
-home_cam, home_tgt = Vector((0, -6.4, 11.2)), Vector((0, 0.75, 0))
+home_cam, home_tgt = Vector(C.get('cam', (0, -6.4, 11.2))), Vector((0, 0.75, 0))
 near_cam, near_tgt = Vector((ox, oy - 2.0, 3.8)), Vector((ox, oy, 0.2))
 for f in range(N):
     t = f / FPS
