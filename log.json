@@ -1104,7 +1104,7 @@
    "format": "memory_3d",
    "situation": "6 3D gift boxes, MEMORIZE 4 s, lights out, one box becomes pink with gold ribbon; Pixabay Christmas fireplace video",
    "twist": "IT WAS #4 + 'SANTA SWAPPED IT.'",
-   "title": "",
+   "title": "One gift changed in the dark. Which one? 🎁🔦",
    "file": "episodes/gift-memory-3d/gift-memory-3d-v1.mp4",
    "planned_publish": "2026-11-28 19:00 WIB",
    "experiment": true,
@@ -1112,7 +1112,8 @@
    "batch": "3d-2 (19:00 slots)",
    "made": "2026-11-25",
    "results": null,
-   "status": "zernio scheduled"
+   "status": "zernio scheduled",
+   "zernio_post_id": "6b06a8c06d755df9d35b39cf"
   }
  ]
 }
