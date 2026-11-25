@@ -14,6 +14,18 @@
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.
 
+> **25 Nov 2026 (keputusan user): arah visual baru = lebih 3D + gambar/VIDEO Pixabay.** Mulai batch berikutnya:
+> - Minimal 3 dari 7 video dibuat 3D sungguhan dengan Blender: `pip install --break-system-packages bpy` (wheel ~430 MB, Python 3.13),
+>   lalu `python3 engine/shell3d.py episodes/<id>/shell.json` (contoh: episodes/ring-shuffle-3d). Render CPU ±7 s/frame
+>   (11 s video ≈ 30 menit): jalankan di background, render `--preview 0,100,262` dulu dan LIHAT hasilnya.
+>   Komposit: `python3 engine/compose3d.py episodes/<id>/comp.json` (latar video Pixabay + teks Luckiest Guy + audio).
+> - Video lain tetap boleh pakai engine 2D, tapi latarnya pakai foto/video Pixabay (bukan latar kartun polos).
+> - Pixabay video bisa diunduh (API `/api/videos/`, curl dengan User-Agent curl). Simpan potongan kecil (crop 9:16, 720x1280,
+>   ≤12 s) di folder episode + metadata `.json` (id, pageURL, user). Jangan pakai musik Pixabay. Key hanya dari env PIXABAY_KEY.
+> - Buffer create_post YouTube sekarang WAJIB `metadata.youtube.type: "short"`.
+> - Format 3D berikutnya yang disiapkan: cup game varian lain (bukan cincin lagi), marble run/plinko 3D, domino/stacking fail,
+>   "which box is heavier" fisika, hidden object 3D di atas video Pixabay. Format sama tetap maksimal 1x per 3 hari.
+
 > **19 Nov 2026 (permintaan user, berlaku permanen): "jangan terlalu monoton".** Selain aturan README no. 5–10 dan 15–19, cek
 > antrean 6 slot ke depan (bukan cuma video sebelahnya) sebelum menjadwalkan atau membuat batch:
 > - Satu format (mis. translator, odd-one-out, plinko) maksimal 1x per 6 slot (3 hari) dan maksimal 2x per batch 7 video.

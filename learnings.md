@@ -3,6 +3,16 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-25 (Wed WIB, 09:00–10:45) — user: "tidak ada perubahan, harus lebih 3D + Pixabay"; first real 3D video
+Buffer metrics 24 Nov 06:00 UTC: keys-cup-shuffle 4,347 (9 comments), we-need-to-talk 3,697, lost-sock 3,332 (3 videos >3k = first breakouts),
+social-battery 2,106, cat-loaf 2,050; Thanksgiving skits weak (turkey-protest 1,136; thanksgiving-stomach 2 views at 6 h; gravy-translator fresh).
+- User still feels no growth → new visual direction ordered: more 3D + Pixabay images/videos.
+- Built engine/shell3d.py (Blender 5.3 via pip `bpy`, Cycles CPU, film transparent) + engine/compose3d.py (Pixabay video bg, captions, audio).
+  Cycles 540x960, 12 samples adaptive + OIDN FAST ≈ 3.5 s/frame idle, ≈7 s/frame with other load; EEVEE unusable headless (no GPU).
+- Pixabay VIDEO downloads now work (429 earlier was temporary). Shadow-catcher not needed: 3D table in front + blurred video behind looks natural.
+- First 3D video ring-shuffle-3d (cup game = best format) scheduled 26 Nov 07:00; wallet-bag-shuffle (2D cup game) moved to 6 Dec to keep 1 cup game per 3+ days.
+- Compare at 48 h vs keys-cup-shuffle (4.3k) / wallet-bag-shuffle (2D). If 3D wins, raise 3D share.
+
 ## 2026-11-23 (Mon WIB, 05:35) — daily run: SECOND BREAKOUT = we-need-to-talk (chat) 3.5k; no errors
 Buffer metrics refreshed 22 Nov 04:09 UTC (new since last run).
 | video | type | age at refresh | views | likes | like rate | comments | Δ views vs 21 Nov |

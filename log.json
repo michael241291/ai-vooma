@@ -821,7 +821,7 @@
    "made": "2026-11-17",
    "status": "buffer draft",
    "results": null,
-   "planned_publish": "2026-11-26 07:00 WIB",
+   "planned_publish": "2026-11-27 07:00 WIB",
    "buffer_post_id": "6afb881cdf36f4d825513bf1"
   },
   {
@@ -878,7 +878,7 @@
    "background": "purple gradient + red table",
    "opening_mood": "tense",
    "title_template": "Part N: X. Where is my Y?",
-   "planned_publish": "2026-11-27 07:00 WIB",
+   "planned_publish": "2026-12-06 07:00 WIB",
    "file": "episodes/wallet-bag-shuffle/wallet-bag-shuffle-v1.mp4",
    "channel": "tinychaos",
    "batch": "batch-3 (22 Nov)",
@@ -994,6 +994,26 @@
    "status": "draft in Buffer",
    "experiment": false,
    "buffer_post_id": "6b021eaac72676f5e9e78e6a"
+  },
+  {
+   "id": "ring-shuffle-3d",
+   "format": "puzzle_cup_3d",
+   "situation": "REAL 3D (Blender Cycles): 3 glossy brand-colour cups + gold ring on a Pixabay wood-texture table, blurred Pixabay rainy-cafe VIDEO background; 12 swaps",
+   "twist": "reveal cup #3 'IT WAS #3!' + 'SHE SAID YES?'",
+   "title": "He's proposing tonight. Where's the ring? 💍",
+   "background": "3D table + Pixabay video (id 201947)",
+   "opening_mood": "tense",
+   "title_template": "X tonight. Where's the Y?",
+   "experiment": true,
+   "description": "12 swaps. One ring. One very nervous boyfriend. Comment 1, 2 or 3 before the reveal 👇",
+   "channel": "tinychaos",
+   "batch": "3d-test",
+   "file": "episodes/ring-shuffle-3d/ring-shuffle-3d-v1.mp4",
+   "made": "2026-11-25",
+   "status": "buffer scheduled",
+   "results": null,
+   "planned_publish": "2026-11-26 07:00 WIB",
+   "buffer_post_id": "6b064ae0a2fd17422e7e1c9f"
   }
  ]
 }

@@ -151,3 +151,8 @@ synth (pop, ding, thud, slide_up, slide_down, swoosh, purr_long, vacuum_long, st
   numbered options under the ring and turns the answer green at the end; `end_dy` moves the end text; `cy` to lift the ring.
 - `race.py`: `clock.date_prefix` ("DEC") shows a date counter instead of a clock; `unit_fmt` "${:,}" for money.
 - Pitfall: chat.py bubble font has no emoji glyphs (renders boxes) — no emoji inside chat messages.
+
+## 3D (25 Nov 2026)
+- `engine/shell3d.py`: Blender/Cycles cup game (3 cups, ring prize, Pixabay wood texture). Needs `pip install --break-system-packages bpy`.
+  Blender 5 actions have no `.fcurves` (slotted actions) — keyframe every frame instead of editing interpolation.
+- `engine/compose3d.py`: RGBA frames + Pixabay video background (crop/blur) + Luckiest Guy captions + sound.mix → MP4.
