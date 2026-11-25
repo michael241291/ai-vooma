@@ -3,6 +3,13 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-25 (Wed WIB, 11:30) — all-3D + Zernio switch (user); 3 videos scheduled in Zernio
+- User: posting YouTube via Zernio only (Buffer no longer used), ALL videos 3D, +1–2 s suspense before reveal, and if a 3D render fails make nothing (no 2D fallback).
+- Zernio scheduled: 26 Nov ring-shuffle-3d v2 (12.5 s), 27 Nov donut-no-hole-3d (13 s), 28 Nov marble-race-3d (14 s). Buffer copy of ring moved to draft (no double post).
+- Engines: odd3d.py (grid odd-one-out, ~7–9 s/frame for 24 donuts + sprinkles), marble3d.py (rigid body: BOX collision on tilted boxes = balls stuck/fall through → use CONVEX_HULL; spawn marbles without overlap; walls flush with ramp ends or marbles skip ramps).
+- Renders are now resumable (use_overwrite False + placeholder): a container restart mid-render lost nothing.
+- Scheduled task still lacks the Zernio connector (user must add it); its 25 Nov run failed on usage limit.
+
 ## 2026-11-25 (Wed WIB, 09:00–10:45) — user: "tidak ada perubahan, harus lebih 3D + Pixabay"; first real 3D video
 Buffer metrics 24 Nov 06:00 UTC: keys-cup-shuffle 4,347 (9 comments), we-need-to-talk 3,697, lost-sock 3,332 (3 videos >3k = first breakouts),
 social-battery 2,106, cat-loaf 2,050; Thanksgiving skits weak (turkey-protest 1,136; thanksgiving-stomach 2 views at 6 h; gravy-translator fresh).

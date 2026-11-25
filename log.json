@@ -1008,12 +1008,49 @@
    "description": "12 swaps. One ring. One very nervous boyfriend. Comment 1, 2 or 3 before the reveal 👇",
    "channel": "tinychaos",
    "batch": "3d-test",
-   "file": "episodes/ring-shuffle-3d/ring-shuffle-3d-v1.mp4",
+   "file": "episodes/ring-shuffle-3d/ring-shuffle-3d-v2.mp4",
    "made": "2026-11-25",
-   "status": "buffer scheduled",
+   "status": "zernio scheduled",
    "results": null,
    "planned_publish": "2026-11-26 07:00 WIB",
-   "buffer_post_id": "6b064ae0a2fd17422e7e1c9f"
+   "buffer_post_id": null,
+   "zernio_post_id": "6b0650f509f9f3ceb030435a",
+   "note": "v2 = +1.5 s suspense hold"
+  },
+  {
+   "id": "donut-no-hole-3d",
+   "format": "odd_one_out_3d",
+   "situation": "24 Blender donuts on Pixabay marble counter, Pixabay cafe video bg; one donut has no hole; 7 s countdown + REVEAL IN 2-1, camera flies to it",
+   "title": "Find the donut with no hole in 7 seconds 🍩👀",
+   "background": "3D marble counter + Pixabay video 129576",
+   "opening_mood": "sneaky",
+   "file": "episodes/donut-no-hole-3d/donut-no-hole-3d-v1.mp4",
+   "planned_publish": "2026-11-27 07:00 WIB",
+   "zernio_post_id": "6b06628a6fa309b047bf7d10",
+   "experiment": true,
+   "channel": "tinychaos",
+   "batch": "3d-1",
+   "made": "2026-11-25",
+   "results": null,
+   "status": "zernio scheduled"
+  },
+  {
+   "id": "marble-race-3d",
+   "format": "marble_race_3d",
+   "situation": "4 marbles behind a gate (3-2-1), rigid-body physics down 7 wooden ramps, camera follows leader; Pixabay night game-room video bg",
+   "twist": "PURPLE WINS (physics decided)",
+   "title": "Pick a marble. Comment your color 🟣🟡",
+   "background": "3D ramps + Pixabay video 181093",
+   "opening_mood": "playful",
+   "file": "episodes/marble-race-3d/marble-race-3d-v1.mp4",
+   "planned_publish": "2026-11-28 07:00 WIB",
+   "zernio_post_id": "6b06628b6fa309b047bf7d19",
+   "experiment": true,
+   "channel": "tinychaos",
+   "batch": "3d-1",
+   "made": "2026-11-25",
+   "results": null,
+   "status": "zernio scheduled"
   }
  ]
 }
