@@ -1,0 +1,2 @@
+{"fps": 25, "dur": 13.0, "seed": 21, "cols": 4, "rows": 6, "odd": -1, "counter": "episodes/donut-no-hole-3d/marble.jpg",
+ "icing": ["#FF7FAF"], "reveal_t": 9.0, "out_dir": "/tmp/claude-0/donut3d", "res_pct": 50, "samples": 10, "lens": 30}

@@ -23,8 +23,10 @@
 >    external_id = id episode. Data performa channel sendiri: Zernio `analytics_get_analytics` (account_id Tiny Chaos)
 >    dan `posts_list`. Buffer tidak dipakai lagi untuk Tiny Chaos (draf lama di Buffer hanya arsip: ambil teks/judul/URL-nya
 >    kalau mau dipakai, lalu jadwalkan di Zernio). Jangan pernah menjadwalkan video yang sama di dua tempat.
-> 2. **SEMUA video baru dibuat 3D** (Blender, lihat poin 25 Nov di bawah), tanpa batas porsi. Engine 2D hanya cadangan
->    darurat kalau render 3D gagal. Draf 2D lama di Buffer dipakai hanya untuk mengisi hari yang belum punya video 3D.
+> 2. **SEMUA video baru dibuat 3D** (Blender, lihat poin 25 Nov di bawah), tanpa batas porsi. **Kalau render 3D gagal, JANGAN
+>    buat versi 2D dan jangan posting apa pun untuk hari itu** (keputusan user). Draf 2D lama di Buffer tidak dipakai lagi.
+>    Engine 3D yang ada: engine/shell3d.py (cup game), engine/odd3d.py (cari yang beda, grid objek 3D), engine/marble3d.py
+>    (balapan kelereng, fisika rigid body: pakai collision CONVEX_HULL, BOX di objek miring bikin bola tembus/macet).
 > 3. **Durasi 12–14 detik: tambah 1–2 detik ketegangan sebelum reveal** (hold + "REVEAL IN 3-2-1" + tick), supaya penonton
 >    penasaran dan menonton sampai akhir. Contoh: episodes/ring-shuffle-3d/comp-v2.json (v2 = 12.5 s).
 > 4. Jadwal tetap 1 video/hari 07:00 WIB sampai ada bukti Zernio aman untuk 2/hari.
