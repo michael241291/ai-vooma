@@ -1,0 +1,19 @@
+{
+ "fps": 25,
+ "dur": 14.0,
+ "winner": "ORANGE",
+ "winner_color": "#FF9500",
+ "order": [
+  "ORANGE",
+  "GREEN",
+  "BLUE",
+  "RED"
+ ],
+ "finish": {
+  "RED": 13.8,
+  "BLUE": 12.72,
+  "GREEN": 12.28,
+  "ORANGE": 11.32
+ },
+ "gate_t": 2.0
+}
