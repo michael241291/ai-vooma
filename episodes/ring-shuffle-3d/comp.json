@@ -1,0 +1,20 @@
+{"id": "ring-shuffle-3d", "dur": 11.0, "fps": 25,
+ "frames": "/tmp/claude-0/ring3d/frames", "layout": "/tmp/claude-0/ring3d/layout.json",
+ "bg": "episodes/ring-shuffle-3d/bg.mp4", "bg_crop_x": 0, "bg_crop_w": 720, "bg_crop_h": 1280, "bg_blur": 7, "bg_bright": -0.02,
+ "captions": [
+  {"text": "HE'S PROPOSING\nTONIGHT.", "t0": 0, "t1": 1.6, "y": 210, "size": 104, "fill": "#FFFFFF"},
+  {"text": "WATCH THE RING", "t0": 0, "t1": 8.0, "y": 470, "size": 80, "fill": "#FFD23F"},
+  {"text": "DON'T LOSE IT.", "t0": 1.6, "t1": 8.0, "y": 260, "size": 104, "fill": "#FFFFFF"},
+  {"text": "WHERE IS IT?", "t0": 8.0, "t1": 9.4, "y": 230, "size": 112, "fill": "#FFFFFF"},
+  {"text": "COMMENT 1, 2 OR 3", "t0": 8.0, "t1": 9.4, "y": 370, "size": 76, "fill": "#FFD23F"},
+  {"text": "1", "t0": 8.0, "t1": 9.4, "slot": 1, "y": 690, "size": 150, "fill": "#FF2E63"},
+  {"text": "2", "t0": 8.0, "t1": 9.4, "slot": 2, "y": 690, "size": 150, "fill": "#FF2E63"},
+  {"text": "3", "t0": 8.0, "t1": 9.4, "slot": 3, "y": 690, "size": 150, "fill": "#FF2E63"},
+  {"text": "IT WAS #{answer}!", "t0": 9.4, "t1": 11.0, "y": 240, "size": 120, "fill": "#3DDC84"},
+  {"text": "SHE SAID YES?", "t0": 9.9, "t1": 11.0, "y": 380, "size": 76, "fill": "#FFFFFF"},
+  {"text": "TINY CHAOS", "t0": 0, "t1": 11.0, "y": 1860, "size": 40, "fill": "#FFFFFF", "x": 170}
+ ],
+ "audio": {"seed": 5, "music": {"mood": "tense", "seed": 913, "gain": [[0, 0.75], [9.35, 0.75], [9.4, 0.25, "step"]]},
+           "swoosh_swaps": true, "swoosh_gain": 0.3,
+           "sfx": [[0.75, "thud", 0.8], [8.0, "tick", 0.8], [8.47, "tick", 0.8], [8.94, "tick", 0.8], [9.4, "ding", 1.0], [9.5, "sparkle", 0.7]]},
+ "out": "episodes/ring-shuffle-3d/ring-shuffle-3d-v1.mp4"}

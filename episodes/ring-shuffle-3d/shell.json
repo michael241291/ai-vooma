@@ -1,0 +1,3 @@
+{"fps": 25, "dur": 11.0, "seed": 11, "cup_colors": ["#FF2E63", "#FFD23F", "#2EC4B6"], "prize_cup": 1,
+ "wood": "episodes/ring-shuffle-3d/wood.jpg", "swaps_from": 1.1, "swaps_to": 8.0, "d0": 0.7, "d1": 0.36,
+ "reveal_t": 9.4, "out_dir": "/tmp/claude-0/ring3d", "res_pct": 50, "samples": 12}
