@@ -14,6 +14,19 @@
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.
 
+> **27 Nov 2026 (keputusan user): arah baru = video BERSUARA (narasi Gemini 3.1 Flash TTS) + format yang memancing debat/komentar.**
+> - Data 27 Nov: video 3D tanpa suara tidak lebih baik dari 2D (cincin 3D 1.6k vs cangkir kunci 2D 4.3k); semua video mentok di
+>   jatah tes 1.2-1.6k. Yang menembus 3k+ = interaktif + komentar. Jadi: narasi + "comment A/B/1-2-3" + topik hidup orang AS
+>   (uang/gaji/sewa/tip, kerja, kencan, keluarga, makanan), durasi 20-30 detik, momen paling menarik di 2 detik pertama.
+> - Narasi: `engine/tts_gemini.py` dengan env GEMINI_KEY (key HANYA di scheduled task, jangan di repo). Paket gratis = **10
+>   permintaan/hari** untuk model ini → buat SELURUH naskah satu video dalam SATU permintaan:
+>   `GEMINI_KEY=... python3 engine/tts_gemini.py episodes/<id>/vo.json episodes/<id>/vo --one-request` (dipotong otomatis per
+>   baris lewat jeda; cek durations.json). Suara: Puck (cowok muda AS, playful); style prompt di vo.json. Kalau 429/kuota habis:
+>   video hari itu ditunda, JANGAN pakai suara lain dan jangan posting tanpa narasi.
+> - Compositor: `audio.voice = [[t, wav], ...]` di comp.json (musik otomatis di-duck), teks layar = isi narasi (85% nonton tanpa suara).
+> - Format baru: engine/penny3d.py (would-you-rather uang: $1M vs penny dobel 30 hari), shell3d prize 'keys'. Lanjutkan ide:
+>   would-you-rather lain, "rate my $5 vs $500", "guess the price" barang AS, game cangkir/odd-one-out/memori DENGAN narasi.
+
 > **25 Nov 2026 siang (keputusan user, MENGGANTIKAN semua aturan Buffer di bawah):**
 > 1. **Semua posting YouTube Tiny Chaos sekarang lewat ZERNIO, bukan Buffer.** Akun Zernio YouTube tinychaosland =
 >    `6b04799558c0732b0b11069a` (JANGAN pakai akun intinyaaje 6b047980e42dda7fdfc7eec0). Buat posting dengan Zernio

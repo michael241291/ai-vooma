@@ -47,6 +47,28 @@ def caption_png(c, dst):
     s.write_to_png(dst)
 
 
+def add_voice(bed_wav, clips, bed_gain=0.45):
+    """Mix narration clips [[t, wav_path, gain], ...] over the music/sfx bed; the bed is ducked under speech."""
+    import wave
+    import numpy as np
+    with wave.open(bed_wav) as w:
+        sr = w.getframerate(); bed = np.frombuffer(w.readframes(w.getnframes()), dtype='<i2').astype(float) / 32767
+    voice = np.zeros_like(bed)
+    for t, path, *g in clips:
+        with wave.open(rp(path)) as w:
+            v = np.frombuffer(w.readframes(w.getnframes()), dtype='<i2').astype(float) / 32767
+        i = int(t * sr); v = v[:max(0, len(voice) - i)]
+        voice[i:i + len(v)] += v * (g[0] if g else 1.0)
+    env = np.convolve(np.abs(voice) > 0.02, np.ones(int(0.25 * sr)) / int(0.25 * sr), mode='same')
+    duck = 1.0 - (1.0 - bed_gain) * np.clip(env * 3, 0, 1)
+    out = bed * duck + voice * 0.95
+    out = out / max(1.0, np.max(np.abs(out)) / 0.95)
+    dst = bed_wav.replace('.wav', '_vo.wav')
+    with wave.open(dst, 'wb') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((out * 32767).astype('<i2').tobytes())
+    return dst
+
+
 def main(cfg_path):
     C = json.load(open(cfg_path))
     ep_dir = os.path.dirname(os.path.abspath(cfg_path))
@@ -69,6 +91,9 @@ def main(cfg_path):
         for t0, d in lay['swaps']:
             sfx.append([t0, 'swoosh', au.get('swoosh_gain', 0.35), {'dur': max(0.25, d)}])
     wav = sound.mix({'music': au.get('music'), 'sfx': sfx}, dur, os.path.join(work, 'mix.wav'), seed=au.get('seed', 3))
+    if au.get('voice'):
+        clips = [[c[0], c[1].replace('{answer}', str(lay.get('answer', '')))] + c[2:] for c in au['voice']]
+        wav = add_voice(wav, clips, au.get('bed_gain', 0.45))
     # ffmpeg graph
     bx = C.get('bg_crop_x', 875); bw = C.get('bg_crop_w', 810); bh = C.get('bg_crop_h', 1440)
     inputs = ['-stream_loop', '-1', '-i', rp(C['bg']),

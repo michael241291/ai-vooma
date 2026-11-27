@@ -1,0 +1,1 @@
+{"fps": 25, "dur": 20.8, "seed": 73, "cup_colors": ["#E63946", "#F1FAEE", "#457B9D"], "prize": "keys", "prize_cup": 1, "wood": "episodes/late-keys-3d/wood.jpg", "drop": [2.2, 3.4], "swaps_from": 3.6, "swaps_to": 11.6, "d0": 0.7, "d1": 0.32, "reveal_t": 16.0, "out_dir": "/tmp/claude-0/keys3d", "res_pct": 50, "samples": 12}

@@ -1,0 +1,243 @@
+{
+ "id": "late-keys-3d",
+ "dur": 20.8,
+ "fps": 25,
+ "frames": "/tmp/claude-0/keys3d/frames",
+ "layout": "/tmp/claude-0/keys3d/layout.json",
+ "bg": "episodes/late-keys-3d/bg.mp4",
+ "bg_crop_x": 0,
+ "bg_crop_w": 720,
+ "bg_crop_h": 1280,
+ "bg_blur": 6,
+ "bg_bright": -0.05,
+ "captions": [
+  {
+   "text": "I'M ALREADY LATE.",
+   "t0": 0,
+   "t1": 1.6,
+   "y": 230,
+   "size": 104,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "MY CAR KEYS ARE\nUNDER THIS CUP",
+   "t0": 1.6,
+   "t1": 3.6,
+   "y": 200,
+   "size": 92,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "WATCH CLOSELY",
+   "t0": 3.6,
+   "t1": 8.2,
+   "y": 240,
+   "size": 100,
+   "fill": "#FFD23F"
+  },
+  {
+   "text": "FASTER...",
+   "t0": 8.2,
+   "t1": 11.6,
+   "y": 240,
+   "size": 110,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "OKAY, STOP.",
+   "t0": 11.6,
+   "t1": 12.1,
+   "y": 240,
+   "size": 110,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "WHICH CUP?",
+   "t0": 12.1,
+   "t1": 16.0,
+   "y": 220,
+   "size": 112,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "COMMENT 1, 2 OR 3",
+   "t0": 12.1,
+   "t1": 16.0,
+   "y": 360,
+   "size": 78,
+   "fill": "#FFD23F"
+  },
+  {
+   "text": "1",
+   "t0": 12.1,
+   "t1": 16.0,
+   "slot": 1,
+   "y": 690,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "2",
+   "t0": 12.1,
+   "t1": 16.0,
+   "slot": 2,
+   "y": 690,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "3",
+   "t0": 12.1,
+   "t1": 16.0,
+   "slot": 3,
+   "y": 690,
+   "size": 150,
+   "fill": "#FF2E63"
+  },
+  {
+   "text": "3",
+   "t0": 13.0,
+   "t1": 14.0,
+   "y": 1500,
+   "size": 170,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "t0": 14.0,
+   "t1": 15.0,
+   "y": 1500,
+   "size": 170,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "1",
+   "t0": 15.0,
+   "t1": 16.0,
+   "y": 1500,
+   "size": 170,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "NUMBER {answer}!",
+   "t0": 16.0,
+   "t1": 20.8,
+   "y": 220,
+   "size": 120,
+   "fill": "#3DDC84"
+  },
+  {
+   "text": "DID YOU GET IT?",
+   "t0": 16.6,
+   "t1": 18.1,
+   "y": 360,
+   "size": 80,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "...STILL LATE.",
+   "t0": 18.1,
+   "t1": 20.8,
+   "y": 360,
+   "size": 84,
+   "fill": "#FFFFFF"
+  },
+  {
+   "text": "TINY CHAOS",
+   "t0": 0,
+   "t1": 20.8,
+   "y": 1860,
+   "size": 40,
+   "fill": "#FFFFFF",
+   "x": 170
+  }
+ ],
+ "audio": {
+  "seed": 21,
+  "music": {
+   "mood": "tense",
+   "seed": 8812,
+   "gain": [
+    [
+     0,
+     0.6
+    ],
+    [
+     15.95,
+     0.6
+    ],
+    [
+     16.0,
+     0.2,
+     "step"
+    ]
+   ]
+  },
+  "swoosh_swaps": true,
+  "swoosh_gain": 0.25,
+  "bed_gain": 0.4,
+  "sfx": [
+   [
+    3.3,
+    "thud",
+    0.8
+   ],
+   [
+    13.0,
+    "tick",
+    0.9
+   ],
+   [
+    14.0,
+    "tick",
+    0.9
+   ],
+   [
+    15.0,
+    "tick",
+    0.9
+   ],
+   [
+    16.0,
+    "ding",
+    1.0
+   ],
+   [
+    16.1,
+    "sparkle",
+    0.7
+   ]
+  ],
+  "voice": [
+   [
+    0.15,
+    "episodes/late-keys-3d/vo/l1.wav"
+   ],
+   [
+    3.7,
+    "episodes/late-keys-3d/vo/l2.wav"
+   ],
+   [
+    8.3,
+    "episodes/late-keys-3d/vo/l3.wav"
+   ],
+   [
+    11.65,
+    "episodes/late-keys-3d/vo/l4.wav"
+   ],
+   [
+    12.4,
+    "episodes/late-keys-3d/vo/l5.wav"
+   ],
+   [
+    16.2,
+    "episodes/late-keys-3d/vo/r{answer}.wav"
+   ],
+   [
+    18.3,
+    "episodes/late-keys-3d/vo/l7.wav"
+   ]
+  ]
+ },
+ "out": "episodes/late-keys-3d/late-keys-3d-v1.mp4"
+}

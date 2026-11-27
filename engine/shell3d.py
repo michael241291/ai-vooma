@@ -182,7 +182,32 @@ def make_coin():
     return root
 
 
-if C.get('prize', 'ring') == 'coin':
+def make_keys():
+    # a car-key bunch lying on the table: key ring + two keys + a fob
+    bpy.ops.object.empty_add(location=(0, 0, 0)); root = bpy.context.object
+    steel = mat_metal('steel', '#C9CED6', 0.25); brass = mat_metal('brass', '#D8A84A', 0.3)
+    fob_m = mat_plastic('fob', '#1E1E24')
+    bpy.ops.mesh.primitive_torus_add(major_radius=0.13, minor_radius=0.018, location=(0, 0, 0.02))
+    r = bpy.context.object; smooth(r); r.data.materials.append(steel); r.parent = root; r.location = (-0.12, 0.05, 0.02)
+    for k, (ang, m_) in enumerate(((20, steel), (-35, brass))):
+        a = math.radians(ang)
+        bpy.ops.mesh.primitive_cylinder_add(radius=0.08, depth=0.03, location=(0, 0, 0))
+        head = bpy.context.object; head.data.materials.append(m_); head.parent = root
+        cx, cy = -0.12 + 0.2 * math.cos(a), 0.05 + 0.2 * math.sin(a)
+        head.location = (cx, cy, 0.02 + 0.01 * k)
+        bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 0, 0)); sh = bpy.context.object
+        sh.scale = (0.26, 0.05, 0.02); sh.data.materials.append(m_); sh.parent = root
+        sh.rotation_euler = (0, 0, a); sh.location = (cx + 0.2 * math.cos(a), cy + 0.2 * math.sin(a), 0.02 + 0.01 * k)
+    bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 0, 0)); fob = bpy.context.object
+    fob.scale = (0.16, 0.26, 0.06); fob.data.materials.append(fob_m); fob.parent = root
+    fob.rotation_euler = (0, 0, math.radians(200)); fob.location = (-0.3, -0.12, 0.035)
+    b = fob.modifiers.new('b', 'BEVEL'); b.width = 0.03; b.segments = 4
+    return root
+
+
+if C.get('prize', 'ring') == 'keys':
+    prize = make_keys(); prize.scale = (1.3, 1.3, 1.3)
+elif C.get('prize', 'ring') == 'coin':
     prize = make_coin(); prize.scale = (1.4, 1.4, 1.4)
 else:
     prize = make_ring(); prize.scale = (1.5, 1.5, 1.5)
@@ -208,7 +233,7 @@ cam.data.dof.use_dof = True; cam.data.dof.focus_object = tgt; cam.data.dof.apert
 rng = random.Random(C.get('seed', 7))
 slot_of = [0, 1, 2]          # cup i sits in slot slot_of[i]
 prize_cup = C.get('prize_cup', 1)
-t_drop0, t_drop1 = 0.0, 0.9
+t_drop0, t_drop1 = C.get('drop', [0.0, 0.9])
 swap_t0, swap_t1 = C.get('swaps_from', 1.1), C.get('swaps_to', 8.0)
 d0, d1 = C.get('d0', 0.7), C.get('d1', 0.36)
 swaps = []

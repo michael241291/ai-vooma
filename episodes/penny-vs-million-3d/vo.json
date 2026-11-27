@@ -1,0 +1,9 @@
+{"voice": "Puck", "style": "Say this like an energetic young American guy hosting a viral would-you-rather Short, punchy and a little smug",
+ "lines": {"a": "Would you rather get one million dollars, right now...",
+           "b": "or one penny that doubles every single day, for thirty days?",
+           "c": "Comment A or B. Quick.",
+           "d10": "Day ten. Five dollars and twelve cents. Yeah... you're losing.",
+           "d20": "Day twenty. Five thousand bucks. Still losing.",
+           "d25": "Day twenty-five...",
+           "d30": "Day thirty.",
+           "end": "Five point three million dollars. So... did you pick right?"}}
