@@ -3,6 +3,13 @@
 Newest first. Every weekly run adds what it learned here (from channel data and fresh YouTube research)
 before planning the next batch. The weekly skill reads this file first.
 
+## 2026-11-28 — YouTube Studio audience (user screenshots, 28 days Oct 30–Nov 26)
+- Geography: US 45.7%, Philippines 6.8%, Indonesia 6.1%, UK 5.7%, Vietnam 5.6%, Malaysia 2.5%, India 2.1%.
+- Age: 13–17 19.1%, 18–24 7.2%, 25–34 28.9%, 35–44 31.8%, 45–54 11.0%, 55–64 2.1%. Gender 50.7% M / 49.3% F.
+- => Real core audience = US adults 25–44 (60.7%), NOT 18–24. Topics should fit 25–44 life: work/boss, rent/mortgage,
+  bills/prices, partner/marriage, parenting, groceries/Costco/Target/Amazon, cars. 19% teens: avoid kid-looking visuals.
+- FB US users are also mostly 25–44 (NapoleonCat Oct 2026: 25–34 25.4%, 35–44 19.6%) -> cross-posting to FB Reels fits.
+
 ## 2026-11-25 (Wed WIB, 11:30) — all-3D + Zernio switch (user); 3 videos scheduled in Zernio
 - User: posting YouTube via Zernio only (Buffer no longer used), ALL videos 3D, +1–2 s suspense before reveal, and if a 3D render fails make nothing (no 2D fallback).
 - Zernio scheduled: 26 Nov ring-shuffle-3d v2 (12.5 s), 27 Nov donut-no-hole-3d (13 s), 28 Nov marble-race-3d (14 s). Buffer copy of ring moved to draft (no double post).

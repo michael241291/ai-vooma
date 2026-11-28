@@ -14,6 +14,10 @@
 > Draf musiman berkunci tanggal: turkey-protest tetap 23 Nov 07:00, thanksgiving-stomach tetap 24 Nov 07:00 (jangan dimajukan).
 > Jangan dua video berjenis sama (sim/puzzle/skit) berurutan.
 
+> **28 Nov 2026 (data YouTube Studio): penonton inti = orang dewasa AS 25–44 tahun (60,7%), bukan 18–24 (7,2%).** Topik dan
+> narasi diarahkan ke hidup orang 25–44: kerja/bos, sewa/cicilan, tagihan & harga, pasangan, anak, belanja (Costco/Target/Amazon),
+> mobil. Visual jangan terlalu kekanak-kanakan (13–17 sudah 19%). Suara narator boleh lebih dewasa (akhir 20-an/30-an).
+
 > **27 Nov 2026 (keputusan user): arah baru = video BERSUARA (narasi Gemini 3.1 Flash TTS) + format yang memancing debat/komentar.**
 > - Data 27 Nov: video 3D tanpa suara tidak lebih baik dari 2D (cincin 3D 1.6k vs cangkir kunci 2D 4.3k); semua video mentok di
 >   jatah tes 1.2-1.6k. Yang menembus 3k+ = interaktif + komentar. Jadi: narasi + "comment A/B/1-2-3" + topik hidup orang AS
